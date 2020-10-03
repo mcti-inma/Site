@@ -11,7 +11,7 @@
 <script>
 import Slide from "@/components/home/Slide.vue";
 import Cards from "@/components/home/Cards.vue";
-import Banner from "@/components/home/Banner.vue";
+import Banner from "@/components/template/Banner.vue";
 import ImageDescription from "@/components/home/ImageDescription.vue";
 import SlideCard from "@/components/home/SlideCard.vue";
 // import Description from "@/components/home/Description.vue";
