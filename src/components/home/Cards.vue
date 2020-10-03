@@ -1,0 +1,66 @@
+<template>
+  <div>
+		<TemplateTitle :conf="{fontSize:'45px'}" :elements="conf.title"/>
+    <!-- Section 1 -->
+      <section class="section background-white"> 
+        <div class="line">
+          <div class="margin">
+						
+            <div v-for="card in elements" :key="card.title"
+							class="s-12 m-6 l-4 margin-m-bottom row">							
+              <img class="img-size margin-bottom" :src="card.img" alt="">
+              <h2 class="text-thin">{{ card.title }}</h2>
+              <p>{{ card.description }}</p> 
+              <a v-if="card.link"
+								class="text-more-info text-primary-hover" :href="card.link">
+								Ler mais
+							</a>                
+            </div>  
+          </div>
+        </div>
+      </section>
+  </div>
+</template>
+
+<style scoped>
+.img-size {
+  width: 250px;
+  /* margin-left:auto; */
+}
+
+.margin {
+  margin-top: -30px;
+}
+
+.margin-m-bottom {
+  margin-bottom: 100px !important;
+}
+</style>
+
+<script>
+import TemplateTitle from "@/components/template/templateTitle.vue"
+
+export default {
+	components:{
+		TemplateTitle
+	},
+
+  props: {
+    conf: {
+      type: Object,
+    },
+    elements: {
+      type: Array,
+    },
+  },
+
+  methods: {
+    classTitle(primary) {
+      if (primary) {
+        return "text-primary";
+      }
+      return "text-normal-person";
+    },
+  },
+};
+</script>
