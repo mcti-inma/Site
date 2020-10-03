@@ -23,17 +23,21 @@
 </template>
 
 <style scoped>
+.section{
+	margin-bottom: -40px;
+}
+
 .img-size {
   width: 250px;
   /* margin-left:auto; */
 }
 
 .margin {
-  margin-top: -30px;
+	margin-top: -30px;
 }
 
 .margin-m-bottom {
-  margin-bottom: 100px !important;
+  /* margin-bottom: 100px !important; */
 }
 </style>
 
@@ -41,6 +45,10 @@
 import TemplateTitle from "@/components/template/templateTitle.vue"
 
 export default {
+	mounted(){
+		console.log(this.elements)
+	},
+
 	components:{
 		TemplateTitle
 	},

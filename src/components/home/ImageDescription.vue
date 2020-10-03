@@ -26,6 +26,14 @@
   </div>
 </template>
 
+<style scoped>
+	.section{
+		margin: 0px;
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+</style>
+
 <script>
 	import TemplateTitle from "@/components/template/templateTitle.vue"
 

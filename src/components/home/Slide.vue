@@ -9,8 +9,14 @@
                 <div class="carousel-content">
                   <div class="padding-2x">
                     <div class="s-12 m-12 l-8">
-                      <p class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">Prospera is the New Amazing HTML5 Template</p>
-                      <p class="text-white text-size-16 margin-bottom-40">Duis autem vel eum iriure dolor in hendrerit in vulputate velit<br> esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>  
+                      <p class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">
+												Rede de Compartilhamento Mata Atlântica do Espírito Santo 
+											</p>
+                      <p class="text-white text-size-16 margin-bottom-40">
+												Promover a educação ambiental e difusão científica 
+												com o tema “Mata Atlântica”, contribuindo para a formação
+												de cidadãos conscientes
+											</p>  
                     </div>                  
                   </div>
                 </div>
@@ -22,8 +28,12 @@
                 <div class="carousel-content">
                   <div class="padding-2x">
                     <div class="s-12 m-12 l-8">
-                      <p class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">With Fully Responsive Components</p>
-                      <p class="text-white text-size-16 margin-bottom-30">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>    
+                      <p class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">
+												INMA/FAPES/SEAMA
+											</p>
+                      <p class="text-white text-size-16 margin-bottom-30">
+												Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+											</p>    
                     </div>                  
                   </div>
                 </div>

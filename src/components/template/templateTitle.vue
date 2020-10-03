@@ -1,7 +1,7 @@
 <template>
   <div class="section background-white full-width text-center "> <!-- headline -->
 		<h2 class="headline text-thin text-s-size-30" 
-			:style="fontSize()">		
+			:style="fontSize()">
 			<span v-for="title in elements" :key="title.title"
 				:class="classTitle(title.primary)"
 			>
@@ -10,6 +10,10 @@
 		</h2>
 	</div>
 </template>
+
+<style scoped>
+
+</style>
 
 <script>
 export default {
@@ -35,6 +39,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
