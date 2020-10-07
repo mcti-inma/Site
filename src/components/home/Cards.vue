@@ -29,7 +29,8 @@
 
 .img-size {
   width: 250px;
-  /* margin-left:auto; */
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .margin {

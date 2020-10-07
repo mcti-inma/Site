@@ -56,18 +56,18 @@ export default {
 				},
 				elements:[
 					{
-						img:"https://lh4.googleusercontent.com/sfYiuskDDccE2t0cj7btUct12SviuQiqNEKBp5o3BFviWBYIdfyEzBJLhJjhXKly4148VK2fbDxt3ZGMdzR4L1ltKpXqMePKAH8pm6_z0fDKpt7l9JB0=w1280",
+						img:require("@/assets/img/unnamed.jpg"),
 						title:"Primeiro objetivo",
 						description:"Implantar um sistema de compartilhamento de dados sobre a Mata Atlântica do Espírito Santo, com ênfase nas Unidades de Conservação, visando disponibilizá-las para cientistas, público leigo e tomadores de decisão .",
 					},
 					{
-						img:"https://lh5.googleusercontent.com/BljqYvqegCNcfIdqsMHJT-W0Qa9MxwakAtTWFByuIOw46oIR7sCXfN7DOEqu8lnHglsI8yX6Q9S8rVBuqmN0Q7LjQiQLlnrVYjjwsIo7MiBUPWPh34j9=w1280",
+						img:require("@/assets/img/unnamed_2.jpg"),
 						title:"Segundo objetivo",
 						description:"Promover a educação ambiental e difusão científica com o tema “Mata Atlântica”, contribuindo para a formação de cidadãos conscientes de suas responsabilidades sociais e da importância da biodiversidade para a manutenção de um ambiente equilibrado.",
 						link:""
 					},
 					{
-						img:"https://lh3.googleusercontent.com/tWqDNsOkxNNK3h_V6e9fAgK8dXyibczhziXfE2ZpfoK2tL6d55t71YczquYS6VtEAk2SpEtmzm1SbnBpT0rx2iE4JhLpZq7M1ZrICd2lIXbgP95vG4Pf=w1280",
+						img:require("@/assets/img/unnamed_3.jpg"),
 						title:"Síntese do Projeto",
 						description:"Síntese da Biodiversidade em 20 Unidades de Conservação no estado do Espírito Santo, desenvolvida pelo projeto RIMA .",
 						link:""

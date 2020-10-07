@@ -1,12 +1,12 @@
 <template>
   <div>
-    <GovernmentBar />
+    <GovernmentBar/>
     <header role="banner">
       <!-- Top Navigation -->
       <nav class="background-white background-primary-hightlight">
         <div class="line">
           <div class="s-12 l-2">
-            <a href="/" class="">
+            <a href="/">
               <TemplateTitle :conf="{ fontSize: '33px' }" :elements="title" />
               <!-- <img class="inma-logo" src="http://inma.gov.br/wp-content/themes/portalpadrao/img/logo.jpg" alt="logo INMA"> -->
             </a>
@@ -25,10 +25,10 @@
                       <li><a>Teste 2</a></li>
                     </ul>
                   </li> -->
-                  <li><a @click="toSynthesis()">Mata Atlântica</a></li>
-                  <li><a>Unidades de Conservação</a></li>
+                  <li><a @click="toSynthesis(1)">Mata Atlântica</a></li>
+                  <li><a @click="toSynthesis(2)">Unidades de Conservação</a></li>
                   <li>
-                    <a
+                    <a @click="toSynthesis(3)"
                       >Biodiversidade das Universidades de Concervação
                       Capixabas</a
                     >
@@ -85,9 +85,21 @@ export default {
   },
 
   methods: {
-    toSynthesis() {
-      this.$router.push({ name: "Synthesis", query: { option: "1" } });
-    },
+    toSynthesis(param) {
+			// if(this.$router.name == "synthesis"){
+				this.$router.push(
+					{
+						path: '/synthesis',
+						name: 'Synthesis',
+						params: { id: param},
+						component: () => import('@/pages/Synthesis.vue')
+ 					}
+				)
+				// console.log("catch")
+			// }else{
+      // 	this.$router.push({ name: "Synthesis", params: { synthesis: param } });
+			// }
+		},
   },
 };
 </script>

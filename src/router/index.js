@@ -8,11 +8,10 @@ import Home from '../pages/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {
+	{
     path: '/',
     name: 'Home',
     component: Home,
-    // component: Product
   },
   {
     path: '/about',
@@ -25,7 +24,7 @@ const routes = [
     component: () => import('../pages/Members.vue')
 	},
 	{
-    path: '/synthesis',
+    path: '/synthesis/:id',
     name: 'Synthesis',
     component: () => import('../pages/Synthesis.vue')
   }
