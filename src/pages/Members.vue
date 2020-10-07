@@ -10,18 +10,22 @@
           <div class="line">
             <div class="margin">
 
-              <div class="s-12 m-6 l-3 border">
+              <div v-for="member in $config.members" :key="member"
+								class="s-12 m-6 l-3 border">
                 <div class="image-with-hover-overlay image-hover-zoom margin-bottom member">
                   <div class="image-hover-overlay background-primary"> 
-                    <div class="image-hover-overlay-content text-center padding-2x">
+                    <div class="image-hover-overlay-content">
                       <p class="description">
-                        Bruce Wayne é um bilionário americano, magnata de negócios, filantropo e dono da corporação Wayne Enterprises. Sua história teve início após testemunhar o assassinato de seus pais ainda quando criança, o que o fez jurar vingança contra os criminosos e treinar todos os dias sozinho, além de criar um personagem baseado em um morcego para combater o crime. Foi aí que surgiu Batman, o super-herói da cidade de Gotham.
+												{{ member.description }}
                       </p>  
                     </div> 
                   </div> 
-                  <img src="https://i.pinimg.com/564x/b7/41/8b/b7418b3c6d8ada9058a28db9309c2a65.jpg" alt="" title="Portfolio Image 1" />
+                  <img class="img-size" :src="member.img" :alt="member.name"/>
                 </div>
-                <p class="name">Bruce Wayne</p>	
+                <p class="name">
+									<span>{{ member.name }} </span>	
+									<span class="text-primary">{{ member.lastName }}</span>
+								</p>	
               </div>
 
             </div>  
@@ -32,12 +36,20 @@
 </template>
 
 <style scoped>
+	.img-size{
+		display: block;
+    width: 100%;
+    object-fit: cover;
+	}
   .description{
-    width:100px;
-    height:100px;
-    /* padding: 50px; */
-    margin: auto;
-    margin-top: -55px;
+    width:190;
+		height:190px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		white-space: normal;
+		overflow-y: auto;		
   }
 
   .name{
@@ -50,6 +62,6 @@
     margin:auto;
     width:200px;
     height:200px;
-    border-radius: 50%;
+    border-radius: 3px;
   }
 </style>

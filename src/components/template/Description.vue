@@ -14,19 +14,25 @@
 </template>
 
 <style scoped>
+	.text-size-30{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
 	.section{
 		padding-top: 0px !important;
 		padding-bottom: 0px !important;
 	}
 	.text{
+		/* padding-top: 0px !important;
+		padding-bottom: 0px !important; */
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 		padding-left: 0 !important;
 		text-align: justify !important;
-		text-indent: 35pt !important;
 		white-space: normal !important;
 		word-wrap: break-word !important;
 		vertical-align: baseline !important;
+		/* text-indent: 35pt !important; */
 	}
 </style>
 

@@ -25,19 +25,20 @@
                       <li><a>Teste 2</a></li>
                     </ul>
                   </li> -->
-                  <li><a @click="toSynthesis(1)">Mata Atlântica</a></li>
-                  <li><a @click="toSynthesis(2)">Unidades de Conservação</a></li>
+                  <li><a @click="toSynthesis(0)">Mata Atlântica</a></li>
+                  <li><a @click="toSynthesis(1)">Unidades de Conservação</a></li>
                   <li>
-                    <a @click="toSynthesis(3)"
+                    <a @click="toSynthesis(2)"
                       >Biodiversidade das Universidades de Concervação
                       Capixabas</a
                     >
                   </li>
                 </ul>
               </li>
-              <li><a href="about">About</a></li>
-              <li><a href="members">Members</a></li>
-              <li><a href="contact">Contact</a></li>
+							<li><a href="mapas">Mapas</a></li>
+              <li><a href="members">Membros</a></li>
+              <!-- <li><a href="about">About</a></li>
+              <li><a href="contact">Contact</a></li> -->
             </ul>
           </div>
         </div>
@@ -91,7 +92,7 @@ export default {
 					{
 						path: '/synthesis',
 						name: 'Synthesis',
-						params: { id: param},
+						params: { id: param },
  					}
 				).catch(err => {})
 			// }else{

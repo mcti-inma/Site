@@ -14,7 +14,7 @@
         <div class="line">
           <div class="margin">
             <!-- Collumn 1 -->
-            <div class="s-12 m-12 l-4 margin-m-bottom-2x">
+            <!-- <div class="s-12 m-12 l-4 margin-m-bottom-2x">
               <h4 class="text-uppercase text-strong">Our Philosophy</h4>
               <p class="text-size-20"><em>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."</em><p>
                             
@@ -30,17 +30,17 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             
             <!-- Collumn 2 -->
             <div class="s-12 m-12 l-4 margin-m-bottom-2x">
-              <h4 class="text-uppercase text-strong">Contact Us</h4>
+              <h4 class="text-uppercase text-strong">Contato</h4>
               <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-placepin text-primary text-size-12"></i>
                 </div>
                 <div class="s-11 m-11 l-11 margin-bottom-10">
-                  <p><b>Adress:</b> Responsive Street 7, London, UK</p>
+                  <p><b>Endereço:</b> Av. José Ruschi, Nº 4, Santa Teresa - ES - Cep: 29.650-000</p>
                 </div>
               </div>
               <div class="line">
@@ -48,7 +48,7 @@
                   <i class="icon-mail text-primary text-size-12"></i>
                 </div>
                 <div class="s-11 m-11 l-11 margin-bottom-10">
-                  <p><a href="/" class="text-primary-hover"><b>E-mail:</b> contact@sampledomain.com</a></p>
+                  <p><a href="mailto:contato@inma.gov.br?subject=Hello%20again" class="text-primary-hover"><b>E-mail:</b> contato@inma.gov.br</a></p>
                 </div>
               </div>
               <div class="line">
@@ -56,10 +56,10 @@
                   <i class="icon-smartphone text-primary text-size-12"></i>
                 </div>
                 <div class="s-11 m-11 l-11 margin-bottom-10">
-                  <p><b>Phone:</b> 0700 000 987</p>
+                  <p><b>Telefone:</b> (27) 3259-1182 / 3259-1696 / 3259-2100</p>
                 </div>
               </div>
-              <div class="line">
+              <!-- <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-twitter text-primary text-size-12"></i>
                 </div>
@@ -74,11 +74,11 @@
                 <div class="s-11 m-11 l-11">
                   <p><a href="/" class="text-primary-hover"><b>Facebook</b></a></p>
                 </div>
-              </div>
+              </div> -->
             </div>
             
             <!-- Collumn 3 -->
-            <div class="s-12 m-12 l-4">
+            <!-- <div class="s-12 m-12 l-4">
               <h4 class="text-uppercase text-strong">Leave a Message</h4>
               <form class="customform text-white">
                 <div class="line">
@@ -96,7 +96,8 @@
                 </div>
                 <div class="s-12"><button class="submit-form button background-primary border-radius text-white" type="submit">Submit Button</button></div> 
               </form>
-            </div>
+            </div> -->
+
           </div>
         </div>
       </section>

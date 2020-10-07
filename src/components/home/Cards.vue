@@ -47,7 +47,7 @@ import TemplateTitle from "@/components/template/templateTitle.vue"
 
 export default {
 	mounted(){
-		console.log(this.elements)
+		// console.log(this.elements)
 	},
 
 	components:{

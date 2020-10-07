@@ -24,7 +24,7 @@
             </div>
             <div class="item">
               <div class="s-12 center">
-                <img src="@/assets/img/02-boxed.jpg" alt="">
+                <img class="img-size" src="@/assets/img/box-03.jpg" alt="">
                 <div class="carousel-content">
                   <div class="padding-2x">
                     <div class="s-12 m-12 l-8">
@@ -45,12 +45,14 @@
   </div>
 </template>
 
+<style scoped>
+	.img-size{
+		height:390px;
+	}
+</style>
+
 <script>
 export default {
 
 }
 </script>
-
-<style>
-
-</style>
