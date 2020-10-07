@@ -92,10 +92,8 @@ export default {
 						path: '/synthesis',
 						name: 'Synthesis',
 						params: { id: param},
-						component: () => import('@/pages/Synthesis.vue')
  					}
-				)
-				// console.log("catch")
+				).catch(err => {})
 			// }else{
       // 	this.$router.push({ name: "Synthesis", params: { synthesis: param } });
 			// }
