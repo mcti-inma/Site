@@ -1,0 +1,157 @@
+{
+  "id": [
+    {
+      "Type": "geojson",
+      "Name": "Limites Municipais",
+      "Description": null,
+      "Link": "https://raw.githubusercontent.com/juliolimareis/celula/master/limites-es.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "black",
+        "strokeWeight": 1,
+        "fillOpacity": 1,
+        "fillOpacity": 0.0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Unidade de Conservação",
+      "Description": "Unidades de conservação do ES, 2017",
+      "Link": "geojson/uc.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "red",
+        "fillOpacity": 0.3,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Cultivos Permanentes",
+      "Description": null,
+      "Link": "geojson/agricultura/cultivos_permanentes.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#73ffdf",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Cultivos Temporarios",
+      "Description": null,
+      "Link": "geojson/agricultura/cultivos_temporarios.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#cd8966",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Mamão",
+      "Description": null,
+      "Link": "geojson/agricultura/mamao.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffaa00",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Coco da Bahia",
+      "Description": null,
+      "Link": "geojson/agricultura/coco_da_baia.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#a3ff73",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Cana de Açúcar",
+      "Description": null,
+      "Link": "geojson/agricultura/cana_de_acucar.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffbebe",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Café",
+      "Description": null,
+      "Link": "geojson/agricultura/cafe.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#a87000",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Banana",
+      "Description": null,
+      "Link": "geojson/agricultura/banana.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffff00",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "geojson",
+      "Name": "Abacaxi",
+      "Description": null,
+      "Link": "geojson/agricultura/abacaxi.geojson",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffffbe",
+        "fillOpacity": 1,
+        "strokeWeight": 0
+      }
+    },
+    {
+      "Type": "png",
+      "Name": "Ocupaçao da Terra (PNG)",
+      "Description": "null",
+      "Link": "http://www.tempustecnologia.com/claudio/img/ocupacaoterra.png",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffffbe"
+      }
+    },
+    {
+      "Type": "png",
+      "Name": "Pastagem(PNG)",
+      "Description": "null",
+      "Link": "img/pastagem.png",
+      "Layer": null,
+      "Style":
+      {
+        "fillColor": "#ffffbe"
+      }
+    }
+  ]
+}

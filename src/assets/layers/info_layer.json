@@ -1,0 +1,172 @@
+{
+	"id":[
+				{
+					"Type": "geojson",
+					"Name": "incendios",
+					"Layer": null,
+					"Link": "layers/geojson/incendios.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "decremento_mata",
+					"Layer": null,
+					"Link": "layers/geojson/decremento_mata.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "extracao_mineral",
+					"Layer": null,
+					"Link": "layers/geojson/extracao_mineral.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "requerimento_de_licenca_ambiental",
+					"Layer": null,
+					"Link": "layers/geojson/requerimento_de_licenca_ambiental.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "REestinga",
+					"Layer": null,
+					"Link": "layers/geojson/REestinga.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "fitofisionomias",
+					"Layer": null,
+					"Link": "layers/geojson/fitofisionomias.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "Zonas_de_amortecimento_das_ucs",
+					"Layer": null,
+					"Link": "layers/geojson/Zonas_de_amortecimento_das_ucs.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "campo_de_altitude",
+					"Layer": null,
+					"Link": "layers/geojson/campo_de_altitude.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "limites_municipais_2018",
+					"Layer": null,
+					"Link": "layers/geojson/limites_municipais_2018.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "tipos_de_solos",
+					"Layer": null,
+					"Link": "layers/geojson/tipos_de_solos.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "mangue",
+					"Layer": null,
+					"Link": "layers/geojson/mangue.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "area_edificada",
+					"Layer": null,
+					"Link": "layers/geojson/area_edificada.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "new_area_edificada",
+					"Layer": null,
+					"Link": "layers/geojson/new_area_edificada.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "fiscalizacao",
+					"Layer": null,
+					"Link": "layers/geojson/fiscalizacao.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "areas_com_restricao_para_mineracao",
+					"Layer": null,
+					"Link": "layers/geojson/areas_com_restricao_para_mineracao.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "unidades_de_conservação_do_es",
+					"Layer": null,
+					"Link": "layers/geojson/unidades_de_conservação_do_es.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "cursos d_agua",
+					"Layer": null,
+					"Link": "layers/geojson/cursos d_agua.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "decremento_de_mata",
+					"Layer": null,
+					"Link": "layers/geojson/decremento_de_mata.geojson"
+				},
+				{
+					"Type": "geojson",
+					"Name": "bacias_hidrograficas",
+					"Layer": null,
+					"Link": "layers/geojson/bacias_hidrograficas.geojson"
+				},
+				{
+					"Type": "png",
+					"Name": "macega",
+					"Layer": null,
+					"Link": "layers/png/macega.png"
+				},
+				{
+					"Type": "png",
+					"Name": "reflorestamentos",
+					"Layer": null,
+					"Link": "layers/png/reflorestamentos.png"
+				},
+				{
+					"Type": "png",
+					"Name": "pastagem",
+					"Layer": null,
+					"Link": "layers/png/pastagem.png"
+				},
+				{
+					"Type": "png",
+					"Name": "afloramento_rochoso",
+					"Layer": null,
+					"Link": "layers/png/afloramento_rochoso.png"
+				},
+				{
+					"Type": "png",
+					"Name": "brejo",
+					"Layer": null,
+					"Link": "layers/png/brejo.png"
+				},
+				{
+					"Type": "png",
+					"Name": "solo_exposto",
+					"Layer": null,
+					"Link": "layers/png/solo_exposto.png"
+				},
+				{
+					"Type": "png",
+					"Name": "mata_nativa",
+					"Layer": null,
+					"Link": "layers/png/mata_nativa.png"
+				},
+				{
+					"Type": "png",
+					"Name": "agricultura",
+					"Layer": null,
+					"Link": "layers/png/agricultura.png"
+				},
+				{
+					"Type": "png",
+					"Name": "mata_em_estagio_inicial_de_regeneracao",
+					"Layer": null,
+					"Link": "layers/png/mata_em_estagio_inicial_de_regeneracao.png"
+				}
+		 		]
+			}
