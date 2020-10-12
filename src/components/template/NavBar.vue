@@ -35,7 +35,7 @@
                   </li>
                 </ul>
               </li>
-							<li><a href="mapas">Mapas</a></li>
+							<li><a href="maps">Mapas</a></li>
               <li><a href="members">Membros</a></li>
               <!-- <li><a href="about">About</a></li>
               <li><a href="contact">Contact</a></li> -->

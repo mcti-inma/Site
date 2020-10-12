@@ -32,6 +32,11 @@ const routes = [
     path: '/synthesis/:id',
     name: 'Synthesis',
     component: () => import('../pages/Synthesis.vue')
+	},
+	{
+    path: '/maps/:id',
+    name: 'maps',
+    component: () => import('../pages/Maps.vue')
   }
 ]
 
