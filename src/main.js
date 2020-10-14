@@ -4,7 +4,12 @@ import App from './App.vue'
 import router from './router'
 import Buefy from 'buefy'
 // import 'buefy/dist/buefy.css'
-import config from '@/config'
+import config from './config'
+
+// import leaflet from './leaflet'
+
+import L from "leaflet";
+import "leaflet/dist/leaflet.css"
 
 import '@/assets/css/components.css'
 import '@/assets/css/icons.css'
@@ -21,9 +26,9 @@ Vue.config.productionTip = false
 
 //Adiciona a configuração no projeto
 Vue.prototype.$config = config.data()
+// Vue.prototype.$leaflet = leaflet
+Vue.prototype.L = L
 
-//Acessando variáveis global nos componentes:
-//this.$globalConfig.store.name
 
 new Vue({
   router,

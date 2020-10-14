@@ -34,7 +34,7 @@ const routes = [
     component: () => import('../pages/Synthesis.vue')
 	},
 	{
-    path: '/maps/:id',
+    path: '/maps',
     name: 'maps',
     component: () => import('../pages/Maps.vue')
   }

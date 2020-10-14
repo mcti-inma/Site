@@ -1,12 +1,20 @@
 <template>
 	<div>
-		
+		<br>
+		<center>
+			<Leaflet width="500" height="400"/>
+		</center>
+		<br>
 	</div>
 </template>
 
 <script>
-export default {
+import Leaflet from '@/components/util/Leaflet.vue'
 
+export default {
+	components:{
+		Leaflet
+	}
 }
 </script>
 
