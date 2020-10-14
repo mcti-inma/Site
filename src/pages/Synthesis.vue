@@ -13,6 +13,14 @@
 				<p class="text" slot="text" :style="ident(desc.ident)">
 					{{ desc.text }}
 				</p>
+				<template v-if="desc.img">
+					<div slot="img">
+						<img class="img" :src="desc.img" alt=""> <br>
+						<label for="img"> 
+							<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDescription}} 
+						</label>
+					</div>
+				</template>
 			</Description>
 		</div>
 

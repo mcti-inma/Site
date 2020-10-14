@@ -7,6 +7,7 @@
 						<slot name="title"></slot>
 					</h2>
           <slot class="text" name="text"></slot>
+					<slot class="container" name="img"></slot>
         </div>
       </div>
     </article>
@@ -14,6 +15,10 @@
 </template>
 
 <style scoped>
+	.img{
+		margin: auto;
+	}
+
 	.text-size-30{
 		padding-top: 0px;
 		margin-top: 0px;
