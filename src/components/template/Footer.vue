@@ -3,10 +3,10 @@
     <footer>
       <!-- Social -->
       <div class="background-primary padding text-center">
-        <a href="/"><i class="icon-facebook_circle icon2x text-white"></i></a> 
+        <!-- <a href="/"><i class="icon-facebook_circle icon2x text-white"></i></a> 
         <a href="/"><i class="icon-twitter_circle icon2x text-white"></i></a>
         <a href="/"><i class="icon-google_plus_circle icon2x text-white"></i></a>
-        <a href="/"><i class="icon-instagram_circle icon2x text-white"></i></a>                                                                        
+        <a href="/"><i class="icon-instagram_circle icon2x text-white"></i></a>                                                                         -->
       </div>
       
       <!-- Main Footer -->
