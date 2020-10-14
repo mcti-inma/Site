@@ -13,11 +13,7 @@ Projeto desenvolvido utilizando recursos de código livre
 * Java Script
 * Json
 #
-## Subir ou atualizar a aplicação (via docker)
-Na pasta do projeto execute:
-```sh
-sudo docker-compose up --build -d 
-```
+
 
 ## Comandos para subir o projeto
 ### 1. Instalar dependecias do projeto
@@ -25,17 +21,27 @@ sudo docker-compose up --build -d
 npm install
 ```
 
-### 2. Levantar servidor da aplicação
-Servido com hot-reload para desenvolvimento
-```sh
-npm run serve
-```
-
-### 3. Build para produção
+### 2. Build para produção
 Este comando compila o projeto na pasta **./dist**
 ```sh
 npm run build
 ```
+### 3. Levantar servidor da aplicação
+Servidor com hot-reload apenas para desenvolvimento
+```sh
+npm run serve
+```
+## Subir ou atualizar a aplicação
+**Realizar os passos 1. e 2. acima**
+
+Nesta pasta do execute:
+```sh
+sudo docker-compose up --build -d 
+```
+
+Mover o arquivo **./htaccess** para a pasta **./dist**
+
+Pode ser visto em [localhost](http://localhost)
 
 ## Json Server
 Api de teste
