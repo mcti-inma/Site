@@ -18,10 +18,10 @@
 
 							<li>
 								<a>Síntese</a>
-								<ul v-for="(topics, index) in $config.topics" :key="topics[index].title">
-									<li>
+								<ul>
+									<li v-for="(topics, index) in $config.topics" :key="index">
 										<!-- <a>{{topics[index].title}}</a> -->										
-										<a v-for="(topic, i) in topics" :key="topic.title"
+										<a v-for="(topic, i) in topics" :key="i"
 											@click="toSynthesis(index,i)">
 											{{topic.title}}
 										</a>

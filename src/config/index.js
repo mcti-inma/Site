@@ -109,13 +109,53 @@ export default {
 						title:"2.2 Unidades de Conservação no estado do Espírito Santo",
 						texts:[
 							{
-								texts:"Atualmente, existem no Brasil 2.376 Unidades de Conservação de administração federal, estadual, municipal ou particular. Destas, 1.364 estão localizadas no bioma Mata Atlântica e representam 9,84% deste bioma (MMA, 2019a)."
+								text:"Atualmente, existem no Brasil 2.376 Unidades de Conservação de administração federal, estadual, municipal ou particular. Destas, 1.364 estão localizadas no bioma Mata Atlântica e representam 9,84% deste bioma (MMA, 2019a)."
 							},
 							{
-								texts:"No estado do Espírito Santo existem hoje, 121 Unidades de Conservação protegendo aproximadamente 10,5% dos remanescentes de Mata Atlântica, sendo 12 federais, 17 estaduais, 38 municipais e 54 particulares (SOS Mata Atlântica & INPE, 2019; MMA, 2019b). Embora existam diversos estudos sobre fauna e flora nas Unidades de Conservação do Espírito Santo, este conhecimento encontra-se disperso na literatura livre (relatórios, livros, monografias, dissertações, teses e artigos publicados), em planos de manejo e em espécimes depositados em coleções biológicas. Esta pulverização de informações torna bastante difícil a sua utilização para o entendimento da biodiversidade no estado e o uso destas informações na tomada de decisões. Assim, torna-se extremamente útil e necessário o levantamento e disponibilização destes dados de forma integrada, visando o seu uso no desenvolvimento de políticas públicas e na gestão das UCs e dos recursos naturais do Espírito Santo."
+								text:"No estado do Espírito Santo existem hoje, 121 Unidades de Conservação protegendo aproximadamente 10,5% dos remanescentes de Mata Atlântica, sendo 12 federais, 17 estaduais, 38 municipais e 54 particulares (SOS Mata Atlântica & INPE, 2019; MMA, 2019b). Embora existam diversos estudos sobre fauna e flora nas Unidades de Conservação do Espírito Santo, este conhecimento encontra-se disperso na literatura livre (relatórios, livros, monografias, dissertações, teses e artigos publicados), em planos de manejo e em espécimes depositados em coleções biológicas. Esta pulverização de informações torna bastante difícil a sua utilização para o entendimento da biodiversidade no estado e o uso destas informações na tomada de decisões. Assim, torna-se extremamente útil e necessário o levantamento e disponibilização destes dados de forma integrada, visando o seu uso no desenvolvimento de políticas públicas e na gestão das UCs e dos recursos naturais do Espírito Santo."
 							}
 						]
 					}
+				],
+				[ //topic3
+					{
+						title:"3. Análise do conhecimento sobre a biodiversidade nas Unidades de Conservação do Espírito Santo",
+						texts:[
+							{
+								text:"As informações levantadas em Unidades de Conservação por diversos pesquisadores em todo o Brasil estão dispersas em artigos científicos, herbários, teses, coleções zoológicas, publicações oficiais, planos de manejo, relatórios, entre outros. Algumas dessas informações são facilmente acessíveis, especialmente aquelas publicadas em revistas eletrônicas de livre acesso, em contrapartida, uma grande quantidade de informações importantes necessita de buscas minuciosas para ser encontrada. Buscando reunir e sistematizar todos os dados da Mata Atlântica dentro das UCs do estado do Espírito Santo, a fim de avaliar a proteção da biodiversidade deste importante bioma, o Instituto Nacional da Mata Atlântica (INMA) idealizou a Rede Integrada da Mata Atlântica (RIMA), através do projeto Rede de Compartilhamento de Dados e Divulgação da Mata Atlântica no estado do Espírito Santo (Proc. 189/2017 – INMA/FAPES/IEMA)."
+							},
+							{
+								text:"Avaliar o nível de proteção da biodiversidade da Mata Atlântica dentro das UCs é um desafio complexo, que só foi possível com muito esforço e trabalho em equipe. Juntamente com gestores das Unidades de Conservação de todo o estado o INMA propôs realizar um diagnóstico sobre a biodiversidade das UCs capixabas, de gestão federal e estadual, que representa o primeiro passo em direção a uma avaliação mais abrangente e contínua, que é a meta do INMA para longo prazo."
+							},
+							{
+								text:"A proposta de elaboração desse diagnóstico foi pensada com base nas respostas das seguintes perguntas:"
+							},
+							{
+								text:"- Qual é a realidade da distribuição do conhecimento da biodiversidade nas Unidades de Conservação federais e estaduais do estado do Espírito Santo?"
+							},
+							{
+								text:"- Quais são os grupos mais amostrados em cada Unidade de Conservação? E quais são os grupos menos amostrados?"
+							},
+							{
+								text:"- Existe algum viés relacionado à riqueza de espécies de determinado grupo? Ou de fato, a distribuição daquele grupo é mais ou menos intensa devido a fatores ambientais da área?"
+							},
+							{
+								text:"- Qual é a importância de cada Unidade de Conservação para os grupos de espécies avaliados? (espécies ou gêneros novos, quantidade de espécies amostradas ao longo dos anos, se maior ou menor em determinado período)."
+							},
+							{
+								text:"- Quais são as análises a respeito dos efeitos de borda nas Unidades de Conservação, quando relacionado à ocupação populacional humana do entorno e o tipo de atividade econômica desenvolvida pela comunidade local? Houve alguma influência na mudança de paisagem da Unidade de Conservação e/ou na distribuição da biodiversidade em seu interior? (análise realizada a partir do número de coletas das espécies por períodos)."
+							},
+							{
+								text:"- Quais as lacunas observadas para as Unidades de Conservação e/ou Grupos de plantas e animais?"
+							},
+							{
+								text:"- Quais as estratégias que podem ser sugeridas para o preenchimento das lacunas observadas?"
+							}
+						]
+					},
+					// {
+					// 	title:"3.2 Seleção das Unidades de Conservação do estado do Espírito Santo"
+					// }
 				]
 			],
 			members:[
