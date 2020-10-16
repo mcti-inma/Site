@@ -1,31 +1,33 @@
 <template>
   <div>
-		<Banner>
-			<span slot="title">{{ $config.synthesis[$route.params.id].title }}</span>
-		</Banner>
+		<template v-if="this.$config.topics[this.$route.query.synthesis] && this.$config.topics[this.$route.query.synthesis][this.$route.query.page]">
+			<Banner>
+				<span slot="title">{{ $config.topics[$route.query.synthesis][$route.query.page].title }}</span>
+			</Banner>
 
-		<div v-for="desc in $config.synthesis[$route.params.id].texts" :key="desc.title">
-			<template v-if="desc.title">
-				<br>
-			</template>
-			<Description>
-				<span slot="title">{{ desc.title }}</span>
-				<p class="text" slot="text" :style="ident(desc.ident)">
-					{{ desc.text }}
-				</p>
-				<template v-if="desc.img">
-					<div slot="img">
-						<img class="img" :src="desc.img" alt=""> <br>
-						<label for="img"> 
-							<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDescription}} 
-						</label>
-					</div>
+			<div v-for="desc in $config.topics[$route.query.synthesis][$route.query.page].texts" :key="desc.title">
+				<template v-if="desc.title">
+					<br>
 				</template>
-			</Description>
-		</div>
+				<Description>
+					<span slot="title">{{ desc.title }}</span>
+					<p class="text" slot="text" :style="ident(desc.ident)">
+						{{ desc.text }}
+					</p>
+					<template v-if="desc.img">
+						<div slot="img">
+							<img class="img" :src="desc.img" alt=""> <br>
+							<label for="img"> 
+								<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDescription}} 
+							</label>
+						</div>
+					</template>
+				</Description>
+			</div>
 
-		<br>
-		
+			<br>
+			
+		</template>
   </div>
 </template>
 
@@ -39,11 +41,16 @@ export default {
     Banner,
   },
   mounted() {
-		// this.page = this.$route.params.id
-		// this.title = this.$config.synthesis[this.page].title
-		// this.texts = this.$config.synthesis[this.page].texts
-		console.log(this.$route.params.id);
-		// console.log(this.$config.synthesis[this.page]);
+		// console.log(this.$route.params.id);
+		// console.log(this.$route.query.element);
+		if(!this.$config.topics[this.$route.query.synthesis] || !this.$config.topics[this.$route.query.synthesis][this.$route.query.page]){
+			this.$router.push(
+				{
+					path: '/synthesis',
+					query: { synthesis: 0, page: 0 },
+				}
+			).catch(err => {})
+		}
 	},
 
 	data(){
