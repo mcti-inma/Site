@@ -40,6 +40,11 @@
 		font-size: 14px;
 		/* text-indent: 35pt !important; */
 	}
+	.label{
+		position: relative;
+		left: 5%;
+		
+	}
 </style>
 
 <script>

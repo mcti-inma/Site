@@ -3,7 +3,7 @@ export default {
     return {
 			topics:[
 				[ //topic1
-					{ //topic1-page 1
+					{ //page1
 						title:"1. A Biodiversidade e o bioma Mata Atlântica",
 						texts:[
 							{
@@ -20,7 +20,7 @@ export default {
 							}
 						]
 					},
-					{ //topic1-page 2
+					{ //page2
 						title:"1.1 A Mata Atlântica capixaba e suas ameaças",
 						texts:[
 							{
@@ -46,7 +46,7 @@ export default {
 							}
 						]
 					},
-					{ //topic1-page 3
+					{ //page3
 						title:"1.2 Estratégias Brasileiras para a Conservação da Biodiversidade",
 						texts:[
 							{
@@ -68,7 +68,7 @@ export default {
 					}
 				],
 				[ //topic2
-					{ //topic2-page 1
+					{ //page 1
 						title:"2. Unidades de Conservação",
 						texts:[
 							{
@@ -88,7 +88,7 @@ export default {
 							},
 						]
 					},
-					{ //topic2-page 2
+					{ //page 2
 						title:"2.1 A importância das Unidades de Conservação para a biodiversidade da Mata Atlântica",
 						texts:[
 							{
@@ -105,7 +105,7 @@ export default {
 							}
 						]
 					},
-					{ //topic2-page 3
+					{ //page 3
 						title:"2.2 Unidades de Conservação no estado do Espírito Santo",
 						texts:[
 							{
@@ -118,10 +118,11 @@ export default {
 					}
 				],
 				[ //topic3
-					{ //topic2-page 1
+					{ //page1
 						title:"3. Análise do conhecimento sobre a biodiversidade nas Unidades de Conservação do Espírito Santo",
 						texts:[
 							{
+								title:"3.1 Objetivos",
 								text:"As informações levantadas em Unidades de Conservação por diversos pesquisadores em todo o Brasil estão dispersas em artigos científicos, herbários, teses, coleções zoológicas, publicações oficiais, planos de manejo, relatórios, entre outros. Algumas dessas informações são facilmente acessíveis, especialmente aquelas publicadas em revistas eletrônicas de livre acesso, em contrapartida, uma grande quantidade de informações importantes necessita de buscas minuciosas para ser encontrada. Buscando reunir e sistematizar todos os dados da Mata Atlântica dentro das UCs do estado do Espírito Santo, a fim de avaliar a proteção da biodiversidade deste importante bioma, o Instituto Nacional da Mata Atlântica (INMA) idealizou a Rede Integrada da Mata Atlântica (RIMA), através do projeto Rede de Compartilhamento de Dados e Divulgação da Mata Atlântica no estado do Espírito Santo (Proc. 189/2017 – INMA/FAPES/IEMA)."
 							},
 							{
@@ -153,7 +154,7 @@ export default {
 							}
 						]
 					},
-					{ //topic2-page 2
+					{ //page2
 						title:"3.2 Seleção das Unidades de Conservação do estado do Espírito Santo",
 						texts:[
 							{
@@ -171,7 +172,7 @@ export default {
 								text:"Para esse diagnóstico não foram incluídas as Áreas de Proteção Ambiental (APAs, categoria 1 do SNUC), Áreas de Relevante Interesse Ecológico (ARIE, categoria 2 do SNUC) e Reservas Particulares do Patrimônio Natural (RPPN, categoria 7 do SNUC), correspondentes às categorias IV e V da IUCN. A não inclusão dessas áreas deu-se pelo fato de não haver um conhecimento expressivo e abrangente sobre as mesmas, uma vez que as informações são restritas e pulverizadas, o que dificultaria seus diagnósticos durante o período de execução do projeto. Diante disso, o levantamento e a avaliação da biodiversidade dessas áreas deverão ser incluídos em versões futuras do diagnóstico da biodiversidade da Mata Atlântica capixaba."
 							},
 							{
-								frame:require('@/assets/topics/frame2.png'),
+								frame:require('@/assets/topics/table1.png'),
 								frameDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
 								frameNumber:"Tabela 1"
 							},{
@@ -182,8 +183,229 @@ export default {
 								height:"800px"
 							},
 						],
+					},
+					{ //page3
+						title:"3.3 Levantamento e análise dos dados",
+						texts:[
+							{
+								text:"As informações utilizadas para a realização desse diagnóstico sobre a biodiversidade das Unidades de Conservação, foram obtidas a partir de documentos oficiais, como planos de manejos, atos legais de criação e Cadastro Nacional de Unidades de Conservação (CNUC - ICMBio, 2018b), além de informações complementares de fontes diversas (referências bibliográficas e sítios da internet)."
+							},
+							{
+								text:"O levantamento dos dados sobre a fauna e a flora nas UCs analisadas nesse diagnóstico, ocorreu em duas etapas distintas, observando a necessidade de metodologias diferentes para os dois reinos em decorrência das particularidades sobre a forma de trabalho, organização e distribuição dos dados pelos pesquisadores. A primeira etapa, comum à fauna e à flora, foi a busca e consulta de teses de doutorado, notas e artigos científicos que tratassem sobre quaisquer aspectos da biodiversidade nas UCs selecionadas. Esse inventário foi iniciado através de consultas a uma ampla compilação de bibliografias, cedidas pelo IEMA, relacionadas às UCs que se encontram sob sua administração (cerca de 315 bibliografias). Para complementar essas informações, foi necessária a realização de buscas em outros materiais na plataforma do Google Acadêmico (https://scholar.google.com.br/), para tanto, utilizou-se como termos de pesquisa, os próprios nomes das UCs."
+							},
+							{
+								text:"O resultado do levantamento bibliográfico sobre as informações da biodiversidade nas UCs foi transcrito para uma planilha no Microsoft  Excel obedecendo aos padrões Darwin Core (DwC). Outras informações também foram consideradas para consulta interna e interpretação dos dados, são elas: bacia e Sub-bacia hidrográfica, categoria de ameaça no ES, categoria de ameaça IUCN, origem da coordenada geográfica (original, alterada, sede do município/localidade), divisão (flora), Clado PDVIG (flora), Unidade de Conservação de ocorrência, origem da informação (artigo, nota ou tese), código da referência bibliográfica utilizada, especificação do estudo (sistemática, ecologia, etc), método de registro de ocorrência (coleta, avistamentos, vocalizações, etc), e tempo do estudo."
+							},
+							{
+								text:"Para a segunda etapa do inventário, a metodologia ocorreu de forma distinta para fauna e flora, baseando-se em diferentes bancos de dados preexistentes. No caso da fauna, foram incluídas três bases de dados distintas, a saber: banco de dados do Projeto “Atualização da Lista de Espécies Ameaçadas de Extinção do Espírito Santo” (INMA/IEMA/FAPES); planilhas de dados disponibilizadas por pesquisadores que colaboraram com o projeto supracitado; e o banco de dados de ictiofauna da Coleção Zoológica Norte Capixaba (CZNC), da UFES de São Mateus. As informações de ocorrências da flora nas UCs foram extraídas de plataformas digitais: GBIF, speciesLink e REFLORA/JABOT e Espécies Ameaçadas de Extinção do ES (Fraga et al., 2019). As ocorrências do specieslink e JABOT foram realizadas a partir de downloads individuais via solicitação. As ocorrências provindas do GBIF foram realizadas usando rotinas em linguagem R (https://www.r-project.org/) em ferramentas do pacote RGBIF (https://www.gbif.org/pt/tool/81747/rgbif). Foram incluídos dados dos Herbários BHCB, BOTU, CEN, CEPEC, CESJ, CVRD, ESA, FLOR, FUEL, FVD, HB, HCF, HEPH, HUEFS, HUFSJ, HUFU, JOI, JPB, MBM, MBML, NYBG, RB, RUSU, SP, SPF, UB, UEC, UFG, UFP, UFPR/UPCB, UPCB, US, VIC, VIES (Acrônimos de acordo com Thiers, 2019) e coleções informais, de acordo com SpeciesLink (2019). A nomenclatura taxonômica segue de acordo com a Flora do Brasil 2020 (em construção), a partir de rotinas disponíveis via scripts em linguagem R, com funções desempenhadas pelo pacote Flora (https://cran.r- project.org/web/packages/flora/index.html). Para ordens e níveis hierárquicos superiores de angiospermas, utilizou-se APG IV (2016) com adaptações, já a nomenclatura de samambaias e embriófitas, deu-se a partir da bibliografia de Judd et al. (2009), Smith et al. (2006) e Goffinet et al. (2008)."
+							},
+							{
+								text:"Os metadados associados às espécies (e.g., distribuição geográfica, fitogeográfica, hábito, forma de vida e status de conservação), foram adquiridos à partir da rotina na interface WEB do Pacote Flora, o Plantminer (http://www.plantminer.com/). As coordenadas geográficas de cada registro de fauna e flora seguem três padrões: (1) coordenada original; (2) coordenada inferida: coordenada aproximada e sugerida pela equipe do projeto com base em localidades, ou provindas de bancos gazeeter (Projeto “Revisão da Lista de Espécies Ameaçadas de Extinção do Espírito Santo”); (3) centroides das UCs: coordenada centroide."
+							},
+							{
+								text:"Além dos dados aqui compilados sobre a biodiversidade, também foram obtidas informações abióticas e ambientais sobre as UCs estaduais e sobre o estado do Espírito Santo, cedidas pelo IEMA. Estes dados incluem bases georreferenciadas contendo limites e zona de amortecimento das UCs, bases hidrológicas, bases geológicas e geomorfológicas, fitofisionomia, uso do solo, áreas de risco de inundações, áreas de risco de incêndio, zonas de licenciamento de mineração, e fiscalização. As bases cartográficas com limites das UCs federais foram obtidas através do endereço eletrônico http://www.icmbio.gov.br/portal/unidades-de-conservacao."
+							},
+							{
+								text:"A obtenção desses dados permitiu ilustrar o quantitativo de registros de ocorrência da fauna e da flora para cada uma das Unidades de Conservação (UCs) envolvidas nesse projeto. Para tanto, foi necessária a organização de uma base cartográfica contemplando informações referentes às UCs, limites políticos estaduais e municipais, hidrografia e rodovias do estado do Espírito Santo. O banco de dados contendo os registros de ocorrências da fauna e da flora foi organizado em planilhas no formato .csv utilizando o software Microsoft Excel, para posterior leitura no software Quantum Gis (QGIS), aplicativo utilizado para a criação da base cartográfica e elaboração dos referidos mapas. Foram elaborados 76 mapas, sendo 36 para contemplar os registros de ocorrências da fauna, e 40 para ilustrar os registros da flora. A apresentação dos dados em cada mapa deu-se de forma distinta para os dois grupos. Para ilustrar os registros da fauna nas UCs optou-se em evidenciar as suas classes, sendo elas: actinopterygii, amphibia, arachnida, aves, chondrichthyes, insecta, malacostraca, mammalia e reptilia; que foram organizadas em dois mapas para cada UC. Já a organização dos dados para ilustrar os registros da flora, deu-se a partir do enfoque na divisão, sendo elas: espermatófitas, embriófitas e samambaias; e no Clado APG IV (angiospermas indefinidas, eudicotiledôneas basais, grado ANA, magnoliídeas, monocotiledôneas, superasterídeas, superrosídeas). "
+							},
+							{
+								text:"Para aprimorar a amostragem dos registros de ocorrência, objetivando ilustrar a situação mais aproximada da realidade, adotou-se uma delimitação de 1 km no entorno de cada Unidade de Conservação, utilizando a técnica do Buffer no QGIS. O entorno foi utilizado como limite de recorte para cada grupo de análise de fauna e flora, permitindo tanto a elaboração dos mapas, quanto a exportação, em formato .txt, dos dados elencados a cada UC aqui analisada, contribuindo assim para a elaboração dos gráficos e tabelas relacionadas às referidas análises."
+							},
+							{
+								text:"Informações nacionais a respeito do estado de ameaça de extinção das espécies de fauna e flora, assim com suas categorias de ameaçadas, foram obtidas a partir dos sete volumes do Livro Vermelho da Fauna Brasileira Ameaçada de Extinção (ICMBIO, 2018a) e do Livro Vermelho da Flora do Brasil (Martinelli & Moraes, 2013), baseados nos atos legais vigentes sobre o assunto. Dados sobre as categorias e estados de ameaça a fauna e flora no Espírito Santo foram obtidos a partir de Fraga et al. (2019), baseados nos resultados do projeto “Revisão da Lista de Espécies Ameaçadas de Extinção do Espírito Santo” (INMA/IEMA/FAPES)."
+							},
+							{
+								text:"A seguir é apresentada a síntese da biodiversidade para cada uma das 20 Unidades de Conservação. A listagem completa das espécies de fauna e flora está apresentada no Anexo I."
+							}
+						]
 					}
-				]
+				],
+				[ //topic4
+					{ //page1
+						title:"4. Síntese do conhecimento sobre a fauna e a flora nas Unidades de Conservação do ES",
+						texts:[
+							{
+								title:"4.1 Floresta Nacional de Goytacazes",
+								text:"A Floresta Nacional de Goytacazes administrada pelo ICMBio, está localizada no município de Linhares, há cerca de 1 km do centro urbano e possui uma área de 1.426,96 ha. A origem do seu nome tem relação com uma etnia indígena, os índios Goytacazes, que habitavam a costa brasileira do sul da Bahia à foz do rio Paraíba do Sul, no Rio de Janeiro. "
+							},
+							{
+								text:"A origem da UC deu-se no ano de 1923, quando o governo do estado do Espírito Santo doou ao governo federal uma área de 1.611,25 ha para a instauração da Fazenda Experimental de Goytacazes, com intuito de constituir uma base de pesquisas sobre a cultura do cacau. Em agosto de 1974, a fazenda foi incorporada ao patrimônio da Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA), que havia sido criada em dezembro de 1972. Em junho de 1976 a EMBRAPA cedeu, em forma de comodato, a fazenda para a Empresa Capixaba de Pesquisa Agropecuária (EMCAPA, atual Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - INCAPER), pertencente ao governo do Espírito Santo, com o objetivo de desenvolvimento de pesquisas agropecuárias. Como a EMCAPA já possuía uma área antropizada localizada na margem oeste da rodovia BR-101, suficiente para seus estudos, acabou por manter a fazenda inalterada, que se encontrava a leste da rodovia. Embora a área da Fazenda Experimental de Goytacazes já tivesse passado por diversas alterações antrópicas desde a época colonial, o estado de preservação de sua mata nativa era alto quando comparado às demais terras da região, o que levou o governo capixaba a declarar a fazenda como Área de Preservação Permanente em 01 de outubro de 1985, através do Decreto nº 3096-E."
+							},
+							{
+								text:"Diante do excepcional estado de preservação da área da Fazenda Goytacazes e da importância que este remanescente florestal poderia ter na preservação da biodiversidade local, na produção de sementes de vegetais da Mata Atlântica e na composição de um corredor ecológico para este bioma, a área foi transformada em Floresta Nacional através do decreto presidencial em 28 de novembro de 2002. A área da UC, que ligava os estados da Bahia, Espírito Santo e Rio de janeiro, foi ampliada em 73,96 ha por meio do Decreto Presidencial de 05 de junho de 2012, que também revogou o decreto de 2002, e compôs assim a sua atual área total. O plano de manejo da UC é relativamente recente, criado em 2013 (ICMBIO, 2013a), e é considerado um dos mais atualizados e completos dentre as unidades aqui avaliadas. "
+							},
+							{
+								text:"De acordo com o Decreto Presidencial de 28 de novembro de 2002, a UC tem como objetivos: "
+							},
+							{
+								text:"- Promover o manejo de uso múltiplo dos recursos naturais;"
+							},
+							{
+								text:"- Promover a manutenção e a proteção dos recursos hídricos e da biodiversidade;"
+							},
+							{
+								text:"- Promover a recuperação de áreas degradadas;"
+							},
+							{
+								text:"- Promover a educação ambiental; "
+							},
+							{
+								text:"- Apoiar o desenvolvimento de métodos de exploração sustentável dos recursos naturais das áreas limítrofes;"
+							},
+							{
+								text:"- Manter a diversidade. "
+							},
+							{
+								text:"A formação vegetal desta UC é composta majoritariamente por mata secundária em estágio avançado de regeneração. O ecossistema presente na unidade é a Floresta Ombrófila Densa Aluvial, fazendo parte da planície aluvial do rio Doce, que é a maior bacia hidrográfica do estado do Espírito Santo, e cuja margem direita compõe o limite norte da FLONA. Embora a UC esteja localizada na área de inundação do rio Doce, o seu interior não conta com nenhum corpo d’água perene, ocorrendo apenas áreas alagadas formadas após as cheias ou chuvas de verão."
+							},
+							{
+								text:"Os impactos antrópicos mais relevantes para a UC são a caça, a retirada de palmito, a extração de madeira e o despejo de lixo próximo de seus limites externos (ICMBIO, 2013b), além da poluição do rio Doce. A FLONA de Goytacazes faz parte do corredor ecológico capixaba SOCONGO (Sooretama-Comboios-Goytacazes), criado por meio do Decreto Estadual nº 2529-R, em 02 de junho de 2010."
+							},
+							{
+								text:"De acordo com o plano de manejo da UC (ICMBIO, 2013b), sua fauna é composta por 661 espécies animais, sendo: 306 insetos, 44 anfíbios, 43 répteis, 204 aves e 64 mamíferos. Devido à ausência de corpos d’água dentro da UC, não há registro de espécies de peixes na mesma. Já a flora compreende 291 espécies, sendo cinco exóticas encontradas junto às trilhas, estradas, brejos e macegas."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 570 ocorrências de organismos de fauna e flora (Figuras 2-5; Tabelas 2 e 3) pertencentes a 310 espécies, sendo 170 ocorrências de fauna (99 espécies) e 400 ocorrências de flora (211 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1930, tendo seu ápice amostral no quinquênio de 2006-2010 para a fauna e 2011-2015 para a flora (Figura 6). Quarenta e dois registros não continham data de coleta e não puderam ser incluídos na análise gráfica, sendo 32 de fauna e 10 de flora. "
+							},
+							{
+								img:require('@/assets/topics/figure2.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia e Reptilia, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:2
+							},
+							{
+								img:require('@/assets/topics/figure3.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Arachnida, Insecta e Mammalia, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:3,
+								width:"900px",
+								height:"636px"
+							},
+							{
+								img:require('@/assets/topics/figure4.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:4,
+								width:"900px",
+								height:"636px"
+							},
+							{
+								img:require('@/assets/topics/figure5.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:5
+							},
+							{
+								frame:require('@/assets/topics/table2.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna na Floresta Nacional de Goytacazes.",
+								frameNumber:"Tabela 2"
+							},
+							{
+								frame:require('@/assets/topics/table3.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora na Floresta Nacional de Goytacazes.",
+								frameNumber:"Tabela 3"
+							},
+							{
+								img:require('@/assets/topics/figure6.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas na Floresta Nacional de Goytacazes, ao longo do tempo.",
+								imgNumber:6
+							},
+							{
+								text:"O levantamento da fauna revelou que os grupos com maior representatividade de registros são os répteis seguidos dos insetos, com 81 e 72 registros, respectivamente. Contudo, os grupos mais diversos são os insetos, com 58 espécies, e os répteis, com 29 espécies. A diversidade faunística abrange 19 famílias, sendo que as 10 mais representativas, quanto ao número de registros, são apresentadas na Figura 7 e representam 91% dos registros. Dentre as famílias de fauna com maior número de registros, destacam-se as serpentes da família Dipsadidae, com 51 registros para 15 espécies, e os insetos da família Culicidae, com 47 registros para 33 espécies, que mostraram a maior diversidade dentre as famílias, seguidos dos insetos da família Tephritidae com 23 espécies."
+							},
+							{
+								text:"Das espécies registradas na UC, três estão ameaçadas de extinção no Espírito Santo, sendo duas categorizadas como Vulnerável (VU) e uma Em Perigo (EN). Com relação à lista nacional das espécies ameaçadas de extinção, este número é menor, sendo que duas espécies são consideradas ameaçadas, estando na categoria VU (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure7.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico da Floresta Nacional de Goytacazes.",
+								imgNumber:7
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 364 registros, 185 espécies, pertencentes a 75 famílias. Logo após, está o grupo das samambaias com 27 registros, 20 espécies e nove famílias. Um total de 89 ocorrências (22% dos registros totais) refere-se a espécimes identificados apenas em nível de família. A maior diversidade florística de angiospermas levantada, pertence à clados derivados, a saber: superrosídeas, com mais da metade dos registros e espécies levantados, seguidas por superasterídeas, com 29% das espécies de espermatófitas. Os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza: monocotiledôneas, magnoliídeas e eudicotiledôneas basais como mostra a Tabela 3. As famílias com maior número de espécies foram Fabaceae, com 18 espécies, Myrtaceae com 14 e Rubiaceae com 13 espécies. Entre as samambaias, apenas espécies de monilófitas constam no inventário, sendo Pteridaceae a família mais representativa, com 12 registros e oito espécies (Figura 8). "
+							},
+							{
+								text:"Das espécies de plantas levantadas, 13 estão ameaçadas de extinção a nível nacional, sendo cinco VU, quatro EN e quatro CR. Já regionalmente, a UC possui 28 espécies ameaçadas, sendo 12 VU, 13 EN e três CR (Anexo I). A Riodocea pulcherrima Delprete é um exemplo de espécie pertencente a um gênero novo, descrito a partir de coletas realizadas nas proximidades da UC que encontra-se na categoria de ameaça EN em ambas as listas consultadas neste estudo."
+							},
+							{
+								img:require('@/assets/topics/figure8.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico da Floresta Nacional de Goytacazes.",
+								imgNumber:8
+							},
+						]
+					},
+					{ //page2
+						title:"4.2 Floresta Nacional de Pacotuba",
+						texts:[
+							{
+								text:"Com apenas 450,59 ha, a Floresta Nacional de Pacotuba é a segunda menor Unidade de Conservação incluída nesse diagnóstico. É administrada pelo ICMBio e está localizada integralmente no município de Cachoeiro de Itapemirim, no sul do estado do Espírito Santo."
+							},
+							{
+								text:"A área da UC pertencia, originalmente, ao governo do estado do ES e foi adquirida em agosto de 1929 por um morador local com a denominação de Morro Seco e Bananal. Em janeiro de 1950, parte do terreno contendo 682,14 ha e denominado de Fazenda Bananal, foi vendido para o governo federal, colocando-o sob responsabilidade da Empresa Brasileira de Assistência Técnica e Extensão Rural (EMBRATER, Ministério da Agricultura), nomeando a área de Fazenda Regional de Criação de Bananal do Norte. Semelhante ao ocorrido com a FLONA de Goytacazes, em fevereiro de 1980, o governo federal cedeu parte da fazenda em comodato à Empresa Capixaba de Pesquisa Agropecuária (EMCAPA, atual Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - INCAPER). O governo do Espírito Santo declarou então cerca de 300 ha da área como de preservação vegetal permanente em 30 de setembro de 1985, através do Decreto nº 3094-E, um dia antes da publicação do decreto de preservação da UC. Diante do bom estado de conservação da área e de sua potencial importância na produção de sementes de plantas nativas, o Ministério do Meio Ambiente (MMA) interessou-se em incluí-la no projeto “Rede de Sementes Florestais Nativas”, sendo transformada em Floresta Nacional por meio do Decreto Presidencial de 13 de dezembro de 2002. Seu nome foi assim determinado por estar inserida no distrito de Pacotuba, e que em linguagem tupi significa “muitas bananas”, uma alusão a grande quantidade de bananeiras que eram encontradas na região."
+							},
+							{
+								text:"O ecossistema presente na UC é a Floresta Estacional Semidecidual Submontana, também chamada Floresta Tropical Subcaducifólia Submontana. A UC encontra-se à margem esquerda do rio Itapemirim, que é a terceira maior bacia hidrográfica do Espírito Santo (precedido pelas bacias dos rios Doce e São Mateus), e possui diversos corpos d’água perenes e não perenes afluentes desta bacia. Sua formação vegetal é composta majoritariamente por mata primária e os impactos antrópicos mais relevantes estão relacionados à caça, pesca no rio Itapemirim e retirada de madeira (ICMBIO, 2011).  A UC possivelmente faz parte de um importante corredor ecológico conectado-se aos Parques Estaduais de Pedra Azul, Forno Grande e Mata das Flores. O plano de manejo foi criado em 2011."
+							},
+							{
+								text:"De acordo com o Decreto Presidencial de 13 de dezembro de 2002 a FLONA de Goytacazes tem como objetivos:"
+							},
+							{
+								text:"- Promover o manejo de uso múltiplo dos recursos naturais;"
+							},
+							{
+								text:"- Promover a manutenção e a proteção dos recursos hídricos e da biodiversidade;"
+							},
+							{
+								text:"- Promover a recuperação de áreas degradadas;"
+							},
+							{
+								text:"- Promover a educação ambiental; "
+							},
+							{
+								text:"- Apoiar o desenvolvimento de métodos de exploração sustentável dos recursos naturais das áreas limítrofes."
+							},
+							{
+								text:"De acordo com o plano de manejo da UC (ICMBIO, 2011), sua fauna é composta por 638 espécies, sendo: 280 insetos, 25 peixes (22 no rio Itapemirim e três nos corpos d’água internos), 23 anfíbios, 20 répteis, 261 aves e 29 mamíferos. Já a flora compreende 324 espécies, sendo nove exóticas encontradas em macegas e áreas de reflorestamento."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 737 ocorrências de organismos de fauna e flora (Figuras 9-11; Tabelas 4 e 5) pertencentes a 372 espécies, sendo 17 ocorrências de fauna (12 espécies) e 720 ocorrências de flora (360 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1941 com um registro de flora. As amostragens seguintes de flora foram realizadas em 1972 e de forma mais consistente a partir de 1990. As amostragens de fauna ocorreram a partir de 1990 com apenas um registro, tornando-se mais frequentes a partir de 2004. O ápice amostral na FLONA ocorreu no quinquênio de 2011-2015 para a fauna e de 1991-1995 para a flora (Figura 12). Um total de dez registros de flora e de fauna encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica. "
+							},
+							{
+								img:require('@/assets/topics/figure9.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia, Insecta, Mammalia e Reptilia, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:9
+							},
+							{
+								img:require('@/assets/topics/figure10.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:10
+							},
+							{
+								img:require('@/assets/topics/figure11.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:11
+							},
+							{
+								frame:require('@/assets/topics/table4.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna na Floresta Nacional de Pacotuba.",
+								frameNumber:"Tabela 4"
+							},
+							{
+								frame:require('@/assets/topics/table5.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora na Floresta Nacional de Pacotuba.",
+								frameNumber:"Tabela 5"
+							},
+							{
+								img:require('@/assets/topics/figure12.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas na Floresta Nacional de Pacotuba, ao longo do tempo.",
+								imgNumber:12
+							},
+							{
+								text:"O levantamento da fauna revelou que os grupos com maior representatividade de registros são os insetos, com 12 registros, seguido dos mamíferos com três registros e dos anfíbios e répteis com um registro cada. Estes também são os grupos mais diversos da UC, sendo que foram levantadas sete espécies de insetos, três de mamíferos, uma espécie de anfíbio e uma de répteis. A diversidade faunística abrange seis famílias apresentadas na Figura 13, sendo que o grupo dos mamíferos possui o maior número de famílias (três), com uma espécie registrada para cada família. Todos os registros da classe Insecta pertencem à família Chrysopidae (bicho-lixeiro, ordem Neuroptera)."
+							},
+							{
+								text:"Nenhuma espécie registrada na UC encontra-se ameaçada de extinção, tanto no ES, quanto na lista nacional das espécies ameaçadas."
+							}
+						]
+					}
+				],
+				
 			],
 			members:[
 				{

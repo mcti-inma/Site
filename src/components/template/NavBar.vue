@@ -36,7 +36,7 @@
 							</li>
 
 							<li><a href="maps">Mapas</a></li>
-              <li><a href="members">Membros</a></li>
+              <li><a href="members">Equipe</a></li>
 
             </ul>
           </div>
