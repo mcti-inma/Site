@@ -118,7 +118,7 @@ export default {
 					}
 				],
 				[ //topic3
-					{
+					{ //topic2-page 1
 						title:"3. Análise do conhecimento sobre a biodiversidade nas Unidades de Conservação do Espírito Santo",
 						texts:[
 							{
@@ -153,9 +153,36 @@ export default {
 							}
 						]
 					},
-					// {
-					// 	title:"3.2 Seleção das Unidades de Conservação do estado do Espírito Santo"
-					// }
+					{ //topic2-page 2
+						title:"3.2 Seleção das Unidades de Conservação do estado do Espírito Santo",
+						texts:[
+							{
+								text:"Existem atualmente no Brasil duas metodologias de classificação das Unidades de Conservação, a primeira é internacional, apresentada pela International Union for Conservation of Nature and Natural Resources (IUCN) (Dudley, 2008), e a segunda é nacional, implementada através do Sistema Nacional de Unidades de Conservação da Natureza (SNUC) (MMA, 2011). A classificação da IUCN, adotada nos protocolos de cadastro do Ministério do Meio Ambiente, classifica as UCs em seis categorias (I a VI). Já o SNUC separa as UCs em dois grandes grupos, Unidades de Proteção Integral e Unidades de Uso Sustentável, os quais são subdivididos, respectivamente, por cinco e sete categorias. A lista das categorias da IUCN e do SNUC e suas equivalências aproximadas são apresentadas no Quadro 1."
+							},
+							{
+								frame:require('@/assets/topics/frame1.png'),
+								frameDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								frameNumber:"Quadro 1"
+							},
+							{
+								text:"Das 29 Unidades de Conservação existentes no estado do Espírito Santo sob administração estadual e federal (Instituto Estadual de Meio Ambiente e Recursos Hídricos – IEMA, e Instituto Chico Mendes de Conservação da Natureza – ICMBio, respectivamente), 20 foram selecionadas para serem incluídas neste diagnóstico (Tabela 1 e Figura 1), e estão enquadradas em todas as Unidades de Proteção Integral do SNUC e categorias I, II e III da IUCN; e em quatro das sete categorias de Unidades de Uso Sustentável, sendo elas as categorias de 3 a 6 do SNUC, correspondentes à categoria VI da IUCN."
+							},
+							{
+								text:"Para esse diagnóstico não foram incluídas as Áreas de Proteção Ambiental (APAs, categoria 1 do SNUC), Áreas de Relevante Interesse Ecológico (ARIE, categoria 2 do SNUC) e Reservas Particulares do Patrimônio Natural (RPPN, categoria 7 do SNUC), correspondentes às categorias IV e V da IUCN. A não inclusão dessas áreas deu-se pelo fato de não haver um conhecimento expressivo e abrangente sobre as mesmas, uma vez que as informações são restritas e pulverizadas, o que dificultaria seus diagnósticos durante o período de execução do projeto. Diante disso, o levantamento e a avaliação da biodiversidade dessas áreas deverão ser incluídos em versões futuras do diagnóstico da biodiversidade da Mata Atlântica capixaba."
+							},
+							{
+								frame:require('@/assets/topics/frame2.png'),
+								frameDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								frameNumber:"Tabela 1"
+							},{
+								img:require('@/assets/topics/figure1.jpg'),
+								imgDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								imgNumber:"1",
+								width:"650px",
+								height:"800px"
+							},
+						],
+					}
 				]
 			],
 			members:[

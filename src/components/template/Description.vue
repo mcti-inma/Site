@@ -37,6 +37,7 @@
 		white-space: normal !important;
 		word-wrap: break-word !important;
 		vertical-align: baseline !important;
+		font-size: 14px;
 		/* text-indent: 35pt !important; */
 	}
 </style>

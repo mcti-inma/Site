@@ -16,12 +16,21 @@
 					</p>
 					<template v-if="desc.img">
 						<div slot="img">
-							<img class="img" :src="desc.img" alt=""> <br>
-							<label for="img"> 
-								<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDescription}} 
+							<img class="img" :src="desc.img" :style="{width: desc.width, height: desc.height}" alt=""> <br>
+							<label class="text" for="img"> 
+								<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDesc}} 
 							</label>
 						</div>
 					</template>
+					<template v-if="desc.frame">
+						<div slot="img">
+							<label style="margin-left:auto" class="text" for="img"> 
+								<strong>{{desc.frameNumber}}.</strong> {{desc.frameDesc}} 
+							</label>
+							<img class="img" :src="desc.frame" alt=""> <br>
+						</div>
+					</template>
+
 				</Description>
 			</div>
 
