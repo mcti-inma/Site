@@ -1,0 +1,20 @@
+#!/bin/bash
+#########################################################
+# @author: <juliolimareis@gmail.com>                    #
+# @description: Script para levantar a aplicação.       #               					# 
+#########################################################
+# =========================================
+#             * Requisitos * 
+# Sistema GNU Linuix
+# Programas: NPM, Docker e docker-compose
+# =========================================
+
+npm install
+
+npm run build
+
+sudo docker-compose up --build -d 
+
+cp ./.htaccess ./dist
+
+firefox "http://localhost"

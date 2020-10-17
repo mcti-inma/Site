@@ -1,109 +1,411 @@
 export default {
   data() {
     return {
-			synthesis:[
-				// pagina 1
-				{
-					title:"1. Mata Atlântica",
-					texts:[
-						{
-							title:"1.1. A Mata Atlântica Capixaba e Suas Ameaças",
-							text:"Existem mais seres vivos no Planeta Terra do que os catalogados pelos livros, tantos que estimativas não conseguem discriminar. Segundo JOLY et al. (2011), a biodiversidade não compõe somente a diversidade genética das espécies vivas, ou unidades evolutivas básicas, como também é o componente de suporte à continuidade da vida na Terra. Ou seja, tal como BENSUSAN (2006) propõe, a heterogeneidade do ambiente possibilita a diversidade, e, ao mesmo tempo, é considerada função de si mesma. Sendo assim, quando falamos de biodiversidade estamos também relacionando plantas e animais aos seus habitats, uma vez que os seres vivos desenvolveram, ao longo de milhões de anos, adaptações àquele tipo de ambiente num processo co-evolutivo. Tão relevante quanto, citamos ainda as milhões de moléculas, com as mais diversas propriedades, contidas em cada espécie viva."
-						},
-						{
-							text:"A evolução dos neotrópicos foi singular devido ao completo isolamento, pós soerguimento dos Andes, desde o Cretáceo até o final do Terciário, e gerou a megadiversidade de espécies encontradas aqui atualmente (ANTONELLI, 2010; JOLY et al., 2011). Em contraste, as diferentes formas de uso da terra exercem implicações relevantes na fragmentação de habitats, levando à algumas populações a sofrerem um grau de ameaça de extinção, um fenômeno irreversível. Várias fontes cientificas são categóricas em afirmar que estamos vivendo a sexta extinção em massa provocada por nós, humanos. O cenário original do continente sul-americano foi completamente modificado com a chegada do homem, pois mesmo antes do descobrimento caçaram algumas espécies até a sua extinção, alteraram em pequena escala regiões costeiras e fluviais, ocuparam florestas implantando sistemas de cultivo. Desta forma, a capacidade humana de alterar a natureza embora limitada, não deve ser subestimada. Ainda assim, com a chegada dos europeus, e especialmente nos últimos 150 anos, constituíram uma fratura temporal na história da humanidade e do planeta por causa do incremento exponencial de alterações antropomórficas da biosfera e até da atmosfera. E espécies como Jatobá e Jequitibá, que sem influência do homem poderiam viver mais de duzentos anos, estão fadadas a desaparecer por não possuírem capacidade de migrar para outras áreas ou elaborar uma resposta evolutiva frente às mudanças climáticas (JOLY et al., 2011; FRANCO et al., 2012)."
-						},
-						{
-							text:"A Mata Atlântica é um dos biomas brasileiros considerado hotspot, ou seja, uma das áreas mais ricas em biodiversidade e mais ameaçadas do planeta, entre outras classificações, por se localizar em áreas sujeitas a influências antrópicas que promovem a rápida redução de habitats (MYERS et al., 2000). Segundo o Portal da Biodiversidade do Ministério do Meio Ambiente, 31,6 %, ou aproximadamente ⅓, de todas as espécies de plantas, animais e fungos, nativos das Florestas Atlânticas, sofrem algum grau de ameaça de extinção (MMA, 2020). Mais de 20 mil espécies de plantas vivem neste bioma, e cerca de 8 mil são endêmicas (Myers et al., 2000). No âmbito da fauna são 518 espécies de anfíbios (TOLEDO & BATISTA, 2012), 268 de répteis (COSTA et al., 2014), 37 da primeira e 39 da segunda, respectivamente, ameaçadas de extinção; 850 espécies de aves, 270 de mamíferos e 350 de peixes (MMA, 2020). Coabitando os mesmos 1,3 milhões de km2 originais de extensão, no início do atual milênio, encontrava-se mais de 70% da população brasileira, representando a principal ameaça ao ambiente, e os responsáveis pela paisagem cicatrizada avistada no horizonte (DEAN, 1994; GALINDO-LEAL & CÂMARA, 2005; MMA, 2020). Atualmente fragmentos primários da mata com área maior do que 3 hectares constituem apenas 12,4% da cobertura original (SOS MATA ATLÂNTICA & INPE, 2019) A Mata Atlântica apresenta ainda um elevado número de alterações fisiográficas naturais (como instabilidades geológicas e variações no nível do mar) que através dos tempos foi responsável pelo isolamento e união de diversos ambientes aquáticos. Tais variações ambientais resultaram em diversos eventos biológicos e evolutivos que por sua vez deram origem à uma elevada biodiversidade (MMA, 2020)."
-						},
-						{
-							text:"O Espírito Santo é o quarto menor estado do Brasil, mas está entre os que detêm maior biodiversidade (DUTRA et al. 2015). Além de representar o centro de dispersão de algumas espécies, situa-se nas proximidades de outros importantes centros como a Serra do Espinhaço. Originalmente em sua totalidade dos 46.095 km2 do estado, no nordeste da Região Sudeste do Brasil, era coberto pelo bioma Mata Atlântica com 16 bacias hidrográficas, todas vertendo para o mar (PAIVA, 2004) e totalmente inseridas na Ecorregião Aquática da Mata Atlântica Nordeste (ABELL et al., 2008). Contudo, atualmente no estado capixaba, esse cenário está reduzido a apenas 10,9% de vegetação nativa remanescente, localizado principalmente na região central, segundo o último relatório técnico da ONG SOS Mata Atlântica e Instituto Nacional de Pesquisas Espaciais (INPE), divulgado em 2019.",
-						},
-						{
-							text:"O estado capixaba é dividido por duas zonas geológicas principais, a zona dos tabuleiros e a zona serrana. As florestas ou mata de tabuleiros são composições florestais que ocupam a costa leste do Brasil dentro do domínio Atlântico, bastante expressiva entre os estados do Rio de Janeiro e Bahia, são assim denominadas por se desenvolverem sobre grandes áreas planas, os tabuleiros terciários, com altitudes inferiores a 200 m. (RIZZINI et al., 1997; RUSCHI, 1950). Warren Dean (1994) descreve com clareza todos os estágios de destruição sofridos pelas diversas atividades antrópicas que vão desde a colonização, até a expansão agrícola e industrial, que culminaram no intenso processo de desmatamento e resultaram na fragmentação das florestas, como a dos tabuleiros terciários da Mata Atlântica. Listar as diversas ameaças de um determinado bioma não é tarefa fácil, devido à dificuldade inerente de dissociar o homem, no sentido de sociedade. É provável inclusive, no início do século XX, que a grande maioria dos habitantes da Mata Atlântica, fosse favorável (ou complacente) à destruição da floresta, especialmente na região sudeste, onde o comércio e a indústria ansiavam pelas matérias-primas advindas dela (DEAN, 1994). As Florestas de Tabuleiros, já em meados da década de 1980, eram consideradas as mais diversas do estado, especialmente entre o norte capixaba e o sul da Bahia, com ocorrência inclusive de vários táxons amazônicos (GENTRY, 1982; OLIVEIRA-FILHO & FONTES, 2000; Conservation International do Brasil et al., 2000). Até meados dos anos 2000, poder-se-ia encontrar áreas de retirada ilegal de madeira nestas formações (AMORIM, 1984; SILVA & NASCIMENTO, 2001). Dentre outras ameaças à biodiversidade capixaba estão ainda a extração de granito e rochas ornamentais de inselbergs, extração de areia, economia agropecuarista com substituição de ambientes por monocultura, eliminação de efluentes domésticos e industriais, saneamento mal elaborado e extração de plantas ornamentais (orquídeas e bromélias). Mas a mais relevante na atualidade tem sido a eucaliptocultura, que como outras espécies exóticas invasoras causam uma série de impactos, dentre os quais: desertificação, alteração do ciclo natural de queimadas, destruição de florestas, exaustão dos recursos hídricos, alteração da cadeia trófica e até mesmo extinção de espécies e alteração do processo evolutivo. No Espírito Santo, a partir da segunda metade da década de 1960, lideranças regionais decidiram abrir o mercado do estado para a indústria de bens intermediários e semielaborados, a fim de substituir a dependência econômica capixaba em relação ao café; uma das indústrias que aqui se estabeleceu neste período foi justamente a Aracruz Celulose (atualmente Suzano S.A.) que atualmente ocupam cerca de 250 mil hectares de plantação de eucaliptos no estado (GONÇALVES, 2019).",
-						},
-						{
-							text:"Por fim, quanto maior e mais populosa uma cidade, maior o seu “metabolismo social” segundo FRANCO et al. (2012), ou seja, maior o fluxo de energia e matéria trocada com o meio ambiente, sendo assim, a capacidade de resiliência da Mata Atlântica, no sudeste do Brasil, é algo muito preocupante. A exemplo das maiores tragédias não só ambientais, mas também humanas ocorridas recentemente, na Bacia do Rio Doce e na região metropolitana de Belo Horizonte, comprovamos, com pesar, que a intervenção humana em ecossistemas naturais é desastrosa, e que existe uma enorme carência de projetos voltados para a conservação da biodiversidade."
-						},
-						{
-							title:"1.2. Estratégias Brasileiras para a Conservação da Biodiversidade",
-							text:"Estudos relativos à biodiversidade são considerados em muitos países como área prioritária de investigação científica (JOLY et al., 2011). Muitos são os desafios socioambientais, visando um desenvolvimento sustentável, no país com maior biodiversidade do planeta e o quinto maior em extensão territorial (MMA, 2017). Os esforços de conservação da biodiversidade tiveram início, no Brasil, em 1992, durante a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, quando da criação da Convenção sobre Diversidade Biológica – CDB. Dois anos depois, em 1994, foi criado o Programa Nacional da Diversidade Biológica – PRONABIO, para implementação das diretrizes orientadas pela CDB e já na primeira década do novo milênio, 2003, a Comissão Nacional da Biodiversidade – CONABIO, realizou algumas mudanças no PRONABIO. A CDB é portanto, um dos acordos internacionais dos quais o Brasil é signatário, e sua finalidade é justamente a conservação e a utilização sustentável da biodiversidade bem como a repartição justa e equitativa dos benefícios decorrentes de sua utilização, e dos conhecimentos tradicionais associados. Por sua vez, a Conferência das Partes – COP (Convention of the Parties) é uma instância de governança que fiscaliza a implementação dos compromissos estabelecidos e é mantida pela CDB sendo renovada em reuniões periódicas. Entre os compromissos firmados para a segunda década do século XXI estão o Plano Estratégico 2011-2020 que estabelece 20 metas globais para a biodiversidade, conhecidas como Metas de Aichi, estabelecidas na COP-10, em 2010, Nagoia, Japão. Desta forma, em 2011, o Brasil iniciou o processo de internalização das Metas de Aichi e definição das Metas Nacionais de Biodiversidade para 2020, com destaque dos Diálogos sobre a Biodiversidade, a elaboração dos Subsídios Multissetoriais para o Plano de Ação Governamental para a Conservação e Uso Sustentável da Biodiversidade e a criação do Painel Brasileiro de Biodiversidade – PainelBio."
-						},
-						{
-							text:"Em qualquer área do conhecimento, quando temos nas mãos a totalidade de dados disponíveis fica mais plausível a delimitação e a determinação de demandas e atividades. Com a conservação essa é a máxima, “conhecer para preservar”, ou seja, não podemos prever a efetividade das ações preservacionistas quando nem sequer conhecemos todas as espécies vivas. Especialistas, por exemplo, não conseguem estimar taxas de extinção precisas, pois não conhecem o número total. Para isso, não somente o número de expedições de coleta deve ser aumentado no Brasil, mas também o número de especialistas. A conservação e uso sustentável da biodiversidade segundo o Ministério do Meio Ambiente do Brasil, sustenta e garante a resiliência de sistemas sociais e econômicos. Até 2016, o país nunca havia consolidado perspectivas e ferramentas de gestão em apenas um documento estratégico visando a conservação da biodiversidade e dos ecossistemas, e em agosto daquele ano foi criado a Estratégia e Plano de Ações Nacionais Para a Biodiversidade (EPANB) que integra todas as iniciativas com esse propósito."
-						},
-						{
-							text:"Segundo o documento do EPANB (MMA, 2017) dentre os esforços mais importantes em prol da conservação da biodiversidade e garantia da promoção dos serviços ecossistêmicos, estão a criação e consolidação de áreas protegidas, o monitoramento de habitats e espécies e o combate à supressão ilegal da vegetação nativa. Desta forma, as Unidades de Conservação são uma das estratégias conservacionistas. Para se ter uma ideia da importância das Unidades de Conservação na criação e manutenção de fragmentos da Mata Atlântica, quantidade equiparável ao recorde mundial de biodiversidade de plantas lenhosas por hectare foi inventariada na Estação Biológica de Santa Lúcia no município capixaba de Santa Teresa (THOMAZ & MONTEIRO, 1997; CONSERVATION INTERNATIONAL DO BRASIL, 2000). Recentemente, foi encontrada, na Reserva Natural da Vale, em Linhares, uma nova espécie de um gênero, que até 2017 era monotípico e acreditava-se ocorrer apenas na Amazônia. A Dinizia jueirana-facao é esta nova espécie da família das Leguminosae, com indivíduos de mais de 30 metros de altura e 60 toneladas, e mostra como a biodiversidade brasileira está ameaçada, pois uma vez que ela não estivesse protegida em uma área de Proteção Ambiental, seria desmatada antes mesmo de ser descoberta pela ciência (LEWIS et al., 2017)."
-						},
-						{
-							text:"No estabelecimento e manejo das áreas protegidas, atividades antrópicas são conflitantes com a conservação ambiental quando influenciam negativamente a manutenção da biodiversidade. Segundo o documento da Estratégia e Plano de Ações Nacionais Para a Biodiversidade (MMA, 2017) tais ameaças estão associadas, entre outros, à degradação de habitat, invasão biológica, superexploração, poluição e contaminação ambiental e políticas públicas."
-						},
-						{
-							text:"Chegamos num momento crucial de tomada de decisões. Há cerca de dois séculos dispúnhamos de pouquíssimos recursos humanos nacionais, pois quase todos os naturalistas coletores eram europeus, mas a nossa biodiversidade era exuberante, majestosa e com grande capacidade de regeneração, mesmo com o intenso extrativismo de algumas espécies como o pau-brasil. Hoje, a situação não chega a ser inversa, uma vez que ainda existe a necessidade de aumentar o número de taxonomistas brasileiros, entretanto, já atingimos o limiar para algumas espécies. A maior urgência da biodiversidade brasileira é a garantia por parte dos tomadores de decisões, enquanto estas decisões podem ainda fazer alguma diferença na capacidade de resiliência. Segundo os diversos estudos Estratégia para a Conservação da Biodiversidade Brasileira, a precisão das análises regionais é substancialmente maior, devido à íntima relação entre os diversos órgãos envolvidos nesta tarefa."
-						}
-					]
-				},
-				// pagina 2
-				{
-					title:"1. Unidades de Conservação",
-					texts:[
-						{
-							title:"1.1. Unidades de Conservação e sua importância para a biodiversidade",
-							text:"A necessidade de proteção dos ambientes naturais surge no início da crise ambiental decorrente do crescimento populacional e sobreexplotação dos recursos naturais durante a idade média (THOMAS, 2010; HASSLER, 2005). Segundo THOMAS (2010) as primeiras leis protecionistas e formação de áreas protegidas surgiram naquele período através da criação de leis de caça e área protegidas para caça e reserva de recursos naturais para uso futuro pelas classes dominantes, sendo que a primeira área de proteção teria surgido na Polônia no século XIV (RAMADE, 1979)."
-						},
-						{
-							text:"No Brasil as unidades de conservação (UCs) surgem inicialmente no século XVII por ordem de Maurício de Nassau, visando proteger florestas do Nordeste do país para reserva de recursos naturais para uso futuro, durante a ocupação holandesa em Pernambuco (HASSLER, 2005). Posteriormente, o engenheiro André Rebouças propôs em 1876 a criação dos parques nacionais da Ilha do Bananal (Estado do Tocantins) e das Sete Quedas do rio Paraná (Estado do Paraná), ambas criadas em 1939 (HASSLER, 2005; CAMPOS & COSTA-FILHO, 2006), sendo esta última motivo de forte campanha de implementação por parte do aviador e inventor Alberto Santos Dumont. Contudo, a primeira unidade de conservação criada no Brasil foi o Parque Nacional do Itatiaia (Rio de Janeiro) em 14 de junho de 1937 por decreto do então presidente Getúlio Vargas (CAMPOS & COSTA-FILHO, 2006; ICMBIO, 2013a)."
-						},
-						{
-							text:"O uso e atribuições das unidades de conservação brasileiras são regidos atualmente pelo Sistema Nacional de Unidades de Conservação da Natureza (SNUC, Lei nº 9.985 de 18 de julho de 2000 e Decretos nº 4.340 de 22 de agosto de 2002 e nº 5.746 de 05 de abril de 2006). O SNUC classifica os objetivos de uso e proteção das unidades de conservação em 12 categorias contidas em dois grupos distintos de unidades, sendo um com foco na preservação integral e outro no uso sustentável dos recursos naturais (MMA, 2011). TALVEZ FALAR RAPIDAMENTE SOBRE AS RESTRIÇÕES DOS DIFERENTES TIPOS DE UCS"
-						},
-						{
-							text:"A criação das unidades de conservação é propensa a ser tendenciosa, seja por seu potencial cênico ou por tratar de áreas remanescentes teoricamente “intocadas” ou menos antropizadas, levando a uma concentração de áreas protegidas, principalmente, em locais remotos ou de altitude (TOPPA et al., 2013). As criações de unidades de conservação também tendem a ser delineadas e criadas baseando-se exclusivamente ou quase exclusivamente nos ambientes terrestres ou marinhos, desconsiderando os ambientes aquáticos continentais em seus planos de manejo, exceto quando criadas especificamente para a proteção de nascentes ou mananciais de abastecimento público (AGOSTINHO et al., 2006; PITTOCK et al., 2015). Da mesma forma, grupos de invertebrados, sejam aquáticos ou terrestres, são comumente desconsiderados nos estudos de implementação das unidades de conservação e em seu manejo. Por este motivo, não há informações consolidadas disponíveis a respeito do papel das unidades de conservação para a proteção dos ecossistemas, especialmente os aquáticos continentais e para invertebrados, e nem se sabe se e como elas atuam na conservação e qualidade destes ambientes e organismos."
-						},
-						{
-							title:"2.2. Unidades de Conservação no estado do Espírito Santo",
-							text:"Atualmente o Brasil conta com 2.376 unidades de conservação de administração federal, estadual, municipal ou particular, sendo que 1.364 estão localizadas no bioma da Mata Atlântica, o que representa 9,54% deste bioma (MMA, 2019a). No estado do Espírito Santo existem 121 unidades de conservação protegendo os cerca de 10,5% remanescente da Mata Atlântica (praticamente todas as áreas remanescentes deste bioma no estado estão contidas nestas unidades), sendo 12 federais, 17 estaduais, 38 municipais e 54 particulares (SOS MATA ATLÂNTICA & INPE, 2019; MMA, 2019b). Embora haja diversos estudos sobre a fauna presente nas unidades de conservação capixabas, este conhecimento encontra-se extremamente disperso na literatura livre (relatórios, livros, monografias, dissertações, teses e artigos publicados), em planos de manejo e em espécimes depositados em coleções biológicas em instituições diversas. Esta pulverização de informações torna bastante difícil a sua utilização para o entendimento da biodiversidade no estado e para o uso destas informações para a tomada de decisões ambientais. Assim, torna-se extremamente útil e necessário o levantamento e disponibilização destes dados de forma integrada, visando seu uso no desenvolvimento de políticas públicas e na gestão das UCs e dos recursos naturais do Espírito Santo."
-						}
-					]
-				},
-				// pagina 3
-				{
-					title:"3. Análise do conhecimento sobre a biodiversidade das Unidades de Conservação capixabas",
-					texts:[
-						{
-							title:"3.1. Objetivos",
-							text:"Buscando reunir todos os dados da Mata Atlântica do estado do Espírito Santo como estratégia de conservação da biodiversidade do Espírito Santo e despertar o interesse pela ciência da taxonomia em jovens que não poderiam imaginar que no seu quintal tivesse uma espécie endêmica e em risco o Instituto Nacional da Mata Atlântica (INMA) idealizou a Rede Integrada da Mata Atlântica (RIMA), através do projeto Rede de Compartilhamento de Dados e Divulgação da Mata Atlântica no Estado do Espírito Santo (Proc. 189/2017 – INMA/FAPES/IEMA). Avaliar a proteção da biodiversidade da Mata Atlântica, dentro de Unidades de Conservação, mesmo que para apenas um estado do Brasil, é um desafio enorme e complexo, que só foi possível com a união de muitas pessoas. Juntamente com gestores das Unidades de Conservação de toda a região espírito-santense, o INMA propôs um diagnóstico sobre a biodiversidade presente nas unidades de conservação capixabas sob gestão estadual e federal, formado por informações bibliográficas e de exemplares presentes em coleções científicas. Este diagnóstico representa o primeiro passo em direção a um diagnóstico da biodiversidade da Mata Atlântica como um todo, que é uma meta do Instituto Nacional da Mata Atlântica para longo prazo. A seguir, algumas perguntas que pretendemos ajudar a responder com a confecção deste diagnóstico:"
-						},
-						{	
-							ident:"no",
-							text:"- Como está distribuído o conhecimento da biodiversidade entre nas 20 Unidades de Conservação Federais e Estaduais capixabas?",
-						},
-						{
-							ident:"no",
-							text:"- Quais grupos mais amostrados para cada Unidade, e quais os menos amostrados?"
-						},
-						{
-							ident:"no",
-							text:"- Existe algum viés relacionado à riqueza de espécies de determinado grupo, ou de fato, a distribuição daquele grupo é mais ou menos intensa devido a fatores ambientais da área?"
-						},
-						{
-							ident:"no",
-							text:"- Qual a importância de determinada Unidade de Conservação para os grupos de espécies avaliados? (Espécies ou gêneros novos, quantidade de espécies amostradas ao longo dos anos, se maior ou menor em determinado período)?"
-						},
-						{
-							ident:"no",
-							text:"- Quais as análises podemos fazer dos Efeitos de borda das Unidades de Conservação, quando relacionado à ocupação populacional humana do entorno e o tipo de atividade econômica desenvolvido pela comunidade local? Eles de alguma forma influenciaram na mudança de paisagem da Unidade de Conservação e/ou na distribuição da biodiversidade em seu interior? (Pode ser avaliado a partir de número de coleta de espécies por períodos, se diminuiu ou não)"
-						},
-						{
-							ident:"no",
-							text:"- Quais as lacunas foram observadas para as Unidades de Conservação e /ou Grupos de plantas e animais?"
-						},
-						{
-							ident:"no",
-							text:"- Quais estratégias podem ser sugeridas para o preenchimento das lacunas levantadas?"
-						}
-					]
-				}
+			topics:[
+				[ //topic1
+					{ //page1
+						title:"1. A Biodiversidade e o bioma Mata Atlântica",
+						texts:[
+							{
+								text:"O termo biodiversidade refere-se à diversidade biológica responsável pela variedade de formas de vida em todos os níveis, desde micro-organismos até flora e fauna silvestres, além da espécie humana. Contudo, essa variedade de seres vivos não deve ser visualizada individualmente, e sim em seu conjunto estrutural e funcional, na visão ecológica do sistema natural, ou seja, no conceito de ecossistema. Nesse sentido, a biodiversidade não compõe apenas a diversidade genética das espécies vivas, ou unidades evolutivas básicas, mas é também o componente de suporte à continuidade da vida na Terra (Joly et al., 2011). Ou seja, a heterogeneidade do ambiente possibilita a diversidade, e, ao mesmo tempo, é considerada função de si mesma (Bensusan, 2006)."
+							},
+							{
+								text:"O bioma Mata Atlântica, na definição do Instituto Brasileiro de Geografia e Estatística (IBGE), é o “conjunto de vida (vegetal e animal) definida pelo agrupamento de tipos de vegetação contíguos e identificáveis em escala regional, com condições geoclimáticas similares e história compartilhada de mudanças, resultando em uma diversidade biológica própria”. O bioma abrange cerca de 15% do território nacional, estando presente em 17 estados brasileiros (SOS Mata Atlântica), dentre eles o estado do Espírito Santo, que tem a totalidade do seu território inserido neste bioma. As florestas da Mata Atlântica estão entre as cinco áreas prioritárias para conservação da biodiversidade e entre as 25 áreas prioritárias de conservação no mundo, devido ao alto nível de diversidade de espécies, endemismo e sua vulnerabilidade às ameaças contínuas, sendo, portanto, considerada um hotspot da biodiversidade. As formações florestais de ocorrência natural no bioma (Floresta Ombrófila Densa, Floresta Ombrófila Mista, Floresta Estacional Semidecidual, Floresta Estacional Decidual e Floresta Ombrófila Aberta) acompanham as características climáticas, de solo e de relevo, sendo influenciadas pela distância do oceano, altitude e regime de distribuição de chuvas (Mendes et al., 2014)."
+							},
+							{
+								text:"Segundo o Portal da Biodiversidade do Ministério do Meio Ambiente, 31,6% (⅓) de todas as espécies de plantas, animais e fungos nativos das Florestas Atlânticas, sofre algum grau de ameaça de extinção (MMA, 2020). Mais de 20 mil espécies de plantas vivem neste bioma e cerca de 8 mil são endêmicas (Myers et al., 2000). No âmbito da fauna, são 518 espécies de anfíbios, sendo que 37 estão ameaçadas de extinção (Toledo & Batista, 2012), 268 espécies de répteis, destas, 39 encontram-se ameaças (Costa et al., 2014), 850 espécies de aves, 270 de mamíferos e 350 espécies de peixes (MMA, 2020). Coabitando os mesmos 1,3 milhões de km2 originais de extensão, no início do atual milênio encontrava-se mais de 70% da população brasileira, a principal ameaça ao ambiente, responsável pela paisagem degradada (Dean, 2004; Galindo-Leal & Câmara, 2005; MMA, 2020)."
+							},
+							{
+								text:"Toda essa excepcional diversidade do bioma Mata Atlântica auxilia na proteção de importantes mananciais, garantindo água para o consumo humano, agrícola e industrial, contribuindo ainda com o controle da erosão e do clima. Contudo, não obstante todos esses serviços essenciais promovidos pela floresta, o processo de uso e ocupação humana fez com que a vegetação natural se resumisse a apenas 10,9% (SOS Mata Atlântica & INPE, 2019), portanto, avaliar o nível de proteção da biodiversidade da Mata Atlântica torna-se essencial no sentido de garantir equilíbrio dos ecossistemas a todos os seres vivos envolvidos e o uso sustentável dos serviços ecossistêmicos para as populações atuais e futuras."
+							}
+						]
+					},
+					{ //page2
+						title:"1.1 A Mata Atlântica capixaba e suas ameaças",
+						texts:[
+							{
+								text:"A evolução dos neotrópicos (região biogeográfica da América do Sul, Central e Sul da América do Norte) foi singular devido ao completo isolamento pós-soerguimento dos Andes, desde o Cretáceo até o final do Terciário, que gerou a mega diversidade de espécies encontradas aqui atualmente (Antonelli, 2010; Joly et al., 2011). Em contraste, as diferentes formas de uso da terra exercem implicações relevantes na fragmentação de habitats, levando algumas populações a sofrerem um grau de ameaça de extinção. Várias fontes científicas são categóricas em afirmar que estamos vivendo a sexta extinção em massa, provocada pelos seres humanos. O cenário original do continente sul-americano foi completamente modificado com a chegada do homem que praticava caça de algumas espécies até a sua extinção, provocando alterações, em pequena escala, de regiões costeiras e fluviais, e ocupando florestas para implantação de diferentes sistemas de cultivo. A chegada dos europeus instituiu uma fratura temporal na história da humanidade e do planeta devido ao incremento exponencial de alterações antropomórficas da biosfera e da atmosfera. A exemplo de espécies como Jatobá e Jequitibá que, sem a interferência humana, poderiam viver mais de duzentos anos, no entanto, estão fadadas a desaparecer por não possuírem capacidade de migrar para outras áreas ou elaborar uma resposta evolutiva frente às mudanças climáticas (Joly et al., 2011; Franco et al., 2012)."
+							},
+							{
+								text:"O bioma Mata Atlântica sofreu o mais intenso processo de devastação do país (Dean, 1996). Em função do alto grau de destruição e consequente fragmentação, a Mata Atlântica é considerada um dos biomas mais ameaçados do mundo (Myers et al., 2000). O bioma apresenta ainda um elevado número de alterações fisiográficas naturais (e.g. instabilidades geológicas e variações no nível do mar), que através dos tempos foi responsável pelo isolamento e união de diversos ambientes aquáticos. Tais variações ambientais resultaram em diversos eventos biológicos e evolutivos que, por sua vez, deram origem à uma considerável biodiversidade (MMA, 2020)."
+							},
+							{
+								text:"O estado do Espírito Santo é o quarto menor do Brasil, mas está entre os que detêm maior biodiversidade (Dutra et al. 2015). Além de representar o centro de dispersão de algumas espécies, situa-se nas proximidades de outros importantes centros como a Serra do Espinhaço por exemplo. Originalmente, os 46.095 km2 de área do estado, eram cobertos pelo bioma Mata Atlântica banhados por 16 bacias hidrográficas, todas vertendo para o mar (Paiva, 2004) e totalmente inseridos na Ecorregião Aquática da Mata Atlântica Nordeste (Abell et al., 2008). Contudo, de acordo com o último relatório técnico da ONG SOS Mata Atlântica & Instituto Nacional de Pesquisas Espaciais (INPE), divulgado em 2019, atualmente esse cenário está reduzido a apenas 10,9% de vegetação nativa remanescente, localizado principalmente na região central."
+							},
+							{
+								text:"O estado do Espírito Santo é o quarto menor do Brasil, mas está entre os que detêm maior biodiversidade (Dutra et al. 2015). Além de representar o centro de dispersão de algumas espécies, situa-se nas proximidades de outros importantes centros como a Serra do Espinhaço por exemplo. Originalmente, os 46.095 km2 de área do estado, eram cobertos pelo bioma Mata Atlântica banhados por 16 bacias hidrográficas, todas vertendo para o mar (Paiva, 2004) e totalmente inseridos na Ecorregião Aquática da Mata Atlântica Nordeste (Abell et al., 2008). Contudo, de acordo com o último relatório técnico da ONG SOS Mata Atlântica & Instituto Nacional de Pesquisas Espaciais (INPE), divulgado em 2019, atualmente esse cenário está reduzido a apenas 10,9% de vegetação nativa remanescente, localizado principalmente na região central."
+							},
+							{
+								text:"Dentre outras ameaças à biodiversidade capixaba estão a extração de granito e rochas ornamentais de inselbergs, extração de areia, economia agropecuarista com substituição de ambientes por monocultura, eliminação de efluentes domésticos e industriais, saneamento mal elaborado e extração de plantas ornamentais (orquídeas e bromélias)."
+							},
+							{
+								text:"A partir da segunda metade da década de 1960, lideranças regionais abriram mercado para a indústria de bens intermediários e semielaborados, a fim de substituir a dependência econômica capixaba em relação ao café. Uma das indústrias que aqui se estabeleceu neste período foi a Aracruz Celulose (Suzano S.A.) que atualmente ocupa cerca de 250 mil hectares no Espírito Santo, com plantação de eucalipto (Gonçalves, 2019). "
+							},
+							{
+								text:"O futuro da biodiversidade da Mata Atlântica e a sua proteção a logo prazo, dependerão do manejo de espécies e ecossistemas. No entanto, sua conservação e recuperação constituem um grande desafio, uma vez que estratégias, ações e intervenções necessárias esbarram em dificuldades impostas pelo estado fragmentado do conhecimento sobre o funcionamento dos seus ecossistemas, num ambiente sob forte pressão antrópica, marcado pela complexidade nas relações sociais e econômicas (Pinto et al., 2006)."
+							}
+						]
+					},
+					{ //page3
+						title:"1.2 Estratégias Brasileiras para a Conservação da Biodiversidade",
+						texts:[
+							{
+								text:"Muitos são os desafios socioambientais, visando um desenvolvimento sustentável, em um país que possui a maior biodiversidade do planeta e é o quinto maior em extensão territorial (MMA, 2017). Os esforços de conservação da biodiversidade no Brasil tiveram início em 1992, durante a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, quando foi criada a Convenção sobre Diversidade Biológica – CDB. Dois anos depois, em 1994, foi criado o Programa Nacional da Diversidade Biológica – PRONABIO, para implementação das diretrizes orientadas pela CDB, e já na primeira década do novo milênio (2003) a Comissão Nacional da Biodiversidade – CONABIO, realizou algumas mudanças no PRONABIO. A CDB é, portanto, um dos acordos internacionais dos quais o Brasil é signatário, e sua finalidade é justamente a conservação e a utilização sustentável da biodiversidade bem como a repartição justa e equitativa dos benefícios decorrentes de sua utilização, e dos conhecimentos tradicionais associados. Por sua vez, a Conferência das Partes – COP (Convention of the Parties) é uma instância de governança que fiscaliza a implementação dos compromissos estabelecidos e é mantida pela CDB sendo renovada em reuniões periódicas. Entre os compromissos firmados para a segunda década do século XXI está o Plano Estratégico 2011-2020 que estabelece 20 metas globais para a biodiversidade, conhecidas como Metas de Aichi, estabelecidas na COP-10, em 2010, Nagoia, Japão. Desta forma, em 2011, o Brasil iniciou o processo de internalização das Metas de Aichi e definição das Metas Nacionais de Biodiversidade para 2020, com destaque dos Diálogos sobre a Biodiversidade, a elaboração dos Subsídios Multissetoriais para o Plano de Ação Governamental para a Conservação e Uso Sustentável da Biodiversidade e a criação do Painel Brasileiro de Biodiversidade – PainelBio."
+							},
+							{
+								text:"Em qualquer área do conhecimento, a delimitação e/ou a determinação de demandas e atividades, é possível somente com a totalidade de dados necessários para este fim. No caso de ações e estratégias que garantam a conservação da biodiversidade, o termo “conhecer para preservar”, é fundamental, pois, não é possível prever a efetividade das ações preservacionistas quando nem sequer é possível conhecer todas as espécies vivas. O fato é que os especialistas não conseguem estimar com precisão as taxas de extinção, pois não conhecem o número total de espécies, consequência do baixo número de expedições de coletas no Brasil. De acordo com o Ministério do Meio Ambiente do Brasil, a conservação e o uso sustentável da biodiversidade sustenta e garante a resiliência de sistemas sociais e econômicos (MMA, 2017)."
+							},
+							{
+								text:"Até o ano de 2016, o país não havia consolidado perspectivas e ferramentas de gestão em apenas um documento estratégico que visasse à conservação da biodiversidade e dos ecossistemas, porém, em agosto de 2016, o MMA criou a ferramenta de gestão integrada denominada “Estratégia e Plano de Ações Nacionais Para a Biodiversidade” (EPANB), que integra todas as iniciativas com esse propósito. Dentre os esforços mais importantes em prol da conservação da biodiversidade e garantia da promoção dos serviços ecossistêmicos, estão algumas ações consideradas importantes: a criação e consolidação de áreas protegidas, o monitoramento de habitats e espécies, e o combate à supressão ilegal da vegetação nativa (MMA, 2017)."
+							},
+							{
+								text:"No estabelecimento e manejo de áreas protegidas, as atividades antrópicas são conflitantes com a conservação ambiental quando influenciam negativamente a manutenção da biodiversidade ali existente. Tais ameaças estão associadas, especialmente, à degradação de habitat, invasão biológica, superexploração, poluição e contaminação ambiental (MMA, 2017)."
+							},
+							{
+								text:"Toda essa realidade insere a conservação da biodiversidade em um momento crucial de tomada de decisões. Há cerca de dois séculos dispúnhamos de pouquíssimos recursos humanos nacionais, pois quase todos os naturalistas coletores eram europeus, mas a nossa biodiversidade era exuberante e com grande capacidade de regeneração, mesmo com o intenso extrativismo de algumas espécies como o pau-brasil, por exemplo. Atualmente, a situação não é inversa, o que torna possível apontar a grande necessidade de aumentar o número de taxonomistas brasileiros. A maior urgência referente à conservação da biodiversidade é a necessidade de garantias por parte dos tomadores de decisões, enquanto os resultados dessas ações ainda são capazes de fazer alguma diferença na capacidade de resiliência do bioma Mata Atlântica. Nesse sentido, é importante ressaltar que a precisão das análises regionais é substancialmente maior, devido à íntima relação entre os diversos órgãos envolvidos nessa tarefa (MMA, 2017)."
+							}
+						]
+					}
+				],
+				[ //topic2
+					{ //page 1
+						title:"2. Unidades de Conservação",
+						texts:[
+							{
+								text:"A necessidade de proteção dos ambientes naturais surgiu durante a idade média, no início da crise ambiental decorrente do crescimento populacional e sobreexplotação dos recursos naturais (Thomas, 2010; Hassler, 2005). Registros históricos apontam que a primeira área de proteção surgiu na Polônia no século XIV (Ramade, 1979) e as primeiras leis protecionistas e formação de áreas protegidas surgiram com objetivo de proteção das áreas específicas para a caça, além da reserva dos recursos naturais para uso futuro pelas classes dominantes (Thomas, 2010). "
+							},
+							{
+								text:"No Brasil as Unidades de Conservação (UCs) surgiram no século XVII, durante a ocupação holandesa em Pernambuco, por ordem de Maurício de Nassau, com intuito de proteger florestas do Nordeste visando à reserva de recursos naturais para uso futuro (Hassler, 2005). Posteriormente, em 1876, o engenheiro André Rebouças propôs a criação dos Parques Nacionais da Ilha do Bananal (Tocantins) e das Sete Quedas do rio Paraná (Paraná), ambos foram criados em 1939 (Hassler, 2005; Campos & Costa-Filho, 2006). A criação do Parque Nacional das Sete Quedas do rio Paraná foi motivo de forte campanha de implementação por parte do aviador e inventor Alberto Santos Dumont. Contudo, a primeira UC criada no Brasil foi o Parque Nacional do Itatiaia no Rio de Janeiro em 14 de junho de 1937, por decreto do presidente Getúlio Vargas (Campos & Costa-Filho, 2006; ICMBIO, 2013a). "
+							},
+							{
+								text:"O uso e atribuições das UCs brasileiras são regidos atualmente pelo Sistema Nacional de Unidades de Conservação da Natureza (SNUC, Lei nº 9.985 de 18 de julho de 2000 e Decretos nº 4.340 de 22 de agosto de 2002 e nº 5.746 de 05 de abril de 2006), que classifica os objetivos de uso e proteção das UCs em 12 categorias contidas em dois grupos distintos de unidades, sendo um grupo com foco na Proteção Integral e outro no Uso Sustentável dos recursos naturais (MMA, 2011)."
+							},
+							{
+								text:"A fragilidade do sistema de UCs na Mata Atlântica não se resume aos aspectos ligados à sua extensão, distribuição ou aos fatores de natureza técnico-científica, mas deve-se principalmente à dificuldade dos órgãos de governo em proporcionar os instrumentos adequados ao manejo e proteção dessas áreas. Entre os principais problemas constam situação fundiária indefinida, falta de pessoal técnico e recursos financeiros, instabilidade política das agências de meio ambiente, dentre outros (Arruda, 1997; Fonseca et al., 1997; Morsello, 2001; Olmos et al., 2005)."
+							},
+							{
+								text:"Um dos entraves relacionados à criação das UCs é a propensão a ser tendenciosa, seja por seu potencial cênico ou por tratar de áreas remanescentes teoricamente intocadas ou menos antropizadas, levando a uma concentração de áreas protegidas, principalmente, em locais remotos ou de altitude (Toppa et al., 2013). As criações de UCs também tendem a ser delineadas e criadas baseando-se exclusivamente, ou quase exclusivamente, nos ambientes terrestres ou marinhos, desconsiderando os ambientes aquáticos continentais em seus planos de manejo, exceto quando criadas especificamente para a proteção de nascentes ou mananciais de abastecimento público (Agostinho et al., 2006; Pittock et al., 2015). Da mesma forma, grupos de invertebrados, aquáticos e terrestres, são comumente desconsiderados nos estudos de implementação das UCs e em seu manejo. Por este motivo, não há informações consolidadas disponíveis a respeito do papel das UCs para a proteção dos diferentes ecossistemas, especialmente os aquáticos continentais e os que envolvem a presença de invertebrados."
+							},
+						]
+					},
+					{ //page 2
+						title:"2.1 A importância das Unidades de Conservação para a biodiversidade da Mata Atlântica",
+						texts:[
+							{
+								text:"As Unidades de Conservação são áreas criadas com estratégias conservacionistas que possuem grande importância na proteção e manutenção das florestas. No âmbito do bioma Mata Atlântica, as regiões que concentram as maiores áreas de remanescentes florestais estão associadas às UCs, que representam um patrimônio de valor inestimável e têm função de proteção da sua rica biodiversidade, além de proporcionar meios e incentivos para o desenvolvimento de pesquisas e educação ambiental."
+							},
+							{
+								text:"Os efeitos sobre a manutenção da biodiversidade dentro das UCs são muito significativos, e traduzem-se em diversas realidades, dentre as quais se destaca a inibição do desmatamento (Ferreira et al., 2005; Drummond et al., 2006; Lemos de Sá, 1999; Fearnside, 2008). Todo o sistema é interligado, as árvores e suas raízes protegem as nascentes dos rios promovendo um aumento nos índices pluviais e na umidade relativa do ar, o que cria um clima mais ameno, além de serem áreas importantíssimas para a preservação de inúmeras espécies nativas da fauna e da flora."
+							},
+							{
+								text:"As UCs ocupam aproximadamente 17% do território brasileiro, em diferentes categorias e esferas de gestão, a conservação dessas paisagens garante não apenas a qualidade da água e a manutenção de modos de vida tradicionais, mas também a proteção de espécies ameaçadas de extinção. Áreas com altíssima riqueza de aves, mamíferos, répteis, anfíbios, peixes, invertebrados e plantas estão protegidas em doze categorias de Unidades de Conservação federais ou estaduais, nos diferentes biomas brasileiros, reduzindo o risco de extinção de muitas delas (WWF, 2014)."
+							},
+							{
+								text:"Diante da grande importância que tem as UCs na manutenção dos ecossistemas nelas encontrados, vale ressaltar a quantidade equiparável ao recorde mundial de biodiversidade de plantas lenhosas por hectare, que foi inventariada na Estação Biológica de Santa Lúcia no município de Santa Teresa, ES (Thomaz & Monteiro, 1997; Conservation International do Brasil et al., 2000).  Outro fato importante em uma Unidade de Conservação do ES, a Reserva Natural Vale, em Linhares, foi a descoberta de uma nova espécie pertencente a um gênero, que até então era monotípico com registros apenas na Amazônia. A Dinizia jueirana-facao, nova espécie da família das Leguminosae, indivíduo com mais de 30 metros de altura e 60 toneladas, comprova como a biodiversidade brasileira está ameaçada, uma vez que a sua descoberta só foi possível por estar protegida em uma UC, caso contrário, possivelmente teria desaparecido antes mesmo de ser descoberta pela ciência (Lewis et al., 2017)."
+							}
+						]
+					},
+					{ //page 3
+						title:"2.2 Unidades de Conservação no estado do Espírito Santo",
+						texts:[
+							{
+								text:"Atualmente, existem no Brasil 2.376 Unidades de Conservação de administração federal, estadual, municipal ou particular. Destas, 1.364 estão localizadas no bioma Mata Atlântica e representam 9,84% deste bioma (MMA, 2019a)."
+							},
+							{
+								text:"No estado do Espírito Santo existem hoje, 121 Unidades de Conservação protegendo aproximadamente 10,5% dos remanescentes de Mata Atlântica, sendo 12 federais, 17 estaduais, 38 municipais e 54 particulares (SOS Mata Atlântica & INPE, 2019; MMA, 2019b). Embora existam diversos estudos sobre fauna e flora nas Unidades de Conservação do Espírito Santo, este conhecimento encontra-se disperso na literatura livre (relatórios, livros, monografias, dissertações, teses e artigos publicados), em planos de manejo e em espécimes depositados em coleções biológicas. Esta pulverização de informações torna bastante difícil a sua utilização para o entendimento da biodiversidade no estado e o uso destas informações na tomada de decisões. Assim, torna-se extremamente útil e necessário o levantamento e disponibilização destes dados de forma integrada, visando o seu uso no desenvolvimento de políticas públicas e na gestão das UCs e dos recursos naturais do Espírito Santo."
+							}
+						]
+					}
+				],
+				[ //topic3
+					{ //page1
+						title:"3. Análise do conhecimento sobre a biodiversidade nas Unidades de Conservação do Espírito Santo",
+						texts:[
+							{
+								title:"3.1 Objetivos",
+								text:"As informações levantadas em Unidades de Conservação por diversos pesquisadores em todo o Brasil estão dispersas em artigos científicos, herbários, teses, coleções zoológicas, publicações oficiais, planos de manejo, relatórios, entre outros. Algumas dessas informações são facilmente acessíveis, especialmente aquelas publicadas em revistas eletrônicas de livre acesso, em contrapartida, uma grande quantidade de informações importantes necessita de buscas minuciosas para ser encontrada. Buscando reunir e sistematizar todos os dados da Mata Atlântica dentro das UCs do estado do Espírito Santo, a fim de avaliar a proteção da biodiversidade deste importante bioma, o Instituto Nacional da Mata Atlântica (INMA) idealizou a Rede Integrada da Mata Atlântica (RIMA), através do projeto Rede de Compartilhamento de Dados e Divulgação da Mata Atlântica no estado do Espírito Santo (Proc. 189/2017 – INMA/FAPES/IEMA)."
+							},
+							{
+								text:"Avaliar o nível de proteção da biodiversidade da Mata Atlântica dentro das UCs é um desafio complexo, que só foi possível com muito esforço e trabalho em equipe. Juntamente com gestores das Unidades de Conservação de todo o estado o INMA propôs realizar um diagnóstico sobre a biodiversidade das UCs capixabas, de gestão federal e estadual, que representa o primeiro passo em direção a uma avaliação mais abrangente e contínua, que é a meta do INMA para longo prazo."
+							},
+							{
+								text:"A proposta de elaboração desse diagnóstico foi pensada com base nas respostas das seguintes perguntas:"
+							},
+							{
+								text:"- Qual é a realidade da distribuição do conhecimento da biodiversidade nas Unidades de Conservação federais e estaduais do estado do Espírito Santo?"
+							},
+							{
+								text:"- Quais são os grupos mais amostrados em cada Unidade de Conservação? E quais são os grupos menos amostrados?"
+							},
+							{
+								text:"- Existe algum viés relacionado à riqueza de espécies de determinado grupo? Ou de fato, a distribuição daquele grupo é mais ou menos intensa devido a fatores ambientais da área?"
+							},
+							{
+								text:"- Qual é a importância de cada Unidade de Conservação para os grupos de espécies avaliados? (espécies ou gêneros novos, quantidade de espécies amostradas ao longo dos anos, se maior ou menor em determinado período)."
+							},
+							{
+								text:"- Quais são as análises a respeito dos efeitos de borda nas Unidades de Conservação, quando relacionado à ocupação populacional humana do entorno e o tipo de atividade econômica desenvolvida pela comunidade local? Houve alguma influência na mudança de paisagem da Unidade de Conservação e/ou na distribuição da biodiversidade em seu interior? (análise realizada a partir do número de coletas das espécies por períodos)."
+							},
+							{
+								text:"- Quais as lacunas observadas para as Unidades de Conservação e/ou Grupos de plantas e animais?"
+							},
+							{
+								text:"- Quais as estratégias que podem ser sugeridas para o preenchimento das lacunas observadas?"
+							}
+						]
+					},
+					{ //page2
+						title:"3.2 Seleção das Unidades de Conservação do estado do Espírito Santo",
+						texts:[
+							{
+								text:"Existem atualmente no Brasil duas metodologias de classificação das Unidades de Conservação, a primeira é internacional, apresentada pela International Union for Conservation of Nature and Natural Resources (IUCN) (Dudley, 2008), e a segunda é nacional, implementada através do Sistema Nacional de Unidades de Conservação da Natureza (SNUC) (MMA, 2011). A classificação da IUCN, adotada nos protocolos de cadastro do Ministério do Meio Ambiente, classifica as UCs em seis categorias (I a VI). Já o SNUC separa as UCs em dois grandes grupos, Unidades de Proteção Integral e Unidades de Uso Sustentável, os quais são subdivididos, respectivamente, por cinco e sete categorias. A lista das categorias da IUCN e do SNUC e suas equivalências aproximadas são apresentadas no Quadro 1."
+							},
+							{
+								frame:require('@/assets/topics/frame1.png'),
+								frameDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								frameNumber:"Quadro 1"
+							},
+							{
+								text:"Das 29 Unidades de Conservação existentes no estado do Espírito Santo sob administração estadual e federal (Instituto Estadual de Meio Ambiente e Recursos Hídricos – IEMA, e Instituto Chico Mendes de Conservação da Natureza – ICMBio, respectivamente), 20 foram selecionadas para serem incluídas neste diagnóstico (Tabela 1 e Figura 1), e estão enquadradas em todas as Unidades de Proteção Integral do SNUC e categorias I, II e III da IUCN; e em quatro das sete categorias de Unidades de Uso Sustentável, sendo elas as categorias de 3 a 6 do SNUC, correspondentes à categoria VI da IUCN."
+							},
+							{
+								text:"Para esse diagnóstico não foram incluídas as Áreas de Proteção Ambiental (APAs, categoria 1 do SNUC), Áreas de Relevante Interesse Ecológico (ARIE, categoria 2 do SNUC) e Reservas Particulares do Patrimônio Natural (RPPN, categoria 7 do SNUC), correspondentes às categorias IV e V da IUCN. A não inclusão dessas áreas deu-se pelo fato de não haver um conhecimento expressivo e abrangente sobre as mesmas, uma vez que as informações são restritas e pulverizadas, o que dificultaria seus diagnósticos durante o período de execução do projeto. Diante disso, o levantamento e a avaliação da biodiversidade dessas áreas deverão ser incluídos em versões futuras do diagnóstico da biodiversidade da Mata Atlântica capixaba."
+							},
+							{
+								frame:require('@/assets/topics/table1.png'),
+								frameDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								frameNumber:"Tabela 1"
+							},{
+								img:require('@/assets/topics/figure1.jpg'),
+								imgDesc:"Categorias e equivalências de classificação das Unidades de Conservação segundo IUCN e SNUC.",
+								imgNumber:"1",
+								width:"650px",
+								height:"800px"
+							},
+						],
+					},
+					{ //page3
+						title:"3.3 Levantamento e análise dos dados",
+						texts:[
+							{
+								text:"As informações utilizadas para a realização desse diagnóstico sobre a biodiversidade das Unidades de Conservação, foram obtidas a partir de documentos oficiais, como planos de manejos, atos legais de criação e Cadastro Nacional de Unidades de Conservação (CNUC - ICMBio, 2018b), além de informações complementares de fontes diversas (referências bibliográficas e sítios da internet)."
+							},
+							{
+								text:"O levantamento dos dados sobre a fauna e a flora nas UCs analisadas nesse diagnóstico, ocorreu em duas etapas distintas, observando a necessidade de metodologias diferentes para os dois reinos em decorrência das particularidades sobre a forma de trabalho, organização e distribuição dos dados pelos pesquisadores. A primeira etapa, comum à fauna e à flora, foi a busca e consulta de teses de doutorado, notas e artigos científicos que tratassem sobre quaisquer aspectos da biodiversidade nas UCs selecionadas. Esse inventário foi iniciado através de consultas a uma ampla compilação de bibliografias, cedidas pelo IEMA, relacionadas às UCs que se encontram sob sua administração (cerca de 315 bibliografias). Para complementar essas informações, foi necessária a realização de buscas em outros materiais na plataforma do Google Acadêmico (https://scholar.google.com.br/), para tanto, utilizou-se como termos de pesquisa, os próprios nomes das UCs."
+							},
+							{
+								text:"O resultado do levantamento bibliográfico sobre as informações da biodiversidade nas UCs foi transcrito para uma planilha no Microsoft  Excel obedecendo aos padrões Darwin Core (DwC). Outras informações também foram consideradas para consulta interna e interpretação dos dados, são elas: bacia e Sub-bacia hidrográfica, categoria de ameaça no ES, categoria de ameaça IUCN, origem da coordenada geográfica (original, alterada, sede do município/localidade), divisão (flora), Clado PDVIG (flora), Unidade de Conservação de ocorrência, origem da informação (artigo, nota ou tese), código da referência bibliográfica utilizada, especificação do estudo (sistemática, ecologia, etc), método de registro de ocorrência (coleta, avistamentos, vocalizações, etc), e tempo do estudo."
+							},
+							{
+								text:"Para a segunda etapa do inventário, a metodologia ocorreu de forma distinta para fauna e flora, baseando-se em diferentes bancos de dados preexistentes. No caso da fauna, foram incluídas três bases de dados distintas, a saber: banco de dados do Projeto “Atualização da Lista de Espécies Ameaçadas de Extinção do Espírito Santo” (INMA/IEMA/FAPES); planilhas de dados disponibilizadas por pesquisadores que colaboraram com o projeto supracitado; e o banco de dados de ictiofauna da Coleção Zoológica Norte Capixaba (CZNC), da UFES de São Mateus. As informações de ocorrências da flora nas UCs foram extraídas de plataformas digitais: GBIF, speciesLink e REFLORA/JABOT e Espécies Ameaçadas de Extinção do ES (Fraga et al., 2019). As ocorrências do specieslink e JABOT foram realizadas a partir de downloads individuais via solicitação. As ocorrências provindas do GBIF foram realizadas usando rotinas em linguagem R (https://www.r-project.org/) em ferramentas do pacote RGBIF (https://www.gbif.org/pt/tool/81747/rgbif). Foram incluídos dados dos Herbários BHCB, BOTU, CEN, CEPEC, CESJ, CVRD, ESA, FLOR, FUEL, FVD, HB, HCF, HEPH, HUEFS, HUFSJ, HUFU, JOI, JPB, MBM, MBML, NYBG, RB, RUSU, SP, SPF, UB, UEC, UFG, UFP, UFPR/UPCB, UPCB, US, VIC, VIES (Acrônimos de acordo com Thiers, 2019) e coleções informais, de acordo com SpeciesLink (2019). A nomenclatura taxonômica segue de acordo com a Flora do Brasil 2020 (em construção), a partir de rotinas disponíveis via scripts em linguagem R, com funções desempenhadas pelo pacote Flora (https://cran.r- project.org/web/packages/flora/index.html). Para ordens e níveis hierárquicos superiores de angiospermas, utilizou-se APG IV (2016) com adaptações, já a nomenclatura de samambaias e embriófitas, deu-se a partir da bibliografia de Judd et al. (2009), Smith et al. (2006) e Goffinet et al. (2008)."
+							},
+							{
+								text:"Os metadados associados às espécies (e.g., distribuição geográfica, fitogeográfica, hábito, forma de vida e status de conservação), foram adquiridos à partir da rotina na interface WEB do Pacote Flora, o Plantminer (http://www.plantminer.com/). As coordenadas geográficas de cada registro de fauna e flora seguem três padrões: (1) coordenada original; (2) coordenada inferida: coordenada aproximada e sugerida pela equipe do projeto com base em localidades, ou provindas de bancos gazeeter (Projeto “Revisão da Lista de Espécies Ameaçadas de Extinção do Espírito Santo”); (3) centroides das UCs: coordenada centroide."
+							},
+							{
+								text:"Além dos dados aqui compilados sobre a biodiversidade, também foram obtidas informações abióticas e ambientais sobre as UCs estaduais e sobre o estado do Espírito Santo, cedidas pelo IEMA. Estes dados incluem bases georreferenciadas contendo limites e zona de amortecimento das UCs, bases hidrológicas, bases geológicas e geomorfológicas, fitofisionomia, uso do solo, áreas de risco de inundações, áreas de risco de incêndio, zonas de licenciamento de mineração, e fiscalização. As bases cartográficas com limites das UCs federais foram obtidas através do endereço eletrônico http://www.icmbio.gov.br/portal/unidades-de-conservacao."
+							},
+							{
+								text:"A obtenção desses dados permitiu ilustrar o quantitativo de registros de ocorrência da fauna e da flora para cada uma das Unidades de Conservação (UCs) envolvidas nesse projeto. Para tanto, foi necessária a organização de uma base cartográfica contemplando informações referentes às UCs, limites políticos estaduais e municipais, hidrografia e rodovias do estado do Espírito Santo. O banco de dados contendo os registros de ocorrências da fauna e da flora foi organizado em planilhas no formato .csv utilizando o software Microsoft Excel, para posterior leitura no software Quantum Gis (QGIS), aplicativo utilizado para a criação da base cartográfica e elaboração dos referidos mapas. Foram elaborados 76 mapas, sendo 36 para contemplar os registros de ocorrências da fauna, e 40 para ilustrar os registros da flora. A apresentação dos dados em cada mapa deu-se de forma distinta para os dois grupos. Para ilustrar os registros da fauna nas UCs optou-se em evidenciar as suas classes, sendo elas: actinopterygii, amphibia, arachnida, aves, chondrichthyes, insecta, malacostraca, mammalia e reptilia; que foram organizadas em dois mapas para cada UC. Já a organização dos dados para ilustrar os registros da flora, deu-se a partir do enfoque na divisão, sendo elas: espermatófitas, embriófitas e samambaias; e no Clado APG IV (angiospermas indefinidas, eudicotiledôneas basais, grado ANA, magnoliídeas, monocotiledôneas, superasterídeas, superrosídeas). "
+							},
+							{
+								text:"Para aprimorar a amostragem dos registros de ocorrência, objetivando ilustrar a situação mais aproximada da realidade, adotou-se uma delimitação de 1 km no entorno de cada Unidade de Conservação, utilizando a técnica do Buffer no QGIS. O entorno foi utilizado como limite de recorte para cada grupo de análise de fauna e flora, permitindo tanto a elaboração dos mapas, quanto a exportação, em formato .txt, dos dados elencados a cada UC aqui analisada, contribuindo assim para a elaboração dos gráficos e tabelas relacionadas às referidas análises."
+							},
+							{
+								text:"Informações nacionais a respeito do estado de ameaça de extinção das espécies de fauna e flora, assim com suas categorias de ameaçadas, foram obtidas a partir dos sete volumes do Livro Vermelho da Fauna Brasileira Ameaçada de Extinção (ICMBIO, 2018a) e do Livro Vermelho da Flora do Brasil (Martinelli & Moraes, 2013), baseados nos atos legais vigentes sobre o assunto. Dados sobre as categorias e estados de ameaça a fauna e flora no Espírito Santo foram obtidos a partir de Fraga et al. (2019), baseados nos resultados do projeto “Revisão da Lista de Espécies Ameaçadas de Extinção do Espírito Santo” (INMA/IEMA/FAPES)."
+							},
+							{
+								text:"A seguir é apresentada a síntese da biodiversidade para cada uma das 20 Unidades de Conservação. A listagem completa das espécies de fauna e flora está apresentada no Anexo I."
+							}
+						]
+					}
+				],
+				[ //topic4
+					{ //page1
+						title:"4. Síntese do conhecimento sobre a fauna e a flora nas Unidades de Conservação do ES",
+						texts:[
+							{
+								title:"4.1 Floresta Nacional de Goytacazes",
+								text:"A Floresta Nacional de Goytacazes administrada pelo ICMBio, está localizada no município de Linhares, há cerca de 1 km do centro urbano e possui uma área de 1.426,96 ha. A origem do seu nome tem relação com uma etnia indígena, os índios Goytacazes, que habitavam a costa brasileira do sul da Bahia à foz do rio Paraíba do Sul, no Rio de Janeiro. "
+							},
+							{
+								text:"A origem da UC deu-se no ano de 1923, quando o governo do estado do Espírito Santo doou ao governo federal uma área de 1.611,25 ha para a instauração da Fazenda Experimental de Goytacazes, com intuito de constituir uma base de pesquisas sobre a cultura do cacau. Em agosto de 1974, a fazenda foi incorporada ao patrimônio da Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA), que havia sido criada em dezembro de 1972. Em junho de 1976 a EMBRAPA cedeu, em forma de comodato, a fazenda para a Empresa Capixaba de Pesquisa Agropecuária (EMCAPA, atual Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - INCAPER), pertencente ao governo do Espírito Santo, com o objetivo de desenvolvimento de pesquisas agropecuárias. Como a EMCAPA já possuía uma área antropizada localizada na margem oeste da rodovia BR-101, suficiente para seus estudos, acabou por manter a fazenda inalterada, que se encontrava a leste da rodovia. Embora a área da Fazenda Experimental de Goytacazes já tivesse passado por diversas alterações antrópicas desde a época colonial, o estado de preservação de sua mata nativa era alto quando comparado às demais terras da região, o que levou o governo capixaba a declarar a fazenda como Área de Preservação Permanente em 01 de outubro de 1985, através do Decreto nº 3096-E."
+							},
+							{
+								text:"Diante do excepcional estado de preservação da área da Fazenda Goytacazes e da importância que este remanescente florestal poderia ter na preservação da biodiversidade local, na produção de sementes de vegetais da Mata Atlântica e na composição de um corredor ecológico para este bioma, a área foi transformada em Floresta Nacional através do decreto presidencial em 28 de novembro de 2002. A área da UC, que ligava os estados da Bahia, Espírito Santo e Rio de janeiro, foi ampliada em 73,96 ha por meio do Decreto Presidencial de 05 de junho de 2012, que também revogou o decreto de 2002, e compôs assim a sua atual área total. O plano de manejo da UC é relativamente recente, criado em 2013 (ICMBIO, 2013a), e é considerado um dos mais atualizados e completos dentre as unidades aqui avaliadas. "
+							},
+							{
+								text:"De acordo com o Decreto Presidencial de 28 de novembro de 2002, a UC tem como objetivos: "
+							},
+							{
+								text:"- Promover o manejo de uso múltiplo dos recursos naturais;"
+							},
+							{
+								text:"- Promover a manutenção e a proteção dos recursos hídricos e da biodiversidade;"
+							},
+							{
+								text:"- Promover a recuperação de áreas degradadas;"
+							},
+							{
+								text:"- Promover a educação ambiental; "
+							},
+							{
+								text:"- Apoiar o desenvolvimento de métodos de exploração sustentável dos recursos naturais das áreas limítrofes;"
+							},
+							{
+								text:"- Manter a diversidade. "
+							},
+							{
+								text:"A formação vegetal desta UC é composta majoritariamente por mata secundária em estágio avançado de regeneração. O ecossistema presente na unidade é a Floresta Ombrófila Densa Aluvial, fazendo parte da planície aluvial do rio Doce, que é a maior bacia hidrográfica do estado do Espírito Santo, e cuja margem direita compõe o limite norte da FLONA. Embora a UC esteja localizada na área de inundação do rio Doce, o seu interior não conta com nenhum corpo d’água perene, ocorrendo apenas áreas alagadas formadas após as cheias ou chuvas de verão."
+							},
+							{
+								text:"Os impactos antrópicos mais relevantes para a UC são a caça, a retirada de palmito, a extração de madeira e o despejo de lixo próximo de seus limites externos (ICMBIO, 2013b), além da poluição do rio Doce. A FLONA de Goytacazes faz parte do corredor ecológico capixaba SOCONGO (Sooretama-Comboios-Goytacazes), criado por meio do Decreto Estadual nº 2529-R, em 02 de junho de 2010."
+							},
+							{
+								text:"De acordo com o plano de manejo da UC (ICMBIO, 2013b), sua fauna é composta por 661 espécies animais, sendo: 306 insetos, 44 anfíbios, 43 répteis, 204 aves e 64 mamíferos. Devido à ausência de corpos d’água dentro da UC, não há registro de espécies de peixes na mesma. Já a flora compreende 291 espécies, sendo cinco exóticas encontradas junto às trilhas, estradas, brejos e macegas."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 570 ocorrências de organismos de fauna e flora (Figuras 2-5; Tabelas 2 e 3) pertencentes a 310 espécies, sendo 170 ocorrências de fauna (99 espécies) e 400 ocorrências de flora (211 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1930, tendo seu ápice amostral no quinquênio de 2006-2010 para a fauna e 2011-2015 para a flora (Figura 6). Quarenta e dois registros não continham data de coleta e não puderam ser incluídos na análise gráfica, sendo 32 de fauna e 10 de flora. "
+							},
+							{
+								img:require('@/assets/topics/figure2.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia e Reptilia, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:2
+							},
+							{
+								img:require('@/assets/topics/figure3.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Arachnida, Insecta e Mammalia, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:3,
+								width:"900px",
+								height:"636px"
+							},
+							{
+								img:require('@/assets/topics/figure4.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:4,
+								width:"900px",
+								height:"636px"
+							},
+							{
+								img:require('@/assets/topics/figure5.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes na Floresta Nacional de Goytacazes.",
+								imgNumber:5
+							},
+							{
+								frame:require('@/assets/topics/table2.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna na Floresta Nacional de Goytacazes.",
+								frameNumber:"Tabela 2"
+							},
+							{
+								frame:require('@/assets/topics/table3.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora na Floresta Nacional de Goytacazes.",
+								frameNumber:"Tabela 3"
+							},
+							{
+								img:require('@/assets/topics/figure6.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas na Floresta Nacional de Goytacazes, ao longo do tempo.",
+								imgNumber:6
+							},
+							{
+								text:"O levantamento da fauna revelou que os grupos com maior representatividade de registros são os répteis seguidos dos insetos, com 81 e 72 registros, respectivamente. Contudo, os grupos mais diversos são os insetos, com 58 espécies, e os répteis, com 29 espécies. A diversidade faunística abrange 19 famílias, sendo que as 10 mais representativas, quanto ao número de registros, são apresentadas na Figura 7 e representam 91% dos registros. Dentre as famílias de fauna com maior número de registros, destacam-se as serpentes da família Dipsadidae, com 51 registros para 15 espécies, e os insetos da família Culicidae, com 47 registros para 33 espécies, que mostraram a maior diversidade dentre as famílias, seguidos dos insetos da família Tephritidae com 23 espécies."
+							},
+							{
+								text:"Das espécies registradas na UC, três estão ameaçadas de extinção no Espírito Santo, sendo duas categorizadas como Vulnerável (VU) e uma Em Perigo (EN). Com relação à lista nacional das espécies ameaçadas de extinção, este número é menor, sendo que duas espécies são consideradas ameaçadas, estando na categoria VU (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure7.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico da Floresta Nacional de Goytacazes.",
+								imgNumber:7
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 364 registros, 185 espécies, pertencentes a 75 famílias. Logo após, está o grupo das samambaias com 27 registros, 20 espécies e nove famílias. Um total de 89 ocorrências (22% dos registros totais) refere-se a espécimes identificados apenas em nível de família. A maior diversidade florística de angiospermas levantada, pertence à clados derivados, a saber: superrosídeas, com mais da metade dos registros e espécies levantados, seguidas por superasterídeas, com 29% das espécies de espermatófitas. Os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza: monocotiledôneas, magnoliídeas e eudicotiledôneas basais como mostra a Tabela 3. As famílias com maior número de espécies foram Fabaceae, com 18 espécies, Myrtaceae com 14 e Rubiaceae com 13 espécies. Entre as samambaias, apenas espécies de monilófitas constam no inventário, sendo Pteridaceae a família mais representativa, com 12 registros e oito espécies (Figura 8). "
+							},
+							{
+								text:"Das espécies de plantas levantadas, 13 estão ameaçadas de extinção a nível nacional, sendo cinco VU, quatro EN e quatro CR. Já regionalmente, a UC possui 28 espécies ameaçadas, sendo 12 VU, 13 EN e três CR (Anexo I). A Riodocea pulcherrima Delprete é um exemplo de espécie pertencente a um gênero novo, descrito a partir de coletas realizadas nas proximidades da UC que encontra-se na categoria de ameaça EN em ambas as listas consultadas neste estudo."
+							},
+							{
+								img:require('@/assets/topics/figure8.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico da Floresta Nacional de Goytacazes.",
+								imgNumber:8
+							},
+						]
+					},
+					{ //page2
+						title:"4.2 Floresta Nacional de Pacotuba",
+						texts:[
+							{
+								text:"Com apenas 450,59 ha, a Floresta Nacional de Pacotuba é a segunda menor Unidade de Conservação incluída nesse diagnóstico. É administrada pelo ICMBio e está localizada integralmente no município de Cachoeiro de Itapemirim, no sul do estado do Espírito Santo."
+							},
+							{
+								text:"A área da UC pertencia, originalmente, ao governo do estado do ES e foi adquirida em agosto de 1929 por um morador local com a denominação de Morro Seco e Bananal. Em janeiro de 1950, parte do terreno contendo 682,14 ha e denominado de Fazenda Bananal, foi vendido para o governo federal, colocando-o sob responsabilidade da Empresa Brasileira de Assistência Técnica e Extensão Rural (EMBRATER, Ministério da Agricultura), nomeando a área de Fazenda Regional de Criação de Bananal do Norte. Semelhante ao ocorrido com a FLONA de Goytacazes, em fevereiro de 1980, o governo federal cedeu parte da fazenda em comodato à Empresa Capixaba de Pesquisa Agropecuária (EMCAPA, atual Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - INCAPER). O governo do Espírito Santo declarou então cerca de 300 ha da área como de preservação vegetal permanente em 30 de setembro de 1985, através do Decreto nº 3094-E, um dia antes da publicação do decreto de preservação da UC. Diante do bom estado de conservação da área e de sua potencial importância na produção de sementes de plantas nativas, o Ministério do Meio Ambiente (MMA) interessou-se em incluí-la no projeto “Rede de Sementes Florestais Nativas”, sendo transformada em Floresta Nacional por meio do Decreto Presidencial de 13 de dezembro de 2002. Seu nome foi assim determinado por estar inserida no distrito de Pacotuba, e que em linguagem tupi significa “muitas bananas”, uma alusão a grande quantidade de bananeiras que eram encontradas na região."
+							},
+							{
+								text:"O ecossistema presente na UC é a Floresta Estacional Semidecidual Submontana, também chamada Floresta Tropical Subcaducifólia Submontana. A UC encontra-se à margem esquerda do rio Itapemirim, que é a terceira maior bacia hidrográfica do Espírito Santo (precedido pelas bacias dos rios Doce e São Mateus), e possui diversos corpos d’água perenes e não perenes afluentes desta bacia. Sua formação vegetal é composta majoritariamente por mata primária e os impactos antrópicos mais relevantes estão relacionados à caça, pesca no rio Itapemirim e retirada de madeira (ICMBIO, 2011).  A UC possivelmente faz parte de um importante corredor ecológico conectado-se aos Parques Estaduais de Pedra Azul, Forno Grande e Mata das Flores. O plano de manejo foi criado em 2011."
+							},
+							{
+								text:"De acordo com o Decreto Presidencial de 13 de dezembro de 2002 a FLONA de Goytacazes tem como objetivos:"
+							},
+							{
+								text:"- Promover o manejo de uso múltiplo dos recursos naturais;"
+							},
+							{
+								text:"- Promover a manutenção e a proteção dos recursos hídricos e da biodiversidade;"
+							},
+							{
+								text:"- Promover a recuperação de áreas degradadas;"
+							},
+							{
+								text:"- Promover a educação ambiental; "
+							},
+							{
+								text:"- Apoiar o desenvolvimento de métodos de exploração sustentável dos recursos naturais das áreas limítrofes."
+							},
+							{
+								text:"De acordo com o plano de manejo da UC (ICMBIO, 2011), sua fauna é composta por 638 espécies, sendo: 280 insetos, 25 peixes (22 no rio Itapemirim e três nos corpos d’água internos), 23 anfíbios, 20 répteis, 261 aves e 29 mamíferos. Já a flora compreende 324 espécies, sendo nove exóticas encontradas em macegas e áreas de reflorestamento."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 737 ocorrências de organismos de fauna e flora (Figuras 9-11; Tabelas 4 e 5) pertencentes a 372 espécies, sendo 17 ocorrências de fauna (12 espécies) e 720 ocorrências de flora (360 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1941 com um registro de flora. As amostragens seguintes de flora foram realizadas em 1972 e de forma mais consistente a partir de 1990. As amostragens de fauna ocorreram a partir de 1990 com apenas um registro, tornando-se mais frequentes a partir de 2004. O ápice amostral na FLONA ocorreu no quinquênio de 2011-2015 para a fauna e de 1991-1995 para a flora (Figura 12). Um total de dez registros de flora e de fauna encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica. "
+							},
+							{
+								img:require('@/assets/topics/figure9.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia, Insecta, Mammalia e Reptilia, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:9
+							},
+							{
+								img:require('@/assets/topics/figure10.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:10
+							},
+							{
+								img:require('@/assets/topics/figure11.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes na Floresta Nacional de Pacotuba.",
+								imgNumber:11
+							},
+							{
+								frame:require('@/assets/topics/table4.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna na Floresta Nacional de Pacotuba.",
+								frameNumber:"Tabela 4"
+							},
+							{
+								frame:require('@/assets/topics/table5.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora na Floresta Nacional de Pacotuba.",
+								frameNumber:"Tabela 5"
+							},
+							{
+								img:require('@/assets/topics/figure12.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas na Floresta Nacional de Pacotuba, ao longo do tempo.",
+								imgNumber:12
+							},
+							{
+								text:"O levantamento da fauna revelou que os grupos com maior representatividade de registros são os insetos, com 12 registros, seguido dos mamíferos com três registros e dos anfíbios e répteis com um registro cada. Estes também são os grupos mais diversos da UC, sendo que foram levantadas sete espécies de insetos, três de mamíferos, uma espécie de anfíbio e uma de répteis. A diversidade faunística abrange seis famílias apresentadas na Figura 13, sendo que o grupo dos mamíferos possui o maior número de famílias (três), com uma espécie registrada para cada família. Todos os registros da classe Insecta pertencem à família Chrysopidae (bicho-lixeiro, ordem Neuroptera)."
+							},
+							{
+								text:"Nenhuma espécie registrada na UC encontra-se ameaçada de extinção, tanto no ES, quanto na lista nacional das espécies ameaçadas."
+							}
+						]
+					}
+				],
+				
 			],
 			members:[
 				{

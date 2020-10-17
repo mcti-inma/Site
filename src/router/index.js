@@ -29,15 +29,15 @@ const routes = [
     component: () => import('../pages/Members.vue')
 	},
 	{
-    path: '/synthesis/:id',
-    name: 'Synthesis',
-    component: () => import('../pages/Synthesis.vue')
-	},
-	{
     path: '/maps',
     name: 'maps',
     component: () => import('../pages/Maps.vue')
-  }
+	},
+	{
+    path: '/synthesis/',
+    name: 'Synthesis',
+    component: () => import('../pages/Synthesis.vue')
+	},
 ]
 
 const router = new VueRouter({
