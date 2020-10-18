@@ -3,7 +3,18 @@
     <footer>
       <!-- Social -->
       <div class="background-primary padding text-center">
-        <!-- <a href="/"><i class="icon-facebook_circle icon2x text-white"></i></a> 
+				<div class="flex col-6">
+					<a class="footer-icon" href="http://inma.gov.br" target="_blank">
+						<img class="border" src="@/assets/icons/inma.png" alt="">
+					</a>
+					<a class="footer-icon" href="https://iema.es.gov.br" target="_blank">
+						<img class="border" src="@/assets/icons/iema.png" alt="">
+					</a>
+					<a class="footer-icon" href="https://fapes.es.gov.br" target="_blank">
+						<img class="border" src="@/assets/icons/fapes.png" alt="">
+					</a>
+        </div>
+				<!-- <a href="/"><i class="icon-facebook_circle icon2x text-white"></i></a> 
         <a href="/"><i class="icon-twitter_circle icon2x text-white"></i></a>
         <a href="/"><i class="icon-google_plus_circle icon2x text-white"></i></a>
         <a href="/"><i class="icon-instagram_circle icon2x text-white"></i></a>                                                                         -->
@@ -35,7 +46,17 @@
             <!-- Collumn 2 -->
             <div class="s-12 m-12 l-4 margin-m-bottom-2x">
               <h4 class="text-uppercase text-strong">Contato</h4>
-              <div class="line">
+              
+							<div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-globe_black text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><b>Instituição</b> <a href="http://inma.gov.br" target="_blank">Instituto Nacional da Mata Atlântica (INMA)</a></p>
+                </div>
+              </div>
+
+							<div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-placepin text-primary text-size-12"></i>
                 </div>
@@ -43,6 +64,7 @@
                   <p><b>Endereço:</b> Av. José Ruschi, Nº 4, Santa Teresa - ES - Cep: 29.650-000</p>
                 </div>
               </div>
+
               <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-mail text-primary text-size-12"></i>
@@ -51,6 +73,7 @@
                   <p><a href="mailto:contato@inma.gov.br?subject=Hello%20again" class="text-primary-hover"><b>E-mail:</b> contato@inma.gov.br</a></p>
                 </div>
               </div>
+
               <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-smartphone text-primary text-size-12"></i>
@@ -59,6 +82,7 @@
                   <p><b>Telefone:</b> (27) 3259-1182 / 3259-1696 / 3259-2100</p>
                 </div>
               </div>
+							
               <!-- <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-twitter text-primary text-size-12"></i>
@@ -105,3 +129,16 @@
     </footer> 
   </div>
 </template>
+
+<style scoped>
+	.flex{
+		display:flex
+	}
+	.footer-icon{
+		width: 200px;
+		margin: auto;
+	}
+	.border{
+		border-radius: 10px;
+	}
+</style>

@@ -1,24 +1,46 @@
 <template>
 	<div>
-		<h1 v-if="loading">Carregando Layers...</h1>
 		<div 
 			id="map" 
 			class="map"  
 			:style="{width: `${width}px`, height: `${height}px`}">
 		</div>
 		<br>
-		<span v-for="(route, index) in routers" :key="route.point">
-			<input type="checkbox" :id="{index}" value="0" 
-				v-model="check[index]" :change="activeLayer(index)">
-			<label> {{ route.name }} </label>
-		</span>
+
+		<loader v-if="loading" 
+			size="50" borderSize="6" time="0.9" 
+			:colors="['#49BF4C','#49BF4C']"
+		/>
+
+		<div v-else>
+			<span v-for="(route, index) in routes" :key="route.point">
+				<input type="checkbox" :id="{index}" value="0" 
+					v-model="check[index]" :change="activeLayer(index)">
+				<label> {{ route.name }} </label>
+			</span>
+		</div>
 	</div>
 </template>
 <script>
 import Api from '@/service/api'
+import loader from '@/components/template/loader.vue'
 
 export default {
-	props:['width', "height"],
+	props:{
+		width:{
+			required:true
+		},
+		height:{
+			required:true
+		},
+		routes:{
+			type: Array		
+		}
+	},
+
+	components:{
+		loader
+	},
 
   data() {
     return {
@@ -29,10 +51,10 @@ export default {
 			layers:[],
 			loading: false,
 			check:[],
-			routers:[
-				{name:"Unidades de Conservação", point:"uc"},
-				{name:"Zonas de Amortecimento", point:"zonas"}
-			]
+			// routers:[
+			// 	{name:"Unidades de Conservação", point:"uc"},
+			// 	{name:"Zonas de Amortecimento", point:"zonas"}
+			// ]
     };
 	},
 
@@ -48,8 +70,7 @@ export default {
 			// var layerPostalcodes = 
 			this.layerGroup.addTo(this.map);
 			
-			
-			for(const route of this.routers){
+			for(const route of this.routes){
 				this.getLayers(route.point)
 			}
 		
@@ -80,7 +101,7 @@ export default {
 		},
 		async getLayers(route)  {
 			this.loading = true
-			let response = await Api().get(`/${route}`)
+			let response = await Api().get(`${route}`)
 			this.layers.push( new this.L.GeoJSON(response.data) )
 			this.loading = false
 	

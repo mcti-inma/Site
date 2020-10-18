@@ -1,9 +1,10 @@
 import axios from 'axios'
+import config from '@/config'
+
 // http://200.137.88.3:8081/geoserver
 export default () => {
   return axios.create({
-    baseURL:'http://localhost:3000',
-    // baseURL:'http://200.137.88.3:8081',
+    baseURL: config.data().request.url,
     withCredentials:false,
     headers:{
       Accept:"application/json",

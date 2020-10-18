@@ -15,25 +15,20 @@
             <p class="nav-text"></p>
             <ul class="right chevron center-auto">
               <li><a href="/">Home</a></li> 
-
 							<li>
+								<a href="synthesis">Síntese</a>
+							</li>
+							<!-- <li>
 								<a>Síntese</a>
 								<ul>
 									<li v-for="(topics, index) in $config.topics" :key="index">
-										<!-- <a>{{topics[index].title}}</a> -->										
 										<a v-for="(topic, i) in topics" :key="i"
 											@click="toSynthesis(index,i)">
 											{{topic.title}}
 										</a>
-										<!-- <ul>
-											<li v-for="(topic, i) in topics" :key="topic.title">
-												<a @click="toTopic(index,i)">{{topic.title}}</a>
-											</li>
-										</ul> -->
-
 									</li>
 								</ul>
-							</li>
+							</li> -->
 
 							<li><a href="maps">Mapas</a></li>
               <li><a href="members">Equipe</a></li>

@@ -14,6 +14,15 @@ Projeto desenvolvido utilizando recursos de código livre
 * Json
 #
 
+## Subir aplicação via Ubuntu 20.04
+Permissão de acesso no para script **./start**
+```sh
+sudo chmod 777 start
+```
+Executar script
+```sh
+./start
+```
 
 ## Comandos para subir o projeto
 ### 1. Instalar dependecias do projeto
@@ -31,16 +40,18 @@ Servidor com hot-reload apenas para desenvolvimento
 ```sh
 npm run serve
 ```
-## Subir ou atualizar a aplicação
+## Subir ou atualizar a aplicação via docker
 **Realizar os passos 1. e 2. acima**
 
-Nesta pasta do execute:
+Na pasta raiz do projeto execute:
 ```sh
 sudo docker-compose up --build -d 
 ```
 
 Mover o arquivo **./htaccess** para a pasta **./dist**
-
+```sh
+cp ./.htaccess ./dist
+```
 Pode ser visto em [localhost](http://localhost)
 
 ## Json Server
@@ -54,5 +65,14 @@ No diretório **./server** execute:
 ```sh
 json-server --watch db.json
 ```
+Ligar json server IP externo
+```sh
+json-server --watch db.json --ro --host <seu IP>
+```
+Ligar json server IP externo em segundo plano
+```sh
+json-server --watch db.json --ro --host <seu IP> >> ./json-server.log 2>&1 </dev/null &
+```
+
 O banco de teste se encontra em **./server/db.json**
 

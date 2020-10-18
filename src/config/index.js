@@ -1,6 +1,13 @@
 export default {
   data() {
     return {
+			request:{
+				url:"http://142.93.14.214:3000/",
+				routes:[
+					{name:"Unidades de Conservação", point:"uc"},
+					{name:"Zonas de Amortecimento", point:"zonas"}
+				]
+			},
 			topics:[
 				[ //topic1
 					{ //page1
