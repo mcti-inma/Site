@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1 v-if="loading">Carregando Layrs...</h1>
+		<h1 v-if="loading">Carregando Layers...</h1>
 		<div 
 			id="map" 
 			class="map"  

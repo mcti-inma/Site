@@ -2,7 +2,7 @@
 	<div>
 		<br>
 		<center>
-			<Leaflet width="500" height="400"/>
+			<Leaflet width="800" height="600"/>
 		</center>
 		<br>
 	</div>
