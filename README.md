@@ -15,14 +15,21 @@ Projeto desenvolvido utilizando recursos de código livre
 #
 
 ## Subir aplicação via Ubuntu 20.04
-Permissão de acesso no para script **./start**
+Permissão de acesso no para script **./install**
 ```sh
 sudo chmod 777 start
 ```
+### Instalar e subir
+Executar script
+```sh
+./start install
+```
+### Atualizar e subir
 Executar script
 ```sh
 ./start
 ```
+
 
 ## Comandos para subir o projeto
 ### 1. Instalar dependecias do projeto
