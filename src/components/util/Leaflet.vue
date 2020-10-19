@@ -14,8 +14,9 @@
 
 		<div v-else>
 			<span v-for="(route, index) in routes" :key="index">
-				<input type="checkbox" :id="{index}" value="0" 
-					v-model="check[index]" :change="activeLayer(index)">
+				<input type="checkbox" 
+				v-model="check[index]" 
+				:change="activeLayer(index)">
 				<label> {{ route.name }} </label>
 			</span>
 		</div>
@@ -49,7 +50,7 @@ export default {
 			layerGroup:null,
 			jsonLayer:null,
 			layers:[],
-			loading: false,
+			loading: true,
 			check:[],
 			// routers:[
 			// 	{name:"Unidades de Conservação", point:"uc"},
@@ -70,9 +71,8 @@ export default {
 			// var layerPostalcodes = 
 			this.layerGroup.addTo(this.map);
 			
-			for(const route of this.routes){
-				this.getLayers(route.point)
-			}
+			this.getLayers()
+			
 		
 	},
 
@@ -99,10 +99,12 @@ export default {
 				this.layerGroup.removeLayer(this.layers[id]);
 			}
 		},
+
 		async getLayers(route)  {
-			this.loading = true
-			let response = await Api().get(`${route}`)
-			this.layers.push( new this.L.GeoJSON(response.data) )
+			for(const [i,route] of this.routes.entries()){
+				let response = await Api().get(`${route.point}`)
+				this.layers[i] = new this.L.GeoJSON(response.data)
+			}
 			this.loading = false
 	
 			//functiona
