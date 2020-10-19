@@ -11,7 +11,7 @@
 
 function refresh(){
 	npm run build
-	sudo docker-compose up --build -d 
+	sudo docker-compose up --force-recreate -d 
 	cp ./.htaccess ./dist
 }
 

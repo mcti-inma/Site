@@ -13,7 +13,7 @@
 		/>
 
 		<div v-else>
-			<span v-for="(route, index) in routes" :key="route.point">
+			<span v-for="(route, index) in routes" :key="index">
 				<input type="checkbox" :id="{index}" value="0" 
 					v-model="check[index]" :change="activeLayer(index)">
 				<label> {{ route.name }} </label>
