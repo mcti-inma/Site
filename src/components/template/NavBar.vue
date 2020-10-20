@@ -10,10 +10,16 @@
               <TemplateTitle :conf="{ fontSize: '33px' }" :elements="title" />
               <!-- <img class="inma-logo" src="http://inma.gov.br/wp-content/themes/portalpadrao/img/logo.jpg" alt="logo INMA"> -->
             </a>
-          </div>
+          </div>		
+
           <div class="top-nav s-12 l-10">
             <p class="nav-text"></p>
             <ul class="right chevron center-auto">
+							
+							<li>
+								<input class="search" type="text" placeholder="Pesquisar">
+							</li>
+
               <li><a href="/">Home</a></li> 
 							<li>
 								<a href="synthesis">Síntese</a>
@@ -42,6 +48,13 @@
 </template>
 
 <style scoped>
+.search{
+	margin-top:4px;
+	margin-right:10px;
+}
+.search-a:hover{
+	background: none !important;
+}
 a {
   background-color: white;
 }

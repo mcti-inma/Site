@@ -14,6 +14,12 @@
   </div>
 </template>
 
+<script>
+export default {
+	props:["highlight"]
+}
+</script>
+
 <style scoped>
 	.img{
 		margin: auto;
@@ -39,6 +45,9 @@
 		vertical-align: baseline !important;
 		font-size: 14px;
 		/* text-indent: 35pt !important; */
+	}
+	.highlight{
+		background-color: rgb(250, 255, 199) !important;
 	}
 	.label{
 		position: relative;

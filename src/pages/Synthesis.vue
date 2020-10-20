@@ -10,7 +10,7 @@
 				<span slot="title">
 					<div v-for="(topic, i) in topics" :key="i">
 						<br>
-						<a class="title" :href="`?synthesis=${index}&page=${i}`">
+						<a :class="`title ${getStyleHighlight(topic.title)}`" :href="`?synthesis=${index}&page=${i}`">
 						<!-- @click="toSynthesis(index,i)" -->
 							{{topic.title}}
 						</a>
@@ -31,21 +31,21 @@
 						<br>
 					</template>
 					<Description>
-						<span slot="title">{{ desc.title }}</span>
-						<p class="text" slot="text" :style="ident(desc.ident)">
+						<span slot="title" :class="getStyleHighlight(desc.title)">{{ desc.title }}</span>
+						<p slot="text" id="search" :class="`text ${getStyleHighlight(desc.text)}`" :style="ident(desc.ident)">
 							{{ desc.text }}
 						</p>
 						<template v-if="desc.img">
 							<div slot="img">
 								<img class="img" :src="desc.img" :style="{width: desc.width, height: desc.height}" alt="">
-								<label class="text label" for="img"> 
+								<label :class="`text label ${getStyleHighlight('Figura '+desc.imgNumber+' '+desc.imgDesc)}`" for="img"> 
 									<strong>Figura {{desc.imgNumber}}.</strong> {{desc.imgDesc}} 
 								</label>
 							</div>
 						</template>
-						<template v-if="desc.frame">
+						<template v-else-if="desc.frame">
 							<div slot="img">
-								<label class="text label" for="img"> 
+								<label :class="`text label ${getStyleHighlight(desc.frameNumber+' '+desc.frameDesc)}`" for="img"> 
 									<strong>{{desc.frameNumber}}.</strong> {{desc.frameDesc}} 
 								</label>
 								<img class="img" :src="desc.frame" alt=""> <br>
@@ -85,6 +85,7 @@ export default {
 
 	data(){
 		return{
+			search:"A Biodiversidade e o bioma Mata Atlântica",
 			page: 0,
 			title:"",
 			texts:"",
@@ -98,9 +99,26 @@ export default {
 		if( this.$route.query.synthesis ){
 			this.nextTopic()
 		}
+
 	},
 
 	methods:{
+		getStyleHighlight(text){
+			// if( this.$route.query.search ){
+			if( this.search != null ){
+				if( text && this.searchWork(text, this.search) ){
+					return "highlight"
+				}
+			}
+		},
+		searchWork(text, value) {
+			if (text.toLowerCase().indexOf(value.toLowerCase()) > -1) {
+				console.log( text )
+				return true
+			} else {
+				return false;
+			}
+		},
 		nextTopic(){
 			this.topic = parseInt(this.$route.query.synthesis)
 			this.topicPage = parseInt(this.$route.query.page)
