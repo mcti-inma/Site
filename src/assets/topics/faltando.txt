@@ -1,6 +1,19 @@
+
+{
+	frame:require('@/assets/topics/table.png'),
+	frameDesc:"",
+	frameNumber:"Tabela "
+},
+{
+	img:require('@/assets/topics/figure.png'),
+	imgDesc:"",
+	imgNumber:
+},
+
 table17
+table19
+
 figure52
 figure54
-table19
 figure59
 figure61

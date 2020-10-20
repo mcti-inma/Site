@@ -610,7 +610,7 @@ export default {
 							},
 						]
 					},
-					{
+					{ //page5
 						title:"4.5 Monumento Natural o Frade e a Freira",
 						texts:[
 							{
@@ -687,7 +687,442 @@ export default {
 							},
 							{
 								text:"Nenhuma das espécies registradas na UC encontra-se ameaçada de extinção tanto a nível estadual, quanto nacional."
-							}
+							},
+							{
+								img:require('@/assets/topics/figure32.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico do Monumento Natural o Frade e a Freira.",
+								imgNumber:32
+							},
+							{
+								text:"Neste inventário florístico, o único grupo com ocorrências registradas foi angiospermas, com dez registros, divididos em cinco espécies, e cinco famílias, outros três são de espécimes identificados apenas em nível de família. A família mais diversa foi Dioscoreaceae pertencente ao clado das monocotiledôneas, somando quatro registros em três espécies (Figura 33). Nenhuma das quatro espécies registradas é classificada em categorias de ameaçadas de extinção, de acordo com as listas consultadas."
+							},
+							{
+								img:require('@/assets/topics/figure33.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico do Monumento Natural o Frade e a Freira.",
+								imgNumber:33
+							},
+						]
+					},
+					{ //page6
+						title:"4.6 Monumento Natural Estadual de Serra das Torres",
+						texts:[
+							{
+								text:"O Monumento Natural Estadual de Serra das Torres é a Unidade de Conservação mais jovem dentre as incluídas neste estudo. Foi criada através da Lei Estadual nº 9.463, de 11 de junho de 2010. A UC é administrada pelo IEMA e localiza-se no extremo sul do Espírito Santo nos municípios de Átílio Vivácqua (25,06% da área), Mimoso do Sul (36,41% da área) e Muqui (38,53% da área) (ISA, 2020). A UC possui uma área total de 10.458,90 ha e está localizada a mais de 10 km da divisa com o estado do Rio de Janeiro."
+							},
+							{
+								text:"A região da Serra das Torres representa um dos últimos e mais bem preservados remanescentes florestais contínuos do sul do Espírito Santo, possuindo relevância cênica pelo amplo conjunto de formações graníticas do tipo pães de açúcar que formam um atrativo turístico para a região. Nesse sentido, a região foi transformada em área de preservação como Monumento Natural tendo os seguintes objetivos previstos em seu ato de criação:"
+							},
+							{
+								text:"- Preservar a geodiversidade e a integridade das formações rochosas do maciço serrano da região de Serra das Torres;"
+							},
+							{
+								text:"- Proteger os remanescentes florestais associados ao maciço de Serra das Torres;"
+							},
+							{
+								text:"- Conservar a biodiversidade nas áreas naturais do maciço de Serra das Torres;"
+							},
+							{
+								text:"- Proteger as nascentes, mananciais e aquíferos contribuintes das bacias hidrográficas dos rios Itabapoana e Itapemirim;"
+							},
+							{
+								text:"- Aumentar a conectividade entre os remanescentes florestais da região, através de corredores ecológicos, contribuindo com o fluxo gênico, a manutenção e a recuperação dos ecossistemas locais;"
+							},
+							{
+								text:"- Promover o desenvolvimento econômico regional, com a conservação da natureza e a manutenção dos serviços ambientais, manejo adequado dos recursos naturais e disciplinamento do uso do solo;"
+							},
+							{
+								text:"- Promover o desenvolvimento e ordenamento do turismo sustentável e integrado às condições naturais locais;"
+							},
+							{
+								text:"- Desenvolver programas setoriais, abrangendo temas como educação ambiental, adequação ambiental de propriedades rurais, fiscalização e monitoramento ambiental;"
+							},
+							{
+								text:"- Contribuir para o desenvolvimento de pesquisas científicas abordando os meios físico, biótico e socioeconômico da região;"
+							},
+							{
+								text:"- Valorizar a identidade e a cultura locais, intimamente associadas às paisagens rurais e aos recursos naturais da região."
+							},
+							{
+								text:"A UC não possui plano de manejo, embora o ato de criação tenha determinado sua elaboração em um prazo máximo de três anos após a sua criação. Contudo, seu formulário no Cadastro Nacional de Unidades de Conservação (CNUC), atualizado em 2017 (MMA, 2019b), apresenta informações relevantes sobre a sua composição geológica, edafológica e de biodiversidade, basicamente para a fauna. O documento não contém informações sobre o seu histórico de criação ou ameaças, embora seja possível supor que as principais ameaças que levaram à sua criação sejam semelhantes àquelas listadas para os outros Monumentos Naturais: ação antrópica pela substituição de áreas naturais por pastos, modificação proveniente da circulação de pessoas e mineração de granito."
+							},
+							{
+								text:"De acordo o ISA (2020), a área onde a UC está localizada é composta por dois ecossistemas do bioma da Mata Atlântica, a Floresta Estacional Semidecidual (67,13%) e a Floresta Ombrófila Densa (32,87%), embora  Garbin et al. (2017) indiquem somente a presença do segundo tipo florestal. A UC abrange duas amplas bacias hidrográficas, servindo como divisor de suas águas na região, a bacia do rio Itapemirim setentrionalmente (que é a terceira maior bacia hidrográfica do estado, depois das bacias dos rios Doce e São Mateus) e a bacia do rio Itabapoana meridionalmente (que demarca a divisa dos estados do Espírito Santo e Rio de Janeiro). A vegetação da UC é composta por fragmentos florestais remanescentes (MMA, 2019b), mas uma vez que não há plano de manejo para a área e esta informação é limitada no CNUC, não há informações sobre a fitofisionomia predominante na UC, assim como dados oficiais sobre a composição de sua fauna e flora."
+							},
+							{
+								text:"De acordo com o CNUC da Unidade de Conservação (MMA, 2019b), a fauna é composta por 257 espécies, sendo: 20 peixes, 18 anfíbios, 13 répteis, 189 aves e 17 mamíferos. Já sobre a flora, a única informação presente no documento oficial informa que o registro de uma única espécie nova endêmica para o Espírito Santo pertencente ao gênero Beilschmiedia (Lauraceae)."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 592 ocorrências de organismos de fauna e flora (Figuras 34-37; Tabelas 12 e 13), pertencentes a 332 espécies, sendo 389 ocorrências de fauna (188 espécies) e 203 ocorrências de flora (144 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1952, com três amostragens de fauna naquele ano e as demais coletas realizadas a partir de 1994. O ápice amostral da UC se deu a partir do quinquênio de 2006-2010 tanto para a fauna quanto para a flora (Figura 38). Um total de 11 registros de fauna encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica."
+							},
+							{
+								img:require('@/assets/topics/figure34.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia e Reptilia, ocorrentes no Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:34
+							},
+							{
+								img:require('@/assets/topics/figure35.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Insecta e Mammalia, ocorrentes no Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:35
+							},
+							{
+								img:require('@/assets/topics/figure36.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes no Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:36
+							},
+							{
+								img:require('@/assets/topics/figure37.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes no Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:37
+							},
+							{
+								frame:require('@/assets/topics/table12.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Monumento Natural Estadual de Serra das Torres.",
+								frameNumber:"Tabela 12"
+							},
+							{
+								frame:require('@/assets/topics/table13.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Monumento Natural Estadual de Serra das Torres.",
+								frameNumber:"Tabela 13"
+							},
+							{
+								img:require('@/assets/topics/figure38.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Monumento Natural Estadual de Serra das Torres, ao longo do tempo.",
+								imgNumber:38
+							},
+							{
+								text:"O levantamento da fauna da UC revelou que os grupos com maior representatividade de registros são os anfíbios e as aves, com 186 e 119 registros, respectivamente. Os dois grupos mais diversos da UC são as aves e os anfíbios, sendo que as aves são representadas por 119 espécies e os anfíbios por 37 espécies. A diversidade faunística levantada para a UC abrange 64 famílias, sendo que as 10 mais representativas quanto ao número de registros correspondem a 72% dos registros da UC (Figura 39). Dentre as famílias de fauna com maior número de registros, destacam-se as famílias dos pequenos sapos endêmicos da Mata Atlântica da família Brachycephalidae, com 126 registros para seis espécies, e os morcegos da família Phyllostomidae, com 56 registros para 12 espécies. As duas famílias com maior diversidade na UC são Tyrannidae e Hylidae com 19 e 17 espécies respectivamente."
+							},
+							{
+								text:"De todas as espécies registradas na UC, 10 estão ameaçadas de extinção no Espírito Santo, sendo cinco categorizadas como VU, três EN e duas CR. Com relação à lista nacional das espécies ameaçadas de extinção, este número é um pouco menor, sendo que apenas duas espécies são consideradas ameaçadas, ambas categorizadas como CR (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure39.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico do Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:39
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 196 registros, 139 espécies, pertencentes a 54 famílias, seguido pelo grupo das monilófitas com sete registros, cinco espécies e sete famílias. Dentre esses, 29 ocorrências são de espécimes identificados apenas em nível de família. A maior abundância de registros e diversidade de angiospermas levantada para a UC, pertence aos clados das monocotiledôneas e superrosídeas, ambos somando 66%. Os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza: superasterídeas, magnoliídeas e eudicotiledôneas basais (Tabela 13). As famílias com maior número de espécies foram Bromeliaceae e Orchidaceae, com 26 e 17 espécies, respectivamente. Entre as samambaias, apenas espécies de monilófitas constam no inventário, em sua totalidade de registros e espécies da classe Polypodiopsida (Figura 40)."
+							},
+							{
+								text:"Das espécies de plantas levantadas, seis estão ameaçadas de extinção a nível nacional, sendo cinco espécies classificadas na categoria VU e uma CR. Já a nível estadual, a UC possui 20 espécies ameaçadas, sendo 15 VU, quatro EN e uma CR (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure40.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico do Monumento Natural Estadual de Serra das Torres.",
+								imgNumber:40
+							},
+						]
+					},
+					{ //page7
+						title:"4.7 Parque Estadual da Cachoeira da Fumaça",
+						texts:[
+							{
+								text:"O Parque Estadual da Cachoeira da Fumaça é a menor Unidade de Conservação dentre as incluídas neste estudo, contando com uma área de apenas 162,5 ha. A UC é administrada pelo IEMA e localiza-se no sudoeste do Espírito Santo nos municípios de Alegre (59,66% da área) e Ibitirama (40,34% da área) (IEMA, 2017). A UC encontra-se próxima ao Parque Nacional do Caparaó (15 km a leste), e da divisa do estado do Espírito Santo com os estados de Minas Gerais (20 km a Oeste) e do Rio de Janeiro (25 km ao norte). "
+							},
+							{
+								text:"A Unidade de Conservação encontra-se na região do Caparaó e foi criada para proteger a Cachoeira da Fumaça, uma queda d’água de 162,5 m de altura com grande importância cênica para a região, e proteger os remanescentes florestais associados a ela. A região foi desapropriada e transformada em Reserva Florestal por meio do Decreto Estadual nº 2.791-E de 24 de agosto de 1984. Posteriormente a UC teve sua designação mudada para Parque Estadual por meio do Decreto Estadual nº 4.568-E de 21 de setembro de 1990, e teve sua área ampliada de 24,2 ha para seus atuais 162,5 ha através do Decreto Estadual nº 2.220-R de 19 de fevereiro de 2009."
+							},
+							{
+								text:"A UC não possui plano de manejo, contudo, existe um Plano Emergencial de Uso Público (IEMA, 2017) e um plano de manejo sendo constituídos pelo IEMA, ambos totalmente voltados para questões socioculturais, logística e de estrutura da UC, carecendo de dados bióticos (biodiversidade), abióticos (geologia, hidrologia, etc.), impactos ambientais e outros aspectos pertinentes. Apesar disto, o Cadastro Nacional de Unidades de Conservação (CNUC), atualizado pela última vez em 2009 (MMA, 2019b), indica como objetivo geral da UC a “preservação de ecossistemas naturais de grande relevância ecológica e beleza cênica, possibilitando a realização de pesquisas científicas e o desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e de turismo ecológico”, apresentando os seguintes objetivos específicos:"
+							},
+							{
+								text:"- Proteger os fragmentos florestais remanescentes localizados na área; "
+							},
+							{
+								text:"- Desenvolver o turismo sustentável regional, integrado às condições naturais dos ecossistemas, das paisagens e belezas cênicas;"
+							},
+							{
+								text:"- Desenvolver programas setoriais, incluindo turismo, educação, fiscalização e monitoramento ambiental;"
+							},
+							{
+								text:"- Contribuir para o desenvolvimento de pesquisas científicas na área da ecologia aplicada, biologia, geologia, hidrologia e outras de interesse para a conservação e preservação dos ecossistemas naturais;"
+							},
+							{
+								text:"- Contribuir para a instalação de processos naturais de recuperação dos ecossistemas e para a recuperação induzida, de acordo com projetos definidos no plano de manejo e aprovados pelo IEMA, ouvido o Conselho Consultivo;"
+							},
+							{
+								text:"- Implantar equipamentos e serviços necessários à consecução dos objetivos específicos constantes acima."
+							},
+							{
+								text:"O Parque Estadual da Cachoeira da Fumaça está inserido na bacia do rio Braço Norte Direito (do qual a cachoeira faz parte), um dos tributários formadores do rio Itapemirim, que é a terceira maior bacia hidrográfica do Espírito Santo. De acordo com ISA (2020) e Garbin et al. (2017), a área da UC é constituída por Floresta Estacional Semidecidual. A vegetação é composta por fragmentos florestais remanescentes (IEMA, 2017), mas uma vez que não há plano de manejo para a área, não há informações disponíveis sobre a fitofisionomia predominante, assim como dados oficiais sobre a composição de sua fauna e flora. Ainda assim, é possível inferir que a fisionomia predominante seja de mata secundária em estágio médio de regeneração, uma vez que a área era originalmente composta por pastos e foi reflorestada após a criação da Reserva Florestal (Borges & Milward-de-Azevedo, 2011)."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 311 ocorrências de organismos de fauna e flora (Figuras 41-44; Tabelas 14 e 15) pertencentes a 181 espécies, sendo 84 ocorrências de fauna (60 espécies) e 227 ocorrências de flora (121 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1953, com apenas uma amostragem de flora, sendo o restante das amostragens realizadas a partir de 2000 (Figura 45). O ápice amostral na UC foi durante o quinquênio de 1996-2000 para a fauna e a 2006-2010 para a flora. Um total de 11 registros de fauna encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica."
+							},
+							{
+								img:require('@/assets/topics/figure41.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia e Reptilia, ocorrentes no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:41
+							},
+							{
+								img:require('@/assets/topics/figure42.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Insecta e Mammalia, ocorrentes no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:42
+							},
+							{
+								img:require('@/assets/topics/figure43.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:43
+							},
+							{
+								img:require('@/assets/topics/figure44.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:44
+							},
+							{
+								frame:require('@/assets/topics/table14.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Parque Estadual da Cachoeira da Fumaça.",
+								frameNumber:"Tabela 14"
+							},
+							{
+								frame:require('@/assets/topics/table15.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Parque Estadual da Cachoeira da Fumaça.",
+								frameNumber:"Tabela 15"
+							},
+							{
+								img:require('@/assets/topics/figure45.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Parque Estadual da Cachoeira da Fumaça, ao longo do tempo.",
+								imgNumber:45
+							},
+							{
+								text:"O levantamento da fauna na UC revelou que os grupos com maior representatividade de registros são os mamíferos, com 30 registros, seguidos dos peixes e répteis, com 18 e 17 registros, respectivamente. Os grupos mais diversos são também os mamíferos e os peixes, com 29 e 13 espécies, respectivamente. A diversidade faunística levantada para a UC abrange 36 famílias, sendo que as 10 mais representativas quanto ao número de registros somam 55% dos registros da UC (Figura 46). Dentre as famílias de fauna com maior número de registros, destacam-se os borrachudos da família Simuliidae com nove registros para cinco espécies, e os sapinhos endêmicos da Mata Atlântica do sudeste do Brasil, pertencentes à família Cycloramphidae, com seis registros de Thoropa miliaris (Spix, 1824). As famílias com maior diversidade são os Simuliidae (Insecta), com cinco espécies, e os tatus da família Dasypodidae (Mammalia), com quatro espécies."
+							},
+							{
+								text:"Cinco espécies registradas na UC estão ameaçadas de extinção no Espírito Santo, sendo duas categorizadas como VU, duas EN e uma CR. Com relação à lista nacional das espécies ameaçadas de extinção, este número é um pouco menor, quatro espécies são consideradas ameaçadas, três VU e uma EN (Anexo I). "
+							},
+							{
+								img:require('@/assets/topics/figure46.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:46
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas, com 216 registros e 110 espécies, pertencentes a 53 famílias. Logo após, está o grupo das monilófitas com 11 registros, 11 espécies e quatro famílias. Um total de 28 ocorrências (11% dos registros totais) refere-se a espécimes identificados apenas em nível de família. A maior abundância de registros e diversidade florística de angiospermas levantada para a UC, pertence aos clados: superrosídeas, com quase a metade dos registros e 43% das espécies levantadas, e superasterídeas, com 31% dos registros do grupo. Os demais clados de angiospermas representados foram em ordem decrescente de abundância de registros e riqueza: magnoliídeas, monocotiledôneas e eudicotiledôneas basais (Tabela 15). As famílias com maior número de espécies foram Asteraceae e Piperaceae, ambas com 10 espécies cada e Fabaceae com nove espécies."
+							},
+							{
+								text:"Entre as samambaias, apenas espécies de monilófitas constam no inventário, a família deste grupo com maior riqueza de espécies foi Pteridaceae, com seis espécies (Figura 47)."
+							},
+							{
+								text:"Das espécies de plantas levantadas, cinco estão ameaçadas de extinção apenas a nível estadual, sendo duas espécies classificadas na categoria de VU, e três EN (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure47.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico no Parque Estadual da Cachoeira da Fumaça.",
+								imgNumber:47
+							},					
+						]
+					},
+					{ //page8
+						title:"4.8 Parque Estadual do Forno Grande",
+						texts:[
+							{
+								text:"O Parque Estadual do Forno Grande é a segunda menor Unidade de Conservação deste estudo. A UC possui uma área de 730 ha, e está conectada ao Parque Estadual de Pedra Azul, por meio de um corredor ecológico que por sua vez possui uma área de 51.121 ha (Juvanhol et al., 2011)."
+							},
+							{
+								text:"Administrada pelo IEMA, a UC está inserida no município de Castelo, região Serrana do estado do Espírito Santo. Criada na década de 1960 como Reserva Florestal de Forno Grande por meio do Decreto Estadual nº 312 de 31/10/1960 (mesmo Decreto de criação da Reserva Florestal de Pedra Azul, atual PE de Pedra Azul), foi regularizada ao longo das décadas de 1980 e 1990. A UC recebeu a atual denominação em 2013, com o Decreto nº 3585-R de 20/09/2013. De acordo com o plano de manejo, o nome da UC está relacionado ao Pico do Forno Grande com 2.039 m de altitude, sendo o segundo pico mais alto do ES. A sua forma assemelha-se a de um forno de assar pão, muito utilizado pelos descendentes de italianos."
+							},
+							{
+								text:"A criação da UC tem como objetivo principal “A preservação dos ecossistemas naturais de grande relevância ecológica e beleza cênica, possibilitando a realização de pesquisas científicas e desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e de turismo ecológico”. E os seguintes objetivos específicos:"
+							},
+							{
+								text:"- Proteger amostras dos ecossistemas da Mata Atlântica e suas formações rupestres em altitudes elevadas do Pico do Forno Grande, assegurando a preservação de sua flora, fauna e demais recursos naturais e características geológicas, geomorfológicas e cênicas;"
+							},
+							{
+								text:"- Proteger o quadro natural e a beleza cênica do Pico do Forno Grande, mantendo inalteradas as suas características naturais;"
+							},
+							{
+								text:"- Servir como banco de germoplasma para conservação in situ de espécies vegetais e animais, garantindo a evolução natural dos ecossistemas protegidos no Parque;"
+							},
+							{
+								text:"- Proteger espécies da flora endêmicas, raras, vulneráveis ou ameaçadas de extinção, no âmbito regional e nacional, em especial alguns gêneros e espécies das famílias de orquídeas e bromélias;"
+							},
+							{ //editar
+								text:"- Proteger espécies da fauna endêmicas, raras, vulneráveis ou ameaçadas de extinção, no âmbito regional e nacional, em especial a mastofauna: Marmosops incanus (catita), Callicebus personatus (guigó, peludo), Thaptomys nigrita (rato), Blarinomys breviceps (rato), Delomys sublineatus (rato), Abrawayaomys ruschi (rato), Trinomys iheringi (rato-de-espinho), Bradypus torquatus (preguiça-de-coleira), Callithrix flaviceps (sagüi-taquara), Alouatta fusca (barbado), Leopardus tigrinus (gato-do-mato-pequeno), Leopardus pardalis (jaguatirica), Puma concolor (sussuarana), Herpailurus yagouarondi (gato-mourisco), Panthera onca (onça), Chaethomus subspinosus (ouriço-preto); e as aves: Spizaetus tyrannus (gavião-pega-macaco), Procnias nudicollis (araponga), Muscipipra vetula (tesoura-cinzenta), Oryzoborus maximiliani (curió), Tinamus solitarius (macuco), Pipile jacutinga (jacutinga);"
+							},
+							{
+								text:"- Contribuir para a proteção de nascentes da bacia do rio Itapemirim;"
+							},
+							{
+								text:"- Fomentar atividades de pesquisa e monitoramento ambiental;"
+							},
+							{
+								text:"- Proporcionar oportunidades controladas para visitação e educação ambiental;"
+							},
+							{
+								text:"- Ampliar e diversificar as possibilidades de uso público e educação ambiental, levando o visitante e a população lindeira a compreender e a respeitar o valor do Parque como uma área protegida e o valor da conservação ambiental;"
+							},
+							{
+								text:"- Contribuir com o planejamento e o ordenamento do uso e da ocupação do solo das áreas adjacentes ao Parque;"
+							},
+							{
+								text:"- Estimular o desenvolvimento regional integrado, com base nas práticas de conservação;"
+							},
+							{
+								text:"- Contribuir com o desenvolvimento do ecoturismo regional, através de recursos compartilhados e outras potencialidades regionais."
+							},
+							{
+								text:"De acordo com plano de manejo, sua vegetação está inserida no bioma Mata Atlântica e é composta por Floresta Ombrófila Densa Montana, e Altomontana em Transição para Floresta Estacional Semidecidual. Sua fitofisionomia predominante é Mata secundária de estágio avançado. Possui clima tropical megatérmico, quase mesotérmico e subúmido. O índice de pluviosidade média anual fica em torno de 1.200 mm, com verões chuvosos e invernos secos. A temperatura média anual fica em torno de 23ºC, podendo variar entre a mínima de 5ºC e 7ºC, e a máxima podendo atingir os 36ºC. Seu relevo é montanhoso, tendo uma altitude que varia de 1.128 a 2.039 m acima do nível do mar. A região do Parque possui cambissolo álico, um tipo de solo com textura argilosa ou média."
+							},
+							{
+								text:"O Parque Estadual do Forno Grande está inserido na bacia do rio Itapemirim, que atravessa todo o ES na direção geral NW-SE. Ao norte, limita-se com as bacias dos rios Novo, Jucu e Doce, a noroeste, com o estado de Minas Gerais, ao Sul, com a Bacia do Rio Itabapoana e a leste, com o Oceano Atlântico. Suas nascentes situam-se nos limites com as bacias dos rios Jucu a Nordeste e Itabapoana ao sul, com altitudes de 2.600 m no Braço Norte Direito e 1.200 m no Braço Norte Esquerdo. O rio Castelo, que se encontra na margem esquerda e o rio Muqui do Norte, na margem direita, são os afluentes mais importantes."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 5.731 ocorrências de organismos de fauna e flora (Figuras 48-51; Tabelas 16 e 17), pertencentes a 1.211 espécies, sendo 600 ocorrências de fauna (89 espécies) e 4.497 ocorrências de flora (1.034 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1927 para a flora e 1973 para a fauna, tendo seu ápice amostral a partir do quinquênio de 2006-210 para a fauna e 2006-2010 para a flora (Figura 52). Um total de ?? registros, sendo 13 de fauna e sete de flora, encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica. "
+							},
+							{
+								img:require('@/assets/topics/figure48.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia e Reptilia, ocorrentes no Parque Estadual do Forno Grande.",
+								imgNumber:48
+							},
+							{
+								img:require('@/assets/topics/figure49.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Insecta e Mammalia, ocorrentes no Parque Estadual do Forno Grande.",
+								imgNumber:49
+							},
+							{
+								img:require('@/assets/topics/figure50.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Embriófitas, Espermatófitas e Samambaias, ocorrentes no Parque Estadual do Forno Grande.",
+								imgNumber:50
+							},
+							{
+								img:require('@/assets/topics/figure51.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Angiospermas indefinidas, Eudicotiledôneas basais, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes no Parque Estadual do Forno Grande.",
+								imgNumber:51
+							},
+							{
+								frame:require('@/assets/topics/table16.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Parque Estadual do Forno Grande.",
+								frameNumber:"Tabela 16"
+							},
+							{
+								//frame:require('@/assets/topics/table17.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Parque Estadual do Forno Grande.",
+								frameNumber:"Tabela 17"
+							},
+							{
+								// img:require('@/assets/topics/figure52.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Parque Estadual do Forno Grande, ao longo do tempo.",
+								imgNumber:52
+							},
+							{
+								text:"O levantamento da fauna da UC revelou que os grupos com maior representatividade de registros são os anfíbios e as aves, com 432 e 124 registros, respectivamente. Estes também são os grupos da fauna mais diversos da UC, com 39 espécies de anfíbios e 23 espécies de mamíferos. A diversidade faunística levantada abrange 35 famílias, sendo que as 10 mais representativas quanto ao número de registros somam 69% dos registros da UC (Figura 53). Dentre as famílias de fauna com maior número de registros, destacam-se as pererecas da família Hylidae, com 283 registros para 21 espécies, e os sapos da família Cycloramphidae, com 56 registros para três espécies. As famílias com maior diversidade registrada na FLONA são também a família Hylidae, com 21 espécies, e a família Formicidae com seis espécies."
+							},
+							{
+								text:"Sete espécies registradas na UC estão ameaçadas de extinção a nível estadual, sendo duas categorizadas como VU, quatro EN e uma CR. Com relação à lista nacional nenhuma espécie registrada na UC encontra-se ameaçada (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure53.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico no Parque Estadual do Forno Grande.",
+								imgNumber:53
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 4097 registros, 807 espécies, pertencentes a 108 famílias. Logo após, está o grupo das samambaias representado pelas monilófitas que apresentaram 537 registros, 143 espécies e 19 famílias, seguido das licopodófitas com 78 registros de 19 espécies e duas famílias. E por fim, o grupo das embriófitas com 238 registros em 61 espécies de 27 famílias de briófitas verdadeiras; e 47 registros, em quatro espécies e quatro famílias de marchantiófitas. Dentre esses, 1.252 ocorrências (25% dos registros totais) representam espécimes identificados apenas em nível de família. A maior abundância de registros de angiospermas levantadas para a UC pertence às superasterídeas e superrosídeas, que somam quase dois terços deles, porém a maior diversidade florística, pertence às monocotiledôneas, com cerca um terço das espécies de espermatófitas. Os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza, magnoliídeas e eudicotiledôneas basais como mostra a Tabela 17. As famílias com maior número de espécies de angiospermas foram Orchidaceae, com 121 espécies e Asteraceae, com 68 espécies. Entre as samambaias a maior abundância de registros, bem como diversidade de espécies, está entre as monilófitas, já a família mais representativa foi Polypodiaceae, com 151 registros e 37 espécies. Entre as samambaias, a família Lycopodiacee foi a que apresentou maior número de espécies, um total de 13. Entre as embriófitas, a maior abundância de registros, bem como diversidade de espécies está entre as briófitas verdadeiras. A família mais representativa em termos de ocorrências foi a Orthotrichaceae com 68 registros em 14 espécies (Figura 54)."
+							},
+							{
+								text:"Das espécies de plantas levantadas, 37 estão ameaçadas de extinção, a nível nacional, sendo 10 espécies classificadas na categoria VU, 23 EN e quatro CR. Já a nível estadual, a UC possui 131 espécies ameaçadas, sendo 70 VU, 47 EN e 14 CR. A espécie de gramínea Aulonemia prolifera  P.L. Viana & Filg., foi descrita a partir de coletas realizadas na área da Parque Estadual de Forno Grande, e encontra-se na categoria de ameaça EN a nível estadual (Anexo I)."
+							},
+							{
+								// img:require('@/assets/topics/figure54.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico no Parque Estadual do Forno Grande.",
+								imgNumber:54
+							},
+						]
+					},
+					{	//page9
+						title:"4.9 Parque Estadual de Itaúnas",
+						texts:[
+							{
+								text:"O Parque Estadual de Itaúnas é uma Unidade de Conservação costeira administrada pelo IEMA localizada no extremo norte capixaba, no município de Conceição da Barra, tendo seu limite norte na divisa dos estados da Bahia e Espírito Santo através do Riacho Doce. A UC conta com uma área de aproximadamente 3.481 ha considerando a área de marinha, e encontra-se na área urbanizada da vila de Itaúnas, que é um importante ponto turístico do norte do ES. A origem do nome da UC tem relação com o rio Itaúnas, que o corta de oeste para leste e significa “pedra preta” em tupi, possivelmente em alusão aos arenitos quaternários presentes junto ao mar na barra do rio e às rochas basálticas formadoras do leito do rio por toda sua extensão."
+							},
+							{
+								text:"A origem da UC ocorreu no ano de 1948 seguindo as recomendações feitas pelo Conselho Florestal do Espírito Santo, baseadas nas análises do naturalista Augusto Ruschi, que indicava a criação de sete Reservas Florestais visando proteger remanescentes naturais preservados e representativos no estado do Espírito Santo. Tais recomendações resultaram na publicação do Decreto Estadual nº 55 de 20 de setembro de 1948 que criou, entre outras, uma “reserva da flora halófila” (restinga), com cerca de 10.000 ha e que compreendia uma área ampla com terras devolutas onde atualmente localiza-se o Parque Estadual de Itaúnas e outras áreas atualmente não protegidas (Ruschi, 1949a, 1949b, 1959; Rezende, 2014). Esta área também foi chamada de Reserva Florestal e Biológica do rio Itaúnas (Ruschi, 1949a), Reserva do Rio Itaúnas (Ruschi, 1950), Reserva de Proteção e Conservação da Natureza do Rio Itaúnas (Ruschi, 1969), Reserva Biológica de Itaúnas (Ruschi, 1976) e consta como Reserva Florestal do Riacho Doce na carta São Mateus de 1982, do Instituto Brasileiro de Geografia e Estatística (IBGE)."
+							},
+							{
+								text:"Embora o Decreto Estadual nº 55, e outros documentos legais posteriores, não especifiquem os limites sul e oeste da área de “reserva da flora halófila”, é possível identificá-los através de informações fornecidas pelo próprio Ruschi. Em artigo sobre a necessidade da implantação de novas Unidades de Conservação no Espírito Santo, Ruschi (1976) informou que o limite sul da UC seria o próprio rio Itaúnas, coincidindo com o limite sudeste do atual Parque Estadual de Itaúnas. Em uma entrevista datada em 1984 (Jornal do Brasil, 1984) aquele autor indicou que aquela reserva, até então não implementada, localizava-se à leste da Fazenda São Joaquim (localidade da atual REBIO do Córrego Grande). Diante disto, deduz-se que a área do Parque Estadual de Itaúnas certamente estaria incluída na reserva criada em 1948, já que a mesma era limitada ao norte pela divisa com a Bahia, à leste com a costa atlântica e a sul pela foz do rio Itaúnas, conforme indicado nas duas referências supracitadas e na  Lei Estadual nº 976 de 1955. Também fica claro que a Reserva do Rio Itaúnas não abrange a área da REBIO do Córrego Grande, conforme sugerido por Rezende (2014), e que as questões envolvendo a delimitação das reservas do norte capixaba são um tema complexo, conforme indicado por Santos (2016)."
+							},
+							{
+								text:"Em 1955, o governo do ES doou à união cinco de suas reservas florestais, por meio da Lei Estadual nº 976, de 10 de dezembro, sendo elas: Itaúnas; Córrego do Veado; Barra Seca, parte da atual REBIO de Sooretama; Nova lombardia, atual REBIO Augusto Ruschi; e Pico da Bandeira, parte do atual PARNA do Caparaó. Contudo, não se sabia ao certo a localização ou delimitação da Reserva Florestal do Rio Itaúnas e ela não havia sido efetivamente implementada, não sendo assumida pelo o governo federal (Santos, 2016). A não implementação e o desaparecimento da reserva foram fatos confirmados posteriormente por Ruschi (1969) em sua atualização fitogeográfica do ES e em entrevista ao Jornal do Brasil em 1984 (Jornal do Brasil, 1984), onde indicou que a área em questão já havia sido totalmente descaracterizada, ocupada por posseiros e se perdido. "
+							},
+							{
+								text:"Em 1986 as Dunas de Itaúnas foram tombadas pelo estado do Espírito Santo como patrimônio natural capixaba por meio da Resolução nº 08 de 10 de setembro do Conselho Estadual de Cultura. No início da década de 1990, diante da possibilidade de instalação de um grande empreendimento hoteleiro imediatamente ao norte da Vila de Itaúnas, que incluiria a abertura de uma estrada na área de restinga, precipitaram-se pressões populares em defesa da região, o que levou o governo estadual a transformá-la em uma área de proteção ambiental. Assim, o conjunto de áreas devolutas do estado que acompanhava boa parte do trecho inferior do rio Itaúnas, a região das Dunas de Itaúnas e de praias do extremo norte capixaba e uma série de propriedades privadas adjacentes foram transformados no Parque Estadual de Itaúnas, por meio do Decreto Estadual nº 4.967-E de 08 de novembro de 1991. Uma vez que boa parte da área do parque já era ocupada por propriedades diversas, dezenas de atos legais de desapropriações foram emitidos a partir daquela data e nos anos subsequentes à criação da UC. Desde 1992 o Parque Estadual de Itaúnas é tombado pela UNESCO como Patrimônio Natural da Humanidade, fazendo parte da Reserva da Biosfera da Mata Atlântica (CEPEMAR, 2004a). "
+							},
+							{
+								text:"O plano de manejo da UC foi criado em 2004 (CEPEMAR, 2004a) e apresenta informações tanto sobre questões sociais, econômicas, fundiárias e históricas, quanto abióticas e sobre sua biodiversidade. De acordo com o Decreto Estadual de criação da UC, o PE de Itaúnas tem como objetivos: "
+							},
+							{
+								text:"- Resguardar os atributos excepcionais da natureza na região;"
+							},
+							{
+								text:"- Resguardar a proteção integral da flora, da fauna, do solo, dos rios, das áreas de alagados e alagáveis, das dunas e dos demais recursos naturais; "
+							},
+							{
+								text:"- Resguardar a utilização dos bens supracitados para objetivos educacionais, recreativos e científicos como o desenvolvimento do Projeto Tartaruga Marinha (atual Projeto Tamar MMA/ICMBio)."
+							},
+							{
+								text:"O ecossistema presente na UC é formado por Floresta Ombrófila Densa Aluvial composta por um mosaico de ambientes de Restinga, Mata Atlântica de Tabuleiro, áreas alagadas, rios, dunas e manguezal. O parque protege e abrange praticamente todo o curso inferior da bacia do rio Itaúnas, que é a quarta maior bacia hidrográfica do ES, e a mais setentrional do estado, além de uma pequena parte da bacia do rio Riacho Doce. A formação vegetal da UC é composta majoritariamente por mata secundária de estágio médio e avançado de regeneração. Os impactos antrópicos mais relevantes são a pesca, caça, extração de madeira, coleta de frutos, descarte de lixo e emissões de efluentes domésticos de forma inadequada, pressões causadas pelas atividades turísticas, ocupação de culturas diversas (lavouras domésticas, criação de animais, plantações de côco, etc.), queimadas, ocupações irregulares e questões fundiárias. Os problemas fundiários se dão pelo fato de que a maioria das propriedades que compõem o parque foi desapropriada, mas seus proprietários jamais foram indenizados, fazendo com os mesmos continuem ocupando e utilizando ativamente a área da UC para fins diversos, o que leva à uma situação de conflito entre a sua categoria de restrição e a situação de ocupação e uso. A UC faz parte, juntamente com a REBIO de Comboios, do Corredor Marinho do Rio Doce, criado por meio do Decreto Estadual nº 2529-R em 02 de junho de 2010, e que se estende da divisa com a Bahia até a foz do rio Reis Magos."
+							},
+							{
+								text:"De acordo com o plano de manejo (CEPEMAR, 2004a), a fauna da UC é composta por 352 espécies, sendo: 32 crustáceos, 91 peixes, 29 anfíbios, 36 répteis, 135 aves e 29 mamíferos. Já a flora da UC compreende 562 espécies (Souza et al., 2016)."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 4.285 ocorrências de organismos de fauna e flora (Figuras 55-58; Tabelas 18 e 19), pertencentes a 759 espécies, sendo 1.894 ocorrências de fauna (208 espécies) e 2.464 ocorrências de flora (581 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1942, sendo que para a fauna as coletas ocorreram de forma regular a partir de 1952. Para a flora uma amostragem de 1953 representa o único registro anterior a 1992, quando as coletas de vegetais tornaram-se regulares. O ápice amostral da biodiversidade deu-se no quinquênio de 2011-2015 para a fauna e 2011-2015 para a flora (Figura 59). Um total de 1.556 registros, sendo 321 de fauna e 1.547 de flora, encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica."
+							},
+							{
+								img:require('@/assets/topics/figure55.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia, Aves e Reptilia, ocorrentes no Parque Estadual de Itaúnas.",
+								imgNumber:55
+							},
+							{
+								img:require('@/assets/topics/figure56.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Insecta e Mammalia, ocorrentes no Parque Estadual de Itaúnas.",
+								imgNumber:56
+							},
+							{
+								img:require('@/assets/topics/figure57.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes no Parque Estadual de Itaúnas.",
+								imgNumber:57
+							},
+							{
+								img:require('@/assets/topics/figure58.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Grado ANA, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes no Parque Estadual de Itaúnas.",
+								imgNumber:58
+							},
+							{
+								frame:require('@/assets/topics/table18.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Parque Estadual de Itaúnas.",
+								frameNumber:"Tabela 18"
+							},
+							{
+								// frame:require('@/assets/topics/table19.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Parque Estadual de Itaúnas.",
+								frameNumber:"Tabela 19"
+							},
+							{
+								// img:require('@/assets/topics/figure59.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Parque Estadual de Itaúnas, ao longo do tempo.",
+								imgNumber:59
+							},
+							{
+								text:"O levantamento da fauna revelou que os grupos com maior representatividade de registros são os anfíbios e os répteis, com 1.314 e 267 registros, respectivamente. Contudo, os grupos mais diversos são os peixes (70 espécies) e as aves (36 espécies). A diversidade faunística levantada para a UC abrange 88 famílias, sendo que as 10 mais representativas quanto ao número de registros somam 84% e são apresentadas na Figura 60. Dentre as famílias de fauna com maior número de registros, destacam-se as pererecas da família Hylidae, com 1.146 registros para 22 espécies, e as rãs da família Leptodactylidae, com 136 registros para duas espécies. As famílias com maior diversidade registrada na UC são as pererecas da família Hylidae (Amphibia), com 22 espécies, os morcegos da família Phyllostomidae (Mammalia) e as aves da família Thraupidae (Aves), ambas as famílias com 10 espécies cada."
+							},
+							{
+								text:"Vinte e duas espécies registradas na UC estão ameaçadas de extinção no Espírito Santo, sendo oito categorizadas como VU, seis EN e oito CR. Na lista nacional das espécies ameaçadas de extinção, este número é um pouco menor, sendo 14 espécies ameaçadas, sete VU, quatro EN e três CR (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure60.png'),
+								imgDesc:"",
+								imgNumber:60
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 2432 registros, 568 espécies, pertencentes a 116 famílias. Logo após, está o grupo das monilófitas com 31 registros, 12 espécies e 10 famílias, seguido das licopodófitas com apenas um registro de uma espécie e uma família. Dentre esses, 709 ocorrências (28,7% dos registros totais) são de espécimes identificados apenas em nível de família. A maior abundância de registros e diversidade florística de angiospermas levantada pertence ao clado superrosídeas, com metade dos registros e 40% das espécies, logo em seguida, ambas com o mesmo número de espécies, estão as superasterídeas, somando 24% dos registros, e monocotiledôneas com um quinto dos registros inventariados dentre as espermatófitas. Os demais clados de angiospermas amostrados foram, em ordem decrescente de abundância de registros e riqueza: magnoliídeas, eudicotiledôneas basais, e Grado ANA (Tabela 19). A família com maior número de espécies de angiospermas foi a Fabaceae com 44 espécies seguida por Myrtaceae e Cyperaceae, ambas com 36 espécies cada (Figura 61). Entre as samambaias a maior abundância de registros, bem como diversidade de espécies está entre as monilófitas, da família Polypodiaceae, com 18 registros e três espécies levantadas."
+							},
+							{
+								text:"Das espécies de plantas levantadas, 14 estão ameaçadas de extinção a nível nacional, sendo oito espécies classificadas na categoria de VU, cinco EN e uma CR. Já a nível estadual, a UC possui 41 espécies ameaçadas, sendo 27 VU, 13 EN e uma CR, sendo esta, a espécie Humiriastrum spiritu-sancti Cuatrec., que também está na mesma categoria nacional."
+							},
+							{
+								// img:require('@/assets/topics/figure61.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico no Parque Estadual de Itaúnas.",
+								imgNumber:61
+							},
 						]
 					}
 				],
