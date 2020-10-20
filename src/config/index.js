@@ -408,6 +408,285 @@ export default {
 							},
 							{
 								text:"Nenhuma espécie registrada na UC encontra-se ameaçada de extinção, tanto no ES, quanto na lista nacional das espécies ameaçadas."
+							},
+							{
+								img:require('@/assets/topics/figure13.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico da Floresta Nacional de Pacotuba.",
+								imgNumber:13
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 653 registros, 317 espécies, pertencentes a 80 famílias. Logo após, está o grupo das samambaias com 67 registros, 43 espécies e 13 famílias. Um total de 134 ocorrências (19% dos registros totais) refere-se a espécimes identificados apenas em nível de família. A maior diversidade florística de angiospermas levantada para a UC, pertence à clados derivados, a saber: superrosídeas, com mais de metade dos registros e espécies levantadas, superasterídeas, representando 25% dos registros de espermatófitas. Os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza: monocotiledôneas, magnoliídeas e eudicotiledôneas basais (Tabela 9). As famílias com maior número de espécies foram Fabaceae, com 51 espécies, e Rubiaceae com 20 espécies. Entre as samambaias, apenas espécies de monilófitas constam no inventário, com ampla maioria de registros e espécies da classe Polypodiopsida, e apenas dois registros de uma espécie da classe Marattiopsida. A família com maior riqueza de espécies deste grupo foi Pteridaceae, com 11 espécies (Figura 14)."
+							},
+							{
+								img:require('@/assets/topics/figure14.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico da Floresta Nacional de Pacotuba.",
+								imgNumber:14
+							},
+							{
+								text:"Das espécies de plantas levantadas, 20 encontram-se ameaçadas de extinção a nível nacional, sendo oito espécies classificadas na categoria VU, oito EN e quatro CR. Já a nível estadual, a UC possui 36 espécies ameaçadas, sendo 18 VU, 10 EN e oito CR (Anexo I). As espécies de samambaia Goniopteris salinoi I. O. Moura & L. C. Moura e Oxalis kuhlmannii Lourteig, foram descritas a partir de coletas realizadas na área da Floresta Nacional de Pacotuba e encontram-se ameaçadas de extinção, a primeira como CR a nível estadual, e a segunda como CR A nível estadual e nacional (Anexo I)."
+							},
+						]
+					},
+					{ //page3
+						title:"4.3 Floresta Nacional do Rio Preto",
+						texts:[
+							{
+								text:"A Floresta Nacional do Rio Preto é uma Unidade de Conservação com área de aproximadamente 2.830 ha administrada pelo ICMBio e localizada integralmente no município de Conceição da Barra, no norte do Espírito Santo. A origem do nome da UC tem relação com o Rio Preto do Norte, um dos principais tributários da bacia do rio Itaúnas, que cruza a UC no sentido oeste/leste quase no meio de sua extensão latidudinal, e cujos afluentes banham toda a área da FLONA."
+							},
+							{
+								text:"A história da UC tem início entre as décadas de 1950 e 1960, quando as florestas de tabuleiro do norte do Espírito Santo ainda eram formadas por matas primárias e passaram a ser exploradas de forma extremamente intensa e desordenada (Souza & Resende, 1999; Santos, 2016; Ruschi, 1950 e 1969). Essa exploração deu-se em 1954, principalmente após a inauguração da ponte sobre o rio Doce, no município de Linhares na atual BR-101, o que facilitou o acesso à região e o transporte de seus recursos madeireiros. A exploração na região deu-se na forma da supressão quase total da vegetação para de uso de suas madeiras, instalação de culturas e para o assentamento dos trabalhadores dos novos empreendimentos exploratórios, atividades associadas à época com a percepção de “chegada do progresso”. Na ocasião, a madeireira Cobraice (Companhia Brasileira de Indústria e Comercio S/A) adquiriu e explorou toda a região onde atualmente encontra-se a FLONA do Rio Preto. Estima-se que a empresa foi responsável pela derrubada de aproximadamente 53.240 ha de madeira de lei (Souza & Resende, 1999), restando a área da UC como um remanescente florestal (Rezende, 2014), logo após esses episódios, na década de 1970, a área foi vendida para a Acesita Energética S/A (atual Aperam Bioenergética S/A), subsidiária da então siderúrgica estatal Companhia Aços Especiais de Itabira (posteriormente renomeada ArcelorMittal Inox Brasil e atualmente Aperam South America). A subsidiária produzia carvão vegetal para alimentação dos fornos da usina da Acesita em Timóteo, na região do “Vale do Aço”, também conhecida como “Vale do Rio Doce” em Minas Gerais. Em 1985 a área atual da UC foi mantida pela Acesita como área de Reserva Legal até ser doada para o governo federal como pagamento da multa relativa ao Plano de Reposição Ambiental instaurado pelo Instituto Brasileiro de Desenvolvimento Florestal (IBDF) atual Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) (Rezende, 2014). A área de reserva legal foi transformada em Unidade de Conservação por meio do Decreto Presidencial nº 98.845 de 17 de janeiro de 1990, criando assim a Floresta Nacional do Rio Preto."
+							},
+							{
+								text:"O plano de manejo da UC foi criado há mais de 20 anos por docentes do Departamento de Engenharia Florestal da Universidade Federal de Viçosa - UFV (Souza & Resende, 1999) e tem como objetivos gerais a promoção das seguintes atividades:"
+							},
+							{
+								text:"- Uso múltiplo sustentado de produtos florestais madeireiros e não madeireiros; "
+							},
+							{
+								text:"- Conservação da biodiversidade; "
+							},
+							{
+								text:"- Recreação e lazer;"
+							},
+							{
+								text:"- Educação ambiental; "
+							},
+							{
+								text:"- Pesquisas científicas básicas e aplicadas;"
+							},
+							{
+								text:"- Educação para o trabalho; "
+							},
+							{
+								text:"- Desenvolvimento ambiental, socioeconômico e cultural da região."
+							},
+							{
+								text:"A FLONA do Rio Preto é composta pelo ecossistema da Floresta Ombrófila Densa de Terras Baixas (também conhecida como Floresta Tropical Pluvial de Terras Baixas) e encontra-se inserida na bacia hidrográfica do rio Itaúnas, que é a quarta maior drenagem do Espírito Santo e a mais setentrional do estado. A formação vegetal da UC é composta majoritariamente por mata secundária em avançado estágio de regeneração. Os impactos antrópicos mais relevantes estão relacionados à caça e à retirada de madeira (Souza & Resende, 1999), além da presença de espécies exóticas ou invasoras e da seca ou redução de volume dos corpos d’água na drenagem do Rio Preto do Norte."
+							},
+							{
+								text:"De acordo com o plano de manejo (Souza & Resende, 1999) sua fauna é composta por 295 espécies sendo: 21 anfíbios, 15 répteis, 212 aves e 47 mamíferos. O documento incluiu apenas vertebrados terrestres, não havendo informações sobre invertebrados ou peixes. Já a flora compreende, pelo menos, 361 espécies arbóreas e de cipós, porém, não apresenta listas ou número preciso."
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 1.580 ocorrências de organismos de fauna e flora (Figuras 15-18; Tabelas 6 e 7) pertencentes a 394 espécies, sendo 395 ocorrências de fauna (139 espécies) e 1.185 ocorrências de flora (255 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 1997, tendo seu ápice amostral no quinquênio de 2006-2010 para a fauna e 2016-2020 para a flora (Figura 19). Um total de 63 registros de fauna encontra-se sem data de coleta e não puderam ser incluídos na análise gráfica. "
+							},
+							{
+								img:require('@/assets/topics/figure15.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Amphibia, Aves e Reptilia, ocorrentes na Floresta Nacional do Rio Preto.",
+								imgNumber:15
+							},
+							{
+								img:require('@/assets/topics/figure16.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Arachnida, Insecta e Mammalia, ocorrentes na Floresta Nacional do Rio Preto.",
+								imgNumber:16
+							},
+							{
+								img:require('@/assets/topics/figure17.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes na Floresta Nacional do Rio Preto.",
+								imgNumber:17
+							},
+							{
+								img:require('@/assets/topics/figure18.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Eudicotiledôneas basais, Grado ANA, Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes na Floresta Nacional do Rio Preto.",
+								imgNumber:18
+							},
+							{
+								frame:require('@/assets/topics/table6.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna na Floresta Nacional do Rio Preto.",
+								frameNumber:"Tabela 6"
+							},
+							{
+								frame:require('@/assets/topics/table7.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora na Floresta Nacional do Rio Preto.",
+								frameNumber:"Tabela 7"
+							},
+							{
+								img:require('@/assets/topics/figure19.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas na Floresta Nacional do Rio Preto, ao longo do tempo.",
+								imgNumber:19
+							},
+							{
+								text:"O levantamento da fauna na UC revelou que os grupos com maior representatividade de registros são os anfíbios e os répteis, com 141 e 87 registros respectivamente. Os grupos mais diversos da fauna no âmbito da UC, sendo que foram os insetos com 40 espécies e répteis com 37 espécies. A diversidade faunística para essa UC abrange 49 famílias, sendo que as 10 mais representativas somam 73% dos registros (Figura 20). Dentre as famílias de fauna com maior número de registros, destaca-se uma família de Amphibia, as pererecas da família Hylidae, com 53 registros para 13 espécies, e as abelhas da família Apidae, com 46 registros para 23 espécies. As famílias com maior diversidade são as abelhas da família Apidae (Insecta) com 23 espécies, e as pererecas da família Hylidae, com 13 espécies."
+							},
+							{
+								text:"Do total de espécies registradas na UC, cinco estão ameaçadas de extinção no Espírito Santo, sendo três categorizadas como VU e duas EN. Com relação à lista nacional das espécies ameaçadas de extinção, este número permanece inalterado, com quatro espécies VU e uma espécie EN (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure20.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico da Floresta Nacional do Rio Preto.",
+								imgNumber:20
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 1024 registros, 217 espécies, pertencentes a 89 famílias. Logo após, está o grupo das monilófitas com 159 registros, 38 espécies e 14 famílias. O total de 293 ocorrências refere-se a espécimes identificados apenas em nível de família. A maior abundância de registros e diversidade florística de angiospermas pertence aos seguintes clados: superrosídeas, com quase a metade dos registros e espécies levantadas, seguidas por superasterídeas, os demais clados de angiospermas representados foram, em ordem decrescente de abundância de registros e riqueza: monocotiledôneas, magnoliídeas, eudicotiledôneas basais e Grado ANA como mostra a Tabela 7. Aas famílias com maior número de espécies foram Fabaceae e Asteraceae, com 15 e 11 espécies, respectivamente. Entre as samambaias, apenas espécies de monilófitas constam no inventário, representadas por espécies da classe Polypodiopsida, e apenas dois registros sem identificação de Lycopodiceae. A família com maior riqueza de espécies deste grupo foi Pteridaceae, com 11 espécies (Figura 21)."
+							},
+							{
+								text:"Das espécies de plantas levantadas, cinco estão ameaçadas de extinção a nível nacional, sendo três espécies classificadas como VU e duas EN. Já a nível estadual, a UC possui 16 espécies ameaçadas, sendo nove VU e sete EN (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure21.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico da Floresta Nacional do Rio Preto.",
+								imgNumber:21
+							}
+						]
+						
+					},
+					{ //page4
+						title:"4.4 Monumento Natural dos Pontões Capixabas",
+						texts:[
+							{
+								text:"O Monumento Natural dos Pontões Capixabas está localizado no norte do Espírito Santo nos municípios de Pancas (86,86% da UC) e Águia Branca (13,14% da UC) (ISA, 2020), sob administração do ICMBio. A UC possui uma área total de aproximadamente 17.496 ha divididos em três áreas, sendo a maior no município de Pancas, a menor em Águia Branca e uma área intermediária, contígua a menor, ocupando os dois municípios."
+							},
+							{
+								text:"A UC foi criada originalmente como Parque Nacional (PARNA) através do Decreto Presidencial de 19 de dezembro de 2002, visando preservar parte do vasto conjunto de afloramentos de maciços graníticos da região, de importância cênica e paisagística. Os impactos antrópicos mais comuns na região são a transformação de matas em pastagens, o turismo cênico e de aventura (alpinismo e asa-delta), e a mineração de granito (atividade comum na parte ocidental da região norte do estado). Posteriormente, o PARNA foi readequado à categoria de MONA por meio da Lei nº 11.686 de 02, de junho de 2008 indicando como objetivos:"
+							},
+							{
+								text:"- Preservar os pontões rochosos, a flora e a fauna a eles associadas;"
+							},
+							{
+								text:"- Preservar a paisagem formada pelos elementos naturais e culturais tradicionais."
+							},
+							{
+								text:"Ainda de acordo com a Lei nº 11.686, o MONA permite o uso de suas terras e dos recursos naturais do local pelos proprietários, desde que não comprometam a preservação dos pontões, da fauna e da flora associadas e da paisagem, conforme o disposto no plano de manejo. Contudo, apesar da permissão de uso de sua área estar condicionada às diretrizes de seu plano de manejo, e de ser um importante ponto turístico na região, esta é uma das seis UC incluídas no presente estudo que não possui tal documento."
+							},
+							{
+								text:"A UC é formada por dois ecossistemas da Mata Atlântica, a saber: Floresta Ombrófila Densa, conhecida também como Floresta Tropical Pluvial, e a Floresta Estacional Semidecidual, conhecida como Floresta Tropical Subcaducifólia. De acordo com ISA (2020), este último ecossistema é predominante na UC, ocupando 65,55% de sua área, embora Garbin et al. (2017) indiquem apenas a ocorrência deste ecossistema, e por outro lado, o MMA (2019b) indica apenas a ocorrência da Floresta Ombrófila Densa."
+							},
+							{
+								text:"A UC encontra-se inserida na bacia do rio Pancas, um tributário da bacia hidrográfica do rio Doce, que é a maior drenagem do Espírito Santo e separa geograficamente a região norte do estado. A vegetação da UC é composta por fragmentos de vegetação nativa (MMA, 2019b), mas uma vez que não há plano de manejo para a área, não há informações sobre a fitofisionomia predominante na UC, assim como também não existem dados oficiais sobre a composição de sua fauna e flora. "
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 229 ocorrências de organismos de fauna e flora (Figuras 22-24; Tabelas 8 e 9) pertencentes a 97 espécies, sendo 104 ocorrências de fauna (35 espécies) e 125 ocorrências de flora (62 espécies). Esses dados são resultados de coletas realizadas na UC a partir de 2003, tendo seu ápice amostral no quinquênio de 2006-2010 para a fauna e 2011-2015 para a flora (Figura 25). Apenas três ocorrências de flora encontram-se sem data de coleta e não puderam ser incluídos na análise gráfica."
+							},
+							{
+								img:require('@/assets/topics/figure22.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando as Classes Actinopterygii, Insecta e Mammalia, ocorrentes no Monumento Natural dos Pontões Capixabas.",
+								imgNumber:22
+							},
+							{
+								img:require('@/assets/topics/figure23.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando as Divisões Espermatófitas e Samambaias, ocorrentes no Monumento Natural dos Pontões Capixabas.",
+								imgNumber:23
+							},
+							{
+								img:require('@/assets/topics/figure24.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Magnoliídeas, Monocotiledôneas, Superasterídeas e Superrosídeas, ocorrentes no Monumento Natural dos Pontões Capixabas.",
+								imgNumber:24
+							},
+							{
+								frame:require('@/assets/topics/table8.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Monumento Natural dos Pontões Capixabas",
+								frameNumber:"Tabela 8"
+							},
+							{
+								frame:require('@/assets/topics/table9.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Monumento Natural dos Pontões Capixabas.",
+								frameNumber:"Tabela 9"
+							},
+							{
+								img:require('@/assets/topics/figure25.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Monumento Natural dos Pontões Capixabas, ao longo do tempo.",
+								imgNumber:25
+							},
+							{
+								text:"O levantamento da fauna da UC revelou que os grupos com maior representatividade de registros são os mamíferos seguidos dos peixes, com 69 e 31 registros, respectivamente. O outro grupo de fauna registrado foi o grupo dos insetos com quatro registros. Os mamíferos e os peixes são os grupos mais diversos, sendo representados por 16 e 15 espécies, respectivamente. A diversidade faunística levantada para a UC abrange 10 famílias, as quais são apresentadas na Figura 26. Dentre as famílias de fauna com maior número de registros, destacam-se os gambás e cuícas da família Didelphidae, com 45 registros para seis espécies, e os roedores da família Cricetidae, com 16 registros para oito espécies. As duas famílias supracitadas também são as de maior diversidade na UC. "
+							},
+							{
+								text:"Nenhuma das espécies registradas na UC encontra-se ameaçada de extinção tanto a nível estadual, quanto nacional."
+							},
+							{
+								img:require('@/assets/topics/figure26.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário faunístico do Monumento Natural dos Pontões Capixabas.",
+								imgNumber:26
+							},
+							{
+								text:"No levantamento da flora, o grupo mais representativo foi o das angiospermas com 125 registros, 62 espécies, pertencentes a 36 famílias. Logo após, está o grupo das monilófitas com 19 registros, 15 espécies e seis famílias, seguido das licopodófitas com cinco registros, duas espécies em uma família apenas. Um total de 17 ocorrências (13,6% dos registros totais) refere-se a espécimes identificados apenas em nível de família. A maior abundância de registros e diversidade florística de angiospermas levantada para a UC, pertence aos clados: superasterídeas e superrrosídeas, somando também a maior parte dos registros de espermatófitas, seguidas por monocotiledôneas e magnoliídeas. A família com maior número de espécies de angiospermas foi a Bromeliaceae, com cinco espécies (Figura 27). Entre as samambaias a maior abundância de registros, bem como diversidade de espécies está entre as monilófitas, na família Pteridaceae com cinco espécies inventariadas."
+							},
+							{
+								text:"Das espécies de plantas, sete estão ameaçadas de extinção a nível nacional, sendo duas espécies classificadas na categoria VU, duas EN e três CR. Já a nível estadual, a UC possui 16 espécies ameaçadas, sendo seis VU, sete EN e três CR (Anexo I)."
+							},
+							{
+								img:require('@/assets/topics/figure27.png'),
+								imgDesc:"Gráfico das famílias mais representativas no inventário florístico do Monumento Natural dos Pontões Capixabas.",
+								imgNumber:27
+							},
+						]
+					},
+					{
+						title:"4.5 Monumento Natural o Frade e a Freira",
+						texts:[
+							{
+								text:"O Monumento Natural O Frade e a Freira é uma Unidade de Conservação estadual administrada pelo IEMA e localizada no sul do Espírito Santo na divisa dos municípios de Vargem Alta, Itapemirim e Cachoeiro de Itapemirim. A UC possui uma área total de aproximadamente 861,40 ha, sendo que cerca da metade desta área pertence ao município de Itapemirim estando a 8 km do centro urbano de Cachoeiro de Itapemirim, município com menor área dentro da UC."
+							},
+							{
+								text:"A região possui forte importância turística e cultural ligada tanto às atividades cênicas e de aventura (alpinismo e caminhada), quanto às diversas lendas que explicam o formato único do afloramento rochoso granítico, cuja forma lembra duas figuras religiosas se olhando, uma masculina que representa um Frei e uma feminina, representando uma Freira. Devido a esta importância cênica e cultural, o conjunto granítico foi declarado, em 1986, como Patrimônio Histórico Cultural pelo Conselho Estadual de Cultura através da Resolução nº 07, de 12 de junho daquele ano. Nove anos depois de seu tombamento cultural, a área tornou-se uma UC na categoria de Monumento Natural por meio do Decreto Estadual nº 1.917, de 06 de setembro de 2007. O ato de criação da UC indica os seguintes objetivos:"
+							},
+							{
+								text:"- Preservar a integridade do conjunto granítico no qual está inserido o marco principal, denominado O Frade e a Freira;"
+							},
+							{
+								text:"- Proteger os fragmentos florestais remanescentes localizados no afloramento;"
+							},
+							{
+								text:"- Promover o desenvolvimento econômico regional, com a proteção da natureza, manejo adequado dos recursos naturais e disciplinamento do uso e ocupação do solo;"
+							},
+							{
+								text:"- Desenvolver o turismo sustentável regional, integrado às condições naturais dos ecossistemas, das paisagens e das belezas cênicas;"
+							},
+							{
+								text:"- Desenvolver programas setoriais, incluindo o turismo, educação, fiscalização e monitoramento ambiental;"
+							},
+							{
+								text:"- Contribuir para o desenvolvimento de pesquisas científicas na área da ecologia aplicada, biologia, geologia, hidrologia e outras de interesse para a conservação e preservação dos ecossistemas naturais;"
+							},
+							{
+								text:"- Contribuir para a instalação de processos naturais de recuperação dos ecossistemas e para a recuperação induzida, de acordo com projetos definidos no plano de manejo e aprovados pelo IEMA, ouvido o Conselho Consultivo;"
+							},
+							{
+								text:"- Implantar equipamentos e serviços necessários à consecução desses objetivos."
+							},
+							{
+								text:"A UC não possui plano de manejo, embora o ato de criação tenha determinado sua elaboração em um prazo máximo de três anos após a sua criação. Diante desse fato, não foram localizadas informações consolidadas oficiais sobre a UC, assim como detalhes sobre seu histórico de criação ou ameaças, embora seja possível supor que as principais ameaças que levaram à sua criação sejam semelhantes àquelas elencadas para o MONA dos Pontões Capixabas, a saber: ação antrópica pela substituição de áreas naturais por pastos, modificação proveniente da circulação de pessoas e mineração de granito."
+							},
+							{
+								text:"Garbin et al. (2017) afirmam que a área onde localiza-se a UC é composta pelo ecossistema de Floresta Estacional Semidecidual (conhecida como Floresta Tropical Subcaducifólia), possivelmente do tipo Submontana (IBGE, 2012). A UC encontra-se inserida na bacia do rio Itapemirim, terceira maior bacia hidrográfica do ES, depois das bacias dos rios Doce e São Mateus. A vegetação da UC é composta por fragmentos florestais remanescentes (MMA, 2019b), porém, a ausência do plano de manejo leva à falta de informações sobre a fitofisionomia predominante na UC, assim como dados oficiais sobre a composição de fauna e flora. "
+							},
+							{
+								text:"O levantamento da biodiversidade da UC revelou 12 ocorrências de organismos de fauna e flora (Figuras 28-30; Tabelas 10 e 11) pertencentes a oito espécies, sendo três ocorrências de fauna (três espécies) e nove ocorrências de flora (cinco espécies). Esses dados são resultados de coletas realizadas na UC apenas no ano 2012 para a fauna e duas coletas para a flora, realizadas em 2017 e 2019, que resultou no levantamento dos dados aqui apresentados (Figura 31). "
+							},
+							{
+								img:require('@/assets/topics/figure28.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de fauna, representando a Classe Actinopterygii, ocorrente no Monumento Natural o Frade e a Freira.",
+								imgNumber:28
+							},
+							{
+								img:require('@/assets/topics/figure29.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando a Divisão Espermatófitas, ocorrentes no Monumento Natural o Frade e a Freira.",
+								imgNumber:29
+							},
+							{
+								img:require('@/assets/topics/figure30.jpg'),
+								imgDesc:"Mapa da distribuição dos registros de flora, representando os Clados APG IV: Magnoliídeas, Monocotiledôneas e Superrosídeas, ocorrentes no Monumento Natural o Frade e a Freira.",
+								imgNumber:30
+							},
+							{
+								frame:require('@/assets/topics/table10.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de fauna no Monumento Natural o Frade e a Freira.",
+								frameNumber:"Tabela 10"
+							},
+							{
+								frame:require('@/assets/topics/table11.png'),
+								frameDesc:"Distribuição de registros e espécies entre os grupos de flora no Monumento Natural o Frade e a Freira.",
+								frameNumber:"Tabela 11"
+							},
+							{
+								img:require('@/assets/topics/figure31.png'),
+								imgDesc:"Gráfico demonstrativo de número de coletas de fauna e flora realizadas no Monumento Natural o Frade e a Freira, ao longo do tempo.",
+								imgNumber:31
+							},
+							{
+								text:"O levantamento da fauna da UC revelou apenas o grupo de peixes com três registros e três espécies. A diversidade faunística levantada para a UC abrange três famílias, as quais são apresentadas na Figura 32. "
+							},
+							{
+								text:"Nenhuma das espécies registradas na UC encontra-se ameaçada de extinção tanto a nível estadual, quanto nacional."
 							}
 						]
 					}

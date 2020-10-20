@@ -21,7 +21,7 @@
 		</template>
 
 		<template v-else>
-			<template v-if="this.$config.topics[this.$route.query.synthesis] && this.$config.topics[this.$route.query.synthesis][this.$route.query.page]">
+			<template v-if="$config.topics[$route.query.synthesis] && $config.topics[$route.query.synthesis][$route.query.page]">
 				<Banner>
 					<span slot="title">{{ $config.topics[$route.query.synthesis][$route.query.page].title }}</span>
 				</Banner>
@@ -56,10 +56,12 @@
 				</div>
 
 				<br>
-				
+				<Cards :conf="cards.conf" :elements="cards.elements"/>
+				<br>
 			</template>
 		</template>
-  </div>
+  
+	</div>
 </template>
 
 <style scoped>
@@ -72,37 +74,56 @@
 <script>
 import Description from "@/components/template/Description.vue";
 import Banner from "@/components/template/Banner.vue";
+import Cards from "@/components/home/Cards.vue"
 
 export default {
 	components: {
     Description,
-    Banner,
+		Banner,
+		Cards
   },
-  mounted() {
-		// console.log(this.$route.params.id);
-		// console.log(this.$route.query.element);
-		
-		// if(!this.$config.topics[this.$route.query.synthesis] || !this.$config.topics[this.$route.query.synthesis][this.$route.query.page]){
-		// 	this.$router.push(
-		// 		{
-		// 			path: '/synthesis',
-		// 			query: { synthesis: 0, page: 0 },
-		// 		}
-		// 	).catch(err => {})
-		// }
-
-	},
 
 	data(){
 		return{
 			page: 0,
 			title:"",
-			texts:""
+			texts:"",
+			topic:0,
+			topicPage:0,
+			cards:{conf:{title:"Mais"},elements:[]}
+		}
+	},
+
+	mounted() {
+		if( this.$route.query.synthesis ){
+			this.nextTopic()
 		}
 	},
 
 	methods:{
-		 toSynthesis(synthesis, page) {
+		nextTopic(){
+			this.topic = parseInt(this.$route.query.synthesis)
+			this.topicPage = parseInt(this.$route.query.page)
+			let next = this.topicPage+(1)
+			if(next <= this.$config.topics[this.topic].length){
+				if(this.$config.topics[this.topic][next]){
+					this.cards.elements.push({
+						title:this.$config.topics[this.topic][next].title, 
+						link:`synthesis?synthesis=${this.topic}&page=${next}`
+					})
+				}else{
+					next = this.topic+(1)
+					if(next < this.$config.topics.length){
+						this.cards.elements.push({
+							title:this.$config.topics[next][0].title, 
+							link:`synthesis?synthesis=${next}&page=${0}`
+						})
+					}
+				}
+			}
+		},
+
+		toSynthesis(synthesis, page) {
 			this.$router.push(
 				{
 					path: '/synthesis',

@@ -17,14 +17,7 @@
 
 <script>
 export default {
-  props: {
-    conf: {
-      type: Object,
-    },
-    elements: {
-      type: Array,
-    },
-  },
+  props: ['conf', 'elements'],
 
   methods: {
 		fontSize(){

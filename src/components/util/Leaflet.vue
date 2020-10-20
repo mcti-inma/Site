@@ -1,16 +1,12 @@
 <template>
 	<div>
 		<div 
-			id="map" 
-			class="map"  
-			:style="{width: `${width}px`, height: `${height}px`}">
+			id="map"  
+			:style="getStyle()">
 		</div>
 		<br>
 
-		<loader v-if="loading" 
-			size="50" borderSize="6" time="0.9" 
-			:colors="['#49BF4C','#49BF4C']"
-		/>
+		<slot v-if="loading" name="loader"></slot>
 
 		<div v-else>
 			<span v-for="(route, index) in routes" :key="index">
@@ -24,23 +20,15 @@
 </template>
 <script>
 import Api from '@/service/api'
-import loader from '@/components/template/loader.vue'
 
 export default {
 	props:{
-		width:{
-			required:true
-		},
-		height:{
-			required:true
-		},
+		style:{},
+		width:{},
+		height:{},
 		routes:{
 			type: Array		
 		}
-	},
-
-	components:{
-		loader
 	},
 
   data() {
@@ -77,6 +65,19 @@ export default {
 	},
 
 	methods:{
+		getStyle(){
+			let style = "";
+			if(this.width){
+				style += `width:${this.width}px;`
+			}
+			if(this.height){
+				style += `height:${this.height}px;`
+			}
+			if(this.style){
+				style += this.style
+			} 
+			return style
+		},
 		isChecked(id){
 			if(this.check[id]){
 				return true
@@ -138,6 +139,9 @@ export default {
 
 		// info.addTo(this.map);
 </script>
-<style lang="less">
-
+<style scoped>
+	#map{
+		width:500px;
+		height:400px;
+	}
 </style>

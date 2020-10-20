@@ -1,3 +1,13 @@
+conf:{
+	title,
+},
+elements:[
+	{
+		title, 
+		img, 
+		link
+	}
+]
 <template>
   <div>
 		<TemplateTitle :conf="{fontSize:'45px'}" :elements="conf.title"/>
@@ -7,13 +17,13 @@
           <div class="margin">
 						
             <div v-for="card in elements" :key="card.title"
-							class="s-12 m-6 l-4 margin-m-bottom row">							
-              <img class="img-size margin-bottom" :src="card.img" alt="">
-              <h2 class="text-thin">{{ card.title }}</h2>
-              <p>{{ card.description }}</p> 
-              <a v-if="card.link"
+							class="s-12 m-6 l-4 margin-m-bottom row">	
+							<a v-if="card.link"
 								class="text-more-info text-primary-hover" :href="card.link">
-								Ler mais
+								<img class="img-size margin-bottom" :src="card.img" alt="">
+								<h2 class="text-thin">{{ card.title }}</h2>
+								<p>{{ card.description }}</p> 
+								Ler Mais
 							</a>                
             </div>  
           </div>
@@ -54,14 +64,7 @@ export default {
 		TemplateTitle
 	},
 
-  props: {
-    conf: {
-      type: Object,
-    },
-    elements: {
-      type: Array,
-    },
-  },
+  props: ['conf', 'elements'],
 
   methods: {
     classTitle(primary) {
