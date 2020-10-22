@@ -18,7 +18,7 @@ import '@/assets/css/owl-carousel/owl.carousel.css'
 import '@/assets/css/owl-carousel/owl.theme.css'
 import '@/assets/css/template-style.css'
 import '@/assets/font/mfglabsiconset-webfont.eot'
-{/* <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet'> */}
+//{/* <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet'> */}
 
 Vue.use(Buefy)
 
@@ -26,6 +26,8 @@ Vue.config.productionTip = false
 
 //Adiciona a configuração no projeto
 Vue.prototype.$config = config.data()
+Vue.prototype.$config.methods = config.methods
+Vue.prototype.$scrollToTop = () => window.scrollTo(0,0)
 // Vue.prototype.$leaflet = leaflet
 Vue.prototype.L = L
 

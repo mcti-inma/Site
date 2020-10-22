@@ -20,10 +20,8 @@
 								<input class="search" type="text" placeholder="Pesquisar">
 							</li>
 
-              <li><a href="/">Home</a></li> 
-							<li>
-								<a href="synthesis">Síntese</a>
-							</li>
+              <!-- <li><router-link to="/">Home</router-link></li>  -->
+							<li><router-link to="/synthesis">Síntese</router-link></li>
 							<!-- <li>
 								<a>Síntese</a>
 								<ul>
@@ -36,8 +34,9 @@
 								</ul>
 							</li> -->
 
-							<li><a href="maps">Mapas</a></li>
-              <li><a href="members">Equipe</a></li>
+							<!-- <li><a href="maps">Mapas</a></li> -->
+							<li><router-link to="/maps">Mapas</router-link></li>
+              <li><router-link to="members">Equipe</router-link></li>
 
             </ul>
           </div>

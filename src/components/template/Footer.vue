@@ -52,7 +52,7 @@
                   <i class="icon-globe_black text-primary text-size-12"></i>
                 </div>
                 <div class="s-11 m-11 l-11 margin-bottom-10">
-                  <p><b>Instituição</b> <a href="http://inma.gov.br" target="_blank">Instituto Nacional da Mata Atlântica (INMA)</a></p>
+                  <p><b>Instituição:</b> <a href="http://inma.gov.br" target="_blank">Instituto Nacional da Mata Atlântica (INMA)</a></p>
                 </div>
               </div>
 

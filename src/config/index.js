@@ -1,6 +1,15 @@
 export default {
   data() {
     return {
+			search:{
+				value:"teste",
+				options:[
+					{
+						topic:0,
+						page:0
+					}
+				]
+			},
 			request:{
 				url:"http://142.93.14.214:3000/",
 				routes:[
@@ -1143,7 +1152,22 @@ export default {
 				}
 			]
     }
-  }
+	},
+	methods:{
+		searchWork(text, value) {
+			if (text.toLowerCase().indexOf(value.toLowerCase()) > -1) {
+				return true
+			} else {
+				return false;
+			}
+		},
+		getStyleHighlight(text, search){
+			if( text && this.searchWork(text, search) ){
+				return "highlight"
+			}
+		}
+	}
+	
 }
 
 

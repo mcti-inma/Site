@@ -18,13 +18,13 @@ elements:[
 						
             <div v-for="card in elements" :key="card.title"
 							class="s-12 m-6 l-4 margin-m-bottom row">	
-							<a v-if="card.link"
-								class="text-more-info text-primary-hover" :href="card.link">
+							<router-link v-if="card.link" @click.native="$scrollToTop"
+								class="text-more-info text-primary-hover" :to="card.link">
 								<img class="img-size margin-bottom" :src="card.img" alt="">
 								<h2 class="text-thin">{{ card.title }}</h2>
 								<p>{{ card.description }}</p> 
 								Ler Mais
-							</a>                
+							</router-link>                
             </div>  
           </div>
         </div>

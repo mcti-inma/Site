@@ -10,10 +10,10 @@
 				<span slot="title">
 					<div v-for="(topic, i) in topics" :key="i">
 						<br>
-						<a :class="`title ${getStyleHighlight(topic.title)}`" :href="`?synthesis=${index}&page=${i}`">
+						<router-link :class="`title ${getStyleHighlight(topic.title)}`" @click.native="$scrollToTop" :to="`?synthesis=${index}&page=${i}`">
 						<!-- @click="toSynthesis(index,i)" -->
 							{{topic.title}}
-						</a>
+						</router-link>
 					</div>
 				</span>
 			</Description>
@@ -85,7 +85,7 @@ export default {
 
 	data(){
 		return{
-			search:"A Biodiversidade e o bioma Mata Atlântica",
+			search:"Mata Atlântica",
 			page: 0,
 			title:"",
 			texts:"",
@@ -96,28 +96,27 @@ export default {
 	},
 
 	mounted() {
+		this.getSearch(this.$config.search.value)
+
 		if( this.$route.query.synthesis ){
 			this.nextTopic()
 		}
+	},
 
+	watch:{
+		'$config.search.value'(value){
+			console.log( value )
+		}
 	},
 
 	methods:{
-		getStyleHighlight(text){
-			// if( this.$route.query.search ){
-			if( this.search != null ){
-				if( text && this.searchWork(text, this.search) ){
-					return "highlight"
-				}
+		getSearch(value){
+			if( value && value != ""){
+				this.search = this.$config.search.value
 			}
 		},
-		searchWork(text, value) {
-			if (text.toLowerCase().indexOf(value.toLowerCase()) > -1) {
-				console.log( text )
-				return true
-			} else {
-				return false;
-			}
+		getStyleHighlight(text){
+			return this.$config.methods.getStyleHighlight(text, this.search)
 		},
 		nextTopic(){
 			this.topic = parseInt(this.$route.query.synthesis)

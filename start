@@ -9,11 +9,20 @@
 # Programas: NPM, Docker e docker-compose
 # =========================================
 
+function verifyNpm(){
+	ls node_modules 2>&1&> /dev/null
+	if [ $? != 0 ]; then
+		npm install
+	fi
+}
+
 function refresh(){
+	verifyNpm
 	npm run build
 	sudo docker-compose up --force-recreate -d 
 	cp ./.htaccess ./dist
 }
+
 
 case $1 in
 "-i"|"install") 
