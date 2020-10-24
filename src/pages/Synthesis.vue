@@ -110,7 +110,7 @@ export default {
 
 		getStyleHighlight(text){
 			if(text){
-				return this.$config.methods.getStyleHighlight(text, this.getSearch())
+				return this.$config.methods.getStyleHighlight(text, this.$store.getters.search)
 			}
 		},
 

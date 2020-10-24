@@ -18,8 +18,11 @@ import '@/assets/css/responsee.css'
 // import '@/assets/css/owl-carousel/owl.theme.css'
 import '@/assets/css/template-style.css'
 import '@/assets/font/mfglabsiconset-webfont.eot'
+
 //{/* <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet'> */}
 import vuetify from './plugins/vuetify';
+
+import store from './store'
 
 // Vue.use(Buefy)
 
@@ -35,6 +38,7 @@ Vue.prototype.L = L
 new Vue({
   router,
   vuetify,
+  store,
   render: h => h(App)
 }).$mount('#app')
 

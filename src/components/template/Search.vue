@@ -1,15 +1,28 @@
 <template>
 	<div>
-		<input 
+		<input
 			name="search" 
 			type="text"
-			placeholder="pesquisar"
-		/>
+			placeholder="Pesquisar"
+			v-model="search"
+			v-on:keyup.enter="onSearch"
+		/> 
 	</div>
 </template>
 
 <script>
 export default {
+	data(){
+		return{
+			search:""
+		}
+	},
+
+	methods:{
+		onSearch(){
+			this.$store.dispatch('search', this.search)
+		}
+	}
 }
 </script>
 

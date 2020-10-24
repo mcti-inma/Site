@@ -17,10 +17,10 @@
             <ul class="right chevron center-auto">
 							
 							<li>
-								<Search/>
-								<!-- <input class="search" type="text" placeholder="Pesquisar"> -->
+								<Search class="search"/>
 							</li>
 
+              <li><router-link to="/">Pesquisar</router-link></li> 
               <li><router-link to="/">Home</router-link></li> 
 							<li><router-link to="/synthesis">Síntese</router-link></li>
 							<!-- <li>
@@ -48,13 +48,11 @@
 </template>
 
 <style scoped>
-/* .search{
-	margin-top:4px;
+.search{
+	/* margin-top:2px; */
 	margin-right:10px;
 }
-.search-a:hover{
-	background: none !important;
-} */
+
 a {
   background-color: white;
 }
@@ -83,6 +81,12 @@ import Search from "@/components/template/Search.vue"
 
 
 export default {
+	mounted(){
+		// this.$store.dispatch('search', "testefffffgg")
+		// console.log( this.$store.getters.getHighlight )
+	},
+
+
   components: {
     GovernmentBar,
 		TemplateTitle,
