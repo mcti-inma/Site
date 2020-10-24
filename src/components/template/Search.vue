@@ -1,52 +1,24 @@
 <template>
-  <section>
-    <!-- <p class="content"><b>Selected:</b> {{ selected }}</p> -->
-    <!-- <b-field label="Find a JS framework"> -->
-    <b-autocomplete
-      rounded
-      v-model="name"
-      :data="filteredDataArray"
-      placeholder="Busque aqui seu produto"
-      clearable
-      icon="magnify"
-      @select="option => selected = option"
-    >
-      <template slot="empty">Não encontramos o produto :(</template>
-    </b-autocomplete>
-    <!-- </b-field> -->
-  </section>
+	<div>
+		<input 
+			name="search" 
+			type="text"
+			placeholder="pesquisar"
+		/>
+	</div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      data: [
-        "Xiaomi Readmi S2",
-        "Arroz",
-        "Notebook",
-        "Veronica Decide Morrer",
-        "Arroz",
-        "Monitor LG 19.5",
-        "Cabo Hdmi 2.0 4K Hdr",
-        "Guitarra",
-        "Camera",
-        "Refrigerante",
-        "Copo",
-        "Cachaça",
-      ],
-      name: "",
-      selected: null,
-    };
-  },
-  computed: {
-    filteredDataArray() {
-      return this.data.filter((option) => {
-        return (
-          option.toString().toLowerCase().indexOf(this.name.toLowerCase()) >= 0
-        );
-      });
-    },
-  },
-};
+}
 </script>
+
+<style>
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 2px solid #49BF4C;
+  border-radius: 5px;
+}
+</style>

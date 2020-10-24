@@ -96,28 +96,24 @@ export default {
 	},
 
 	mounted() {
-		this.getSearch(this.$config.search.value)
-
 		if( this.$route.query.synthesis ){
 			this.nextTopic()
 		}
 	},
 
-	watch:{
-		'$config.search.value'(value){
-			console.log( value )
-		}
-	},
-
 	methods:{
-		getSearch(value){
-			if( value && value != ""){
-				this.search = this.$config.search.value
+		getSearch(){
+			if( this.$route.query.search && this.$route.query.search.length > 0 && this.$route.query.search != ""){
+				return this.$route.query.search
+			} return ""
+		},
+
+		getStyleHighlight(text){
+			if(text){
+				return this.$config.methods.getStyleHighlight(text, this.getSearch())
 			}
 		},
-		getStyleHighlight(text){
-			return this.$config.methods.getStyleHighlight(text, this.search)
-		},
+
 		nextTopic(){
 			this.topic = parseInt(this.$route.query.synthesis)
 			this.topicPage = parseInt(this.$route.query.page)

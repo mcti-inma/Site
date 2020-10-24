@@ -3,9 +3,9 @@
 
     <NavBar></NavBar>
 
-    <main role="main">
+    <!-- <main> -->
       <router-view/>   
-    </main>
+    <!-- </main> -->
 
     <Footer/>
 
