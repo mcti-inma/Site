@@ -56,7 +56,7 @@
 				</div>
 
 				<br>
-				<Cards :conf="cards.conf" :elements="cards.elements"/>
+				<Cards :conf="cards.conf" :elements="getElements($route.query.synthesis, $route.query.page)"/>
 				<br>
 			</template>
 		</template>
@@ -85,68 +85,44 @@ export default {
 
 	data(){
 		return{
-			search:"Mata Atlântica",
 			page: 0,
 			title:"",
 			texts:"",
 			topic:0,
 			topicPage:0,
-			cards:{conf:{title:"Mais"},elements:[]}
-		}
-	},
-
-	mounted() {
-		this.getSearch(this.$config.search.value)
-
-		if( this.$route.query.synthesis ){
-			this.nextTopic()
-		}
-	},
-
-	watch:{
-		'$config.search.value'(value){
-			console.log( value )
+			cards:{conf:{title:""}, elements:[]}
 		}
 	},
 
 	methods:{
-		getSearch(value){
-			if( value && value != ""){
-				this.search = this.$config.search.value
+		getStyleHighlight(text){
+			if(text){
+				return this.$config.methods.getStyleHighlight(text, this.$store.getters.search)
 			}
 		},
-		getStyleHighlight(text){
-			return this.$config.methods.getStyleHighlight(text, this.search)
-		},
-		nextTopic(){
-			this.topic = parseInt(this.$route.query.synthesis)
-			this.topicPage = parseInt(this.$route.query.page)
-			let next = this.topicPage+(1)
-			if(next <= this.$config.topics[this.topic].length){
-				if(this.$config.topics[this.topic][next]){
-					this.cards.elements.push({
-						title:this.$config.topics[this.topic][next].title, 
-						link:`synthesis?synthesis=${this.topic}&page=${next}`
+
+		getElements(topic, topicPage){
+			topic = parseInt(topic)
+			topicPage = parseInt(topicPage)
+			let elements = []
+			let next = topicPage+(1)
+			if(next <= this.$config.topics[topic].length){
+				if(this.$config.topics[topic][next]){
+					elements.push({
+						title:this.$config.topics[topic][next].title, 
+						link:`synthesis?synthesis=${topic}&page=${next}`
 					})
 				}else{
-					next = this.topic+(1)
+					next = topic+(1)
 					if(next < this.$config.topics.length){
-						this.cards.elements.push({
+						elements.push({
 							title:this.$config.topics[next][0].title, 
 							link:`synthesis?synthesis=${next}&page=${0}`
 						})
 					}
 				}
 			}
-		},
-
-		toSynthesis(synthesis, page) {
-			this.$router.push(
-				{
-					path: '/synthesis',
-					query: { synthesis: synthesis, page: page },
-				}
-			).catch(err => {})
+			return elements
 		},
 
 		ident(ident){

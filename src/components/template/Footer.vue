@@ -2,8 +2,12 @@
   <div>
     <footer>
       <!-- Social -->
-      <div class="background-primary padding text-center">
-				<div class="flex col-6">
+      <div class="background-primary text-center">
+				<v-row
+            class="fill-height"
+            align="center"
+            justify="center"
+          >
 					<a class="footer-icon" href="http://inma.gov.br" target="_blank">
 						<img class="border" src="@/assets/icons/inma.png" alt="">
 					</a>
@@ -13,7 +17,7 @@
 					<a class="footer-icon" href="https://fapes.es.gov.br" target="_blank">
 						<img class="border" src="@/assets/icons/fapes.png" alt="">
 					</a>
-        </div>
+        </v-row>
 				<!-- <a href="/"><i class="icon-facebook_circle icon2x text-white"></i></a> 
         <a href="/"><i class="icon-twitter_circle icon2x text-white"></i></a>
         <a href="/"><i class="icon-google_plus_circle icon2x text-white"></i></a>
@@ -132,11 +136,12 @@
 
 <style scoped>
 	.flex{
-		display:flex
+		display:flex;
 	}
 	.footer-icon{
+		padding:5px;
 		width: 200px;
-		margin: auto;
+		margin: auto !important;
 	}
 	.border{
 		border-radius: 10px;

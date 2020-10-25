@@ -1,52 +1,56 @@
 <template>
-  <section>
-    <!-- <p class="content"><b>Selected:</b> {{ selected }}</p> -->
-    <!-- <b-field label="Find a JS framework"> -->
-    <b-autocomplete
-      rounded
-      v-model="name"
-      :data="filteredDataArray"
-      placeholder="Busque aqui seu produto"
-      clearable
-      icon="magnify"
-      @select="option => selected = option"
-    >
-      <template slot="empty">Não encontramos o produto :(</template>
-    </b-autocomplete>
-    <!-- </b-field> -->
-  </section>
+	<div class="flex">
+		<input
+			type="text"
+			placeholder="Pesquisa"
+			v-model="$store.state.search"
+			v-on:keyup.enter="onSearch"
+		/> 
+		<router-link class="botton-search" :to="`/search?search=${$store.getters.search}`">
+			Pesquisar
+		</router-link>
+	</div>
 </template>
+
+<style scoped>
+.botton-search{
+	background: #002633;
+	/* background:white; */
+	color: white !important;
+	margin-left: 5px;
+}
+.botton-search:hover{
+	background:#002633 !important;
+}
+.flex{
+	display: flex;
+}
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 2px solid #002633;
+  border-radius: 5px;
+}
+</style>
 
 <script>
 export default {
-  data() {
-    return {
-      data: [
-        "Xiaomi Readmi S2",
-        "Arroz",
-        "Notebook",
-        "Veronica Decide Morrer",
-        "Arroz",
-        "Monitor LG 19.5",
-        "Cabo Hdmi 2.0 4K Hdr",
-        "Guitarra",
-        "Camera",
-        "Refrigerante",
-        "Copo",
-        "Cachaça",
-      ],
-      name: "",
-      selected: null,
-    };
-  },
-  computed: {
-    filteredDataArray() {
-      return this.data.filter((option) => {
-        return (
-          option.toString().toLowerCase().indexOf(this.name.toLowerCase()) >= 0
-        );
-      });
-    },
-  },
-};
+	data(){
+		return{
+			search:"",
+			sendSearch:null,
+		}
+	},
+
+	methods:{
+		onSearch(){ //v-on:keyup.enter="onSearch"
+			if(this.$util.isNotEmpty(this.search)){
+				// this.$store.dispatch('search', this.search)
+				// this.$router.navigate(`/search?search=${this.$store.getters.search}`)
+				// this.$router.push({ path: '/search' }).catch(()=>{})
+			}
+		}
+	}
+}
 </script>

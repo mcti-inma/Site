@@ -1162,7 +1162,7 @@ export default {
 			}
 		},
 		getStyleHighlight(text, search){
-			if( text && this.searchWork(text, search) ){
+			if( text.length > 0 && search.length > 0 && this.searchWork(text, search) ){
 				return "highlight"
 			}
 		}

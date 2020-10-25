@@ -38,6 +38,18 @@ const routes = [
     name: 'Synthesis',
     component: () => import('../pages/Synthesis.vue')
 	},
+	{
+    path: '/search/',
+		name: 'Search',
+		children:[
+			{
+				path: '/synthesis/',
+				name: 'Synthesis',
+				component: () => import('../pages/Synthesis.vue')
+			},
+		],
+    component: () => import('../pages/Search.vue')
+	},
 ]
 
 const router = new VueRouter({
