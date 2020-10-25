@@ -1,10 +1,14 @@
 export default {
 	methods:{
 		isEmpty(value){
-			return (value.length === 0 || !value.trim());
+			if(value){
+				return (value.length === 0 || !value.trim());
+			} return true
 		},
 		isNotEmpty(value){
-			return !(value.length === 0 || !value.trim());
+			if(value){
+				return !(value.length === 0 || !value.trim());
+			} return false
 		},
 	}
 }

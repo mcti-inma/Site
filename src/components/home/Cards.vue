@@ -20,7 +20,7 @@ elements:[
           <div class="margin">
 						
             <div v-for="(card,i) in elements" :key="i"
-							class="s-12 m-6 l-4 margin-m-bottom row">	
+							class="s-12 m-6 l-4 margin-m-bottom row _cards">	
 							<router-link @click.native="$scrollToTop"
 								class="text-more-info text-primary-hover" :to="card.link">
 								<img class="img-size margin-bottom" :src="card.img" alt="">
@@ -36,10 +36,13 @@ elements:[
 </template>
 
 <style scoped>
+._cards{
+	margin-left:5px;
+}
+
 .section{
 	margin-bottom: -40px;
 }
-
 .img-size {
   width: 250px;
 	margin-left:auto;

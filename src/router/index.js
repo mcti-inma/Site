@@ -40,7 +40,14 @@ const routes = [
 	},
 	{
     path: '/search/',
-    name: 'Search',
+		name: 'Search',
+		children:[
+			{
+				path: '/synthesis/',
+				name: 'Synthesis',
+				component: () => import('../pages/Synthesis.vue')
+			},
+		],
     component: () => import('../pages/Search.vue')
 	},
 ]
