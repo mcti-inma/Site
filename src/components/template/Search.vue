@@ -20,7 +20,10 @@ export default {
 
 	methods:{
 		onSearch(){
-			this.$store.dispatch('search', this.search)
+			if(this.$util.isNotEmpty(this.search)){
+				this.$store.dispatch('search', this.search)
+				this.$router.push({ path: 'search' })
+			}
 		}
 	}
 }

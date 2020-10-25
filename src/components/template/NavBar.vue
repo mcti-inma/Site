@@ -20,7 +20,6 @@
 								<Search class="search"/>
 							</li>
 
-              <li><router-link to="/">Pesquisar</router-link></li> 
               <li><router-link to="/">Home</router-link></li> 
 							<li><router-link to="/synthesis">Síntese</router-link></li>
 							<!-- <li>

@@ -5,6 +5,7 @@ import router from './router'
 // import Buefy from 'buefy'
 // import 'buefy/dist/buefy.css'
 import config from './config'
+import util from './util'
 
 // import leaflet from './leaflet'
 
@@ -30,9 +31,9 @@ Vue.config.productionTip = false
 
 //Adiciona a configuração no projeto
 Vue.prototype.$config = config.data()
+Vue.prototype.$util = util.methods
 Vue.prototype.$config.methods = config.methods
 Vue.prototype.$scrollToTop = () => window.scrollTo(0,0)
-// Vue.prototype.$leaflet = leaflet
 Vue.prototype.L = L
 
 new Vue({

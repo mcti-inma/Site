@@ -49,17 +49,14 @@ export default {
 			},	
 			objectives:{
 				conf:{
-					title:[
-						{
-							title:"PROJETO RIMA"					
-						}
-					]
+					title:"PROJETO RIMA"					
 				},
 				elements:[
 					{
 						img:require("@/assets/img/unnamed.jpg"),
 						title:"Primeiro objetivo",
 						description:"Implantar um sistema de compartilhamento de dados sobre a Mata Atlântica do Espírito Santo, com ênfase nas Unidades de Conservação, visando disponibilizá-las para cientistas, público leigo e tomadores de decisão .",
+						link:""
 					},
 					{
 						img:require("@/assets/img/unnamed_2.jpg"),

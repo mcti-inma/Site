@@ -26,13 +26,6 @@ export default new Vuex.Store({
 		loading: state => state.loading,
 	},
 	actions: { //ações
-		searchWork(text) { console.log("text")
-			if (text.toLowerCase().indexOf(this.state.search.toLowerCase()) > -1) {
-				return true
-			} else {
-				return false;
-			}
-		},
 		search({commit},value){
 			commit("loadingStatus")
 			this.state.search = value
