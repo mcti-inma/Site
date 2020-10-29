@@ -92,14 +92,8 @@
     data () {
       return {
         items: [
-					{
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-          },
           {
             src: require('@/assets/img/01-boxed.jpg'),
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
           },
         ],
       }

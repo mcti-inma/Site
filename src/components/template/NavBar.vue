@@ -35,8 +35,8 @@
 							</li> -->
 
 							<!-- <li><a href="maps">Mapas</a></li> -->
-							<li><router-link to="/maps">Mapas</router-link></li>
-              <li><router-link to="members">Equipe</router-link></li>
+							<li><router-link to="/maps">Mapa</router-link></li>
+              <!-- <li><router-link to="members">Equipe</router-link></li> -->
 
             </ul>
           </div>

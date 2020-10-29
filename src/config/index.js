@@ -13,8 +13,41 @@ export default {
 			request:{
 				url:"http://142.93.14.214:3000/",
 				routes:[
-					{name:"Unidades de Conservação", point:"uc"},
-					{name:"Zonas de Amortecimento", point:"zonas"}
+					// {type:"geojson", name:"Unidades de Conservação", point:"uc"},
+					// {type:"geojson", name:"Zonas de Amortecimento", point:"zonas"},
+					{
+						type:"wms",
+						name:"Pontos de Fauna", 
+						url:"http://200.137.88.3:8081/geoserver/rima/wms?",
+						param:{
+							layers: 'rima:pontos_fauna',
+							transparent: true,
+							format: 'image/png'
+						}
+					},
+
+					{
+						type:"wms",
+						name:"Pontos de Flora", 
+						url:"http://200.137.88.3:8081/geoserver/rima/wms?",
+						param:{
+							layers: 'rima:pontos_flora',
+							transparent: true,
+							format: 'image/png'
+						}
+					},
+
+					{
+						type:"wms",
+						name:"Rios Principais", 
+						url:"http://200.137.88.3:8081/geoserver/rima/wms?",
+						param:{
+							layers: 'rima:rios_principais_es',
+							transparent: true,
+							format: 'image/png'
+						}
+					}
+
 				]
 			},
 			topics:[
