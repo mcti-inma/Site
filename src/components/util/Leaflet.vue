@@ -1,39 +1,58 @@
 <template>
 	<div>
-		<div 
-			id="map"  
-			:style="getStyle()">
-		</div>
-		<br>
-
 		<slot v-if="loading" name="loader"></slot>
-
+		
 		<div v-else>
 			<span v-for="(route, index) in routes" :key="index">
-				<input type="checkbox" 
-				v-model="check[index]" 
-				:change="activeLayer(index)">
+				<input class="check" type="checkbox" 
+					v-model="check[index]" 
+					:change="activeLayer(index)">
 				<label> {{ route.name }} </label>
 			</span>
 		</div>
+		<br>
+		<div id="map" :style="getStyle()"></div>
+
+		<div id="legend">
+			<div id="mydivheader">Mover</div>
+			<img src="http://200.137.88.3:8081/geoserver/rima/wms?service=WMS&version=1.1.0&REQUEST=GetLegendGraphic&FORMAT=image/png&WIDTH=30&HEIGHT=20&layer=rima:pontos_fauna" alt="legenda">
+		</div>
+
 	</div>
 </template>
+
+<style scoped>
+	.check{
+		margin-left: 20px;
+	}
+	#map{
+		width:800px;
+		height:500px;
+	}
+	#legend {
+		position: absolute;
+		z-index: 999;
+		top:450px;
+		left:20%
+	}
+
+	#mydivheader {
+		cursor: move;
+		z-index: 10;
+		background-color: #49BF4C;
+		color: #fff;
+	}
+</style>
+
 <script>
 import Api from '@/service/api'
 
 export default {
-	props:{
-		style:{},
-		width:{},
-		height:{},
-		routes:{
-			type: Array		
-		}
-	},
+	props:["init",'width', 'height', 'routes'],
 
   data() {
     return {
-      map:null,
+			map:null,
 			OSMUrl:"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
 			layerGroup:null,
 			jsonLayer:null,
@@ -48,34 +67,59 @@ export default {
 	},
 
   mounted() {
-    this.map = new this.L.map('map').setView([-19.3194400, -40.3377800], 7);
-		this.L.tileLayer(this.OSMUrl, {}).addTo(this.map);
-		 
-		// funciona 
-		//this.jsonLayer = this.L.geoJSON().addTo(this.map);
+		this.dragElement(document.getElementById("legend"));
 
-			this.layerGroup = new this.L.LayerGroup();
-			
-			// var layerPostalcodes = 
-			this.layerGroup.addTo(this.map);
-			
-			this.getLayers()
-			
+		// var grayscale = this.L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		// 	maxZoom: 20,
+		// 	attribution: '  Instituto Nacional da Mata Atlântica <a href="www.inma.gov.br">INMA</a>' + ' Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+		// 		'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		// 		'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		// 	id: 'mapbox.light'
+		// });
+
+		// var streets = this.L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		// 	maxZoom: 20,
+		// 	attribution: '  Instituto Nacional da Mata Atlântica <a href="www.inma.gov.br">INMA</a>' + ' Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+		// 		'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		// 		'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		// 	id: 'mapbox.streets'
+		// });
+
+		// var wms_arcgis = this.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+		// 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+		// })
+
+		// var baseLayers = {
+		// 	"OSM-Ruas": streets,
+		// 	"OSM-Tons de Cinza": grayscale,
+		// 	"ESRI Arcgis base": wms_arcgis,
+		// };
+
+		// this.init.layers = [grayscale, streets]
 		
+		//init map
+    this.map = new this.L.map('map', this.init)
+		this.L.tileLayer(this.OSMUrl, {}).addTo(this.map)
+		// this.L.control.layers(baseLayers).addTo(this.map)
+
+		//layers
+		this.layerGroup = new this.L.LayerGroup()
+		this.layerGroup.addTo(this.map)
+		this.getLayers()
 	},
 
 	methods:{
 		getStyle(){
 			let style = "";
 			if(this.width){
-				style += `width:${this.width}px;`
+				style += `width:${this.width};`
 			}
 			if(this.height){
-				style += `height:${this.height}px;`
+				style += `height:${this.height};`
 			}
-			if(this.style){
-				style += this.style
-			} 
+			// if(this.style){
+			// 	style += this.style
+			// } 
 			return style
 		},
 		isChecked(id){
@@ -103,45 +147,61 @@ export default {
 
 		async getLayers(route)  {
 			for(const [i,route] of this.routes.entries()){
-				let response = await Api().get(`${route.point}`)
-				this.layers[i] = new this.L.GeoJSON(response.data)
+				if(route.type == 'geojson'){
+					let response = await Api().get(`${route.point}`)
+					this.layers[i] = new this.L.GeoJSON(response.data)
+				}else if(route.type == 'wms'){
+					this.layers[i] = new this.L.tileLayer.wms(route.url, route.param)
+				}
 			}
 			this.loading = false
-	
-			//functiona
-			// this.layers.push( response.data )
-			// this.jsonLayer.addData(this.layers[0]);
-
-			// let test = this.L.geoJSON(response.data).addTo(this.map);
-			// this.layers.push( this.L.geoJSON(response.data).addTo(this.map) )
 		},
+
+
+		dragElement(elmnt) {
+			var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+			if (document.getElementById(elmnt.id + "header")) {
+				/* if present, the header is where you move the DIV from:*/
+				document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+			} else {
+				/* otherwise, move the DIV from anywhere inside the DIV:*/
+				elmnt.onmousedown = dragMouseDown;
+			}
+
+			function dragMouseDown(e) {
+				e = e || window.event;
+				e.preventDefault();
+				// get the mouse cursor position at startup:
+				pos3 = e.clientX;
+				pos4 = e.clientY;
+				document.onmouseup = closeDragElement;
+				// call a function whenever the cursor moves:
+				document.onmousemove = elementDrag;
+			}
+
+			function elementDrag(e) {
+				e = e || window.event;
+				e.preventDefault();
+				// calculate the new cursor position:
+				pos1 = pos3 - e.clientX;
+				pos2 = pos4 - e.clientY;
+				pos3 = e.clientX;
+				pos4 = e.clientY;
+				// set the element's new position:
+				elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+				elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+			}
+
+			function closeDragElement() {
+				/* stop moving when mouse button is released:*/
+				document.onmouseup = null;
+				document.onmousemove = null;
+			}
+		}
+
+
+
 	},
+
 };
-
-
-		// var info = this.L.control();
-		
-		// var divs = this.L.DomUtil.create('div', 'info'); // create a div with a class "info"
-		
-		// info.onAdd = function (map) {
-		// 		this._div = divs
-		// 		this.update();
-		// 		return this._div;
-		// };
-
-		// method that we will use to update the control based on feature properties passed
-		// info.update = function (properties) {
-		// 	console.log(properties)
-		// 		this._div.innerHTML = '<h4>US Population Density</h4>' +  (properties ?
-		// 				'<b>' + properties.NOME_UC1 + '</b><br />' + properties.Area_km2 + ' people / mi<sup>2</sup>'
-		// 				: 'Hover over a state');
-		// };
-
-		// info.addTo(this.map);
 </script>
-<style scoped>
-	#map{
-		width:500px;
-		height:400px;
-	}
-</style>
