@@ -43,19 +43,7 @@
         
 				
 				<template>
-					<v-carousel :show-arrows="false">
-						<v-carousel-item
-							v-for="(item,i) in items"
-							:key="i"
-							:src="item.src"
-							reverse-transition="fade-transition"
-							transition="fade-transition"
-						>
-							<!-- <v-row
-									class="fill-height"
-									align="center"
-									justify="center"
-								> -->
+			
 
 								<div class="padding-2x">
 									<div class="backgound_title">
@@ -72,8 +60,7 @@
 
 							<!-- </v-row> -->
 
-						</v-carousel-item>
-					</v-carousel>
+
 				</template>
 			
 				</div>
