@@ -1,4 +1,6 @@
 # RIMA Site
+Data related to the RIMA project - Information Network on Brazilian Atlantic Forest
+
 Projeto desenvolvido utilizando recursos de código livre
 
 ## Frameorks e serviços
@@ -6,6 +8,7 @@ Projeto desenvolvido utilizando recursos de código livre
 * [Webpack Vue Cli](https://cli.vuejs.org)
 * [LeafLet](https://leafletjs.com)
 * [Json-Server](https://github.com/typicode/json-server)
+* [Bootstrap-Vue](https://bootstrap-vue.org)
 
 ## Codificação
 * HTML

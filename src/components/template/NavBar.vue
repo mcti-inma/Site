@@ -22,20 +22,11 @@
 
               <li><router-link to="/">Home</router-link></li> 
 							<li><router-link to="/synthesis">Síntese</router-link></li>
-							<!-- <li>
-								<a>Síntese</a>
-								<ul>
-									<li v-for="(topics, index) in $config.topics" :key="index">
-										<a v-for="(topic, i) in topics" :key="i"
-											@click="toSynthesis(index,i)">
-											{{topic.title}}
-										</a>
-									</li>
-								</ul>
-							</li> -->
-
-							<!-- <li><a href="maps">Mapas</a></li> -->
-							<li><router-link to="/maps">Mapa</router-link></li>
+		
+							<li><a target="_blank" href="http://rede.inma.gov.br/dokuwiki/doku.php">Wiki-Rima</a></li>
+							
+							<li><a target="_blank" href="http://rede.inma.gov.br/mapas/mapa_filtro_fauna.html">Mapa Fauna</a></li>
+							<li><a target="_blank" href="http://rede.inma.gov.br/mapas/mapa_filtro_fauna.html">Mapa Fauna</a></li>
               <!-- <li><router-link to="members">Equipe</router-link></li> -->
 
             </ul>
