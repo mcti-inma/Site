@@ -16,16 +16,22 @@ function verifyNpm(){
 	fi
 }
 
-function refresh(){
+function buildNpm(){
 	verifyNpm
 	npm run build
-	sudo docker-compose up --force-recreate -d 
-	cp ./.htaccess ./dist
+	cp ./.htaccess ./dist 
 }
 
+function buldDocker(){
+	sudo docker-compose up --force-recreate -d
+}
 
-case $1 in
-"-i"|"install") 
+function buildAll(){
+	build
+	buildNpm
+}
+
+function install(){
 	#install docker
 	sudo apt-get update
 
@@ -57,9 +63,35 @@ case $1 in
 	sudo apt install npm
 
 	npm install 
+  
+	buildAll
+}
+
+function help(){
+	echo "* Requisitos * "
+	echo "Sistema Ubuntu 20.04"
+	echo "Programas: NPM, Docker e docker-compose"
+	echo "-i, install -> Instalar docker, docker-compose e npm via apt"
+	echo "-b, build -> Build aplicação para a pasta ./dist e subir máquina docker"
+	echo "-bn -> Build aplicação para a pasta ./dist"
+	echo "-h, help -> Exibir documentação"
+}
+
+case $1 in
+"-i"|"install") 
+	install
 ;; 
+"-b"|"build")
+	buildAll
+;;
+"-bn")
+	buildNpm
+;;
+"-h"|"help") 
+	help
+;;
 *) 
-	refresh
+	help
 ;;
 esac
 

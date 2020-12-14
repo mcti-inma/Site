@@ -30,11 +30,35 @@ Executar script
 ### Atualizar e subir
 Executar script
 ```sh
-./start
+./start -b
+```
+
+Outros parâmetros
+```
+-i, install -> Instalar docker, docker-compose e npm via apt
+
+-b, build -> Build aplicação para a pasta ./dist e subir máquina docker
+
+-bn -> Build aplicação para a pasta ./dist
+
+-h, help -> Exibir documentação
+```
+Exemplo:
+```sh
+./start -h
+```
+
+## Subir aplicação via script
+O Script ./start contem uma série de comando para fazer o build da aplicação.
+
+Build da aplicação via Docker
+```sh
+./start -b
 ```
 
 
-## Comandos para subir o projeto
+
+## Subir aplicação manualmente
 ### 1. Instalar dependecias do projeto
 ```sh
 npm install
@@ -45,7 +69,7 @@ Este comando compila o projeto na pasta **./dist**
 ```sh
 npm run build
 ```
-### 3. Levantar servidor da aplicação
+### 3. Hot-reload
 Servidor com hot-reload apenas para desenvolvimento
 ```sh
 npm run serve
@@ -55,7 +79,7 @@ npm run serve
 
 Na pasta raiz do projeto execute:
 ```sh
-sudo docker-compose up --build -d 
+sudo docker-compose up --force-recreate -d 
 ```
 
 Mover o arquivo **./htaccess** para a pasta **./dist**
@@ -64,7 +88,8 @@ cp ./.htaccess ./dist
 ```
 Pode ser visto em [localhost](http://localhost)
 
-## Json Server
+## Json Server(apenas para testes desenvolvimento)
+O banco de teste se encontra em **./server/db.json**
 Api de teste
 ### 1. Instalar o json server via npm
 ```sh
@@ -83,6 +108,4 @@ Ligar json server IP externo em segundo plano
 ```sh
 json-server --watch db.json --ro --host <seu IP> >> ./json-server.log 2>&1 </dev/null &
 ```
-
-O banco de teste se encontra em **./server/db.json**
 
